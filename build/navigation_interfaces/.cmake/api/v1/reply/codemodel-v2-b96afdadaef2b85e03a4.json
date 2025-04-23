@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-3a46cc33b6fc4a9be592.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "navigation_interfaces__py",
+					"jsonFile" : "directory-navigation_interfaces__py-409b7d1d6220f605968d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation_interfaces/navigation_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "navigation_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_navigation_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_navigation_interfaces_egg-3b3e6c0a3755812a7db5.json",
+					"name" : "ament_cmake_python_build_navigation_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_navigation_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_navigation_interfaces-2720d1b9e1d0c8721614.json",
+					"name" : "ament_cmake_python_symlink_navigation_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navigation_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navigation_interfaces-df7806546e808b56dbc5.json",
+					"name" : "navigation_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navigation_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navigation_interfaces__cpp-4672cb4ad3f53601c47e.json",
+					"name" : "navigation_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "navigation_interfaces__py::@57694ec03739529c213a",
+					"jsonFile" : "target-navigation_interfaces__py-fc272cd9647dd51f9bf5.json",
+					"name" : "navigation_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navigation_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navigation_interfaces__rosidl_generator_c-a403cbaf11ba35c24767.json",
+					"name" : "navigation_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navigation_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navigation_interfaces__rosidl_generator_py-24a8b9c1a9b8ab2bfb8f.json",
+					"name" : "navigation_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navigation_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navigation_interfaces__rosidl_generator_type_description-6eedd25b65e335dfdbf9.json",
+					"name" : "navigation_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navigation_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navigation_interfaces__rosidl_typesupport_c-0320a90037449e08fd18.json",
+					"name" : "navigation_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navigation_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navigation_interfaces__rosidl_typesupport_cpp-30e5d958b4ebf188c34f.json",
+					"name" : "navigation_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navigation_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navigation_interfaces__rosidl_typesupport_fastrtps_c-388dbee6ebeb8a54b844.json",
+					"name" : "navigation_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navigation_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navigation_interfaces__rosidl_typesupport_fastrtps_cpp-6a18dbd76c4d3dbae575.json",
+					"name" : "navigation_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navigation_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navigation_interfaces__rosidl_typesupport_introspection_c-8bded08642369311a7ad.json",
+					"name" : "navigation_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navigation_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navigation_interfaces__rosidl_typesupport_introspection_cpp-fc131de55c4cca6c0445.json",
+					"name" : "navigation_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navigation_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navigation_interfaces_s__rosidl_typesupport_c-dc291468feefe154f41c.json",
+					"name" : "navigation_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navigation_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navigation_interfaces_s__rosidl_typesupport_fastrtps_c-1bcf8dd9ffab48567640.json",
+					"name" : "navigation_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navigation_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navigation_interfaces_s__rosidl_typesupport_introspection_c-503ef50ffe46b656c9b6.json",
+					"name" : "navigation_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navigation_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navigation_interfaces_uninstall-34636ef9bd738c4cb471.json",
+					"name" : "navigation_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-dd6933645974b4dcac6e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation_interfaces",
+		"source" : "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/navigation/navigation_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "navigation_interfaces/action/GenerateInformation_Feedback",
+      "fields": [
+        {
+          "name": "provisional_content",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "navigation_interfaces/action/GenerateInformation_Feedback",
+      "hash_string": "RIHS01_48fbfd24ab0a11d16c0505e53af080b6e7cc80d571d57fa3f095d7b48eafb0e3"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from navigation_interfaces/action/GenerateInformation.action
+// generated code does not contain a copyright notice
+
+
+module navigation_interfaces {
+  module action {
+    struct GenerateInformation_Goal {
+      string key;
+    };
+    struct GenerateInformation_Result {
+      boolean success;
+
+      string final_content;
+    };
+    struct GenerateInformation_Feedback {
+      string provisional_content;
+    };
+  };
+};
