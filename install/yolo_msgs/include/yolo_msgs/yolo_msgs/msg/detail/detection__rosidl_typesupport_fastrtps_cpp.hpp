@@ -1,0 +1,1 @@
+/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/detail/detection__rosidl_typesupport_fastrtps_cpp.hpp

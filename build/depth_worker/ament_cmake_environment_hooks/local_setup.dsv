@@ -1,0 +1,3 @@
+source;share/depth_worker/environment/ament_prefix_path.sh
+source;share/depth_worker/environment/library_path.sh
+source;share/depth_worker/environment/path.sh

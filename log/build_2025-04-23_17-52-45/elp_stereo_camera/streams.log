@@ -1,0 +1,205 @@
+[0.012s] Invoking command in '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manza/Desktop/arquitectura/asr_ws/install/yolo_ros:/home/manza/Desktop/arquitectura/asr_ws/install/rclpy_cascade_lifecycle:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/elp_stereo_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera
+[0.121s] -- The C compiler identification is GNU 13.3.0
+[0.195s] -- The CXX compiler identification is GNU 13.3.0
+[0.213s] -- Detecting C compiler ABI info
+[0.301s] -- Detecting C compiler ABI info - done
+[0.312s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.313s] -- Detecting C compile features
+[0.313s] -- Detecting C compile features - done
+[0.323s] -- Detecting CXX compiler ABI info
+[0.435s] -- Detecting CXX compiler ABI info - done
+[0.442s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.442s] -- Detecting CXX compile features
+[0.443s] -- Detecting CXX compile features - done
+[0.457s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.654s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.739s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.858s] -- Found rclcpp: 28.1.8 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.965s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.996s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.034s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.066s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.205s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.217s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.376s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.406s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.433s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.590s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.682s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[1.704s] -- Found OpenCV: /usr (found version "4.6.0") 
+[1.710s] -- Found camera_info_manager: 5.1.6 (/opt/ros/jazzy/share/camera_info_manager/cmake)
+[1.730s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[1.898s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found suitable version "1.83.0", minimum required is "1.65.0") found components: system filesystem iostreams serialization 
+[1.900s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+[1.900s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[1.900s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[1.900s]   cmake_policy command to set the policy and suppress this warning.
+[1.900s] 
+[1.900s]   CMake variable FLANN_ROOT is set to:
+[1.900s] 
+[1.901s]     /usr
+[1.901s] 
+[1.901s]   For compatibility, find_package is ignoring the variable, but code in a
+[1.901s]   .cmake module might still use it.
+[1.901s] Call Stack (most recent call first):
+[1.901s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+[1.901s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+[1.901s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+[1.901s]   CMakeLists.txt:17 (find_package)
+[1.901s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.901s] [0m
+[1.904s] -- Found flann version 1.9.2
+[2.232s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[2.232s] -- Found OpenMP: TRUE (found version "4.5") found components: CXX 
+[2.266s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.370s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.371s] -- Found Threads: TRUE  
+[2.374s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[2.389s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[2.620s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[2.620s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[2.625s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[2.650s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  
+[2.679s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.43") 
+[2.717s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[2.955s] -- Found X11: /usr/include   
+[2.955s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[3.043s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[3.043s] -- Looking for gethostbyname
+[3.126s] -- Looking for gethostbyname - found
+[3.126s] -- Looking for connect
+[3.209s] -- Looking for connect - found
+[3.209s] -- Looking for remove
+[3.293s] -- Looking for remove - found
+[3.293s] -- Looking for shmat
+[3.377s] -- Looking for shmat - found
+[3.377s] -- Looking for IceConnectionNumber in ICE
+[3.466s] -- Looking for IceConnectionNumber in ICE - found
+[3.648s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.6.1") 
+[3.651s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[3.654s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.4") 
+[3.657s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.4.5") 
+[3.681s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[3.704s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.5.1")  
+[3.708s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.13.2") 
+[3.715s] -- Found utf8cpp: /usr/include/utf8cpp  
+[3.820s] -- Checking for module 'libusb-1.0'
+[3.840s] --   Found libusb-1.0, version 1.0.27
+[3.880s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[3.881s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[3.881s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.972s] -- Found OpenNI2: /home/manza/Desktop/arquitectura/asr_ws/install/astra_camera/lib/libOpenNI2.so;libusb::libusb (found version "2.3.0.85") 
+[3.972s] -- OpenNI2 found (version: 2.3.0.85, include: /home/manza/Desktop/arquitectura/asr_ws/install/astra_camera/include/openni2, lib: /home/manza/Desktop/arquitectura/asr_ws/install/astra_camera/lib/libOpenNI2.so;libusb::libusb)
+[3.982s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[3.982s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[4.631s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.636s] -- OpenNI2 found (version: 2.3.0.85, include: /home/manza/Desktop/arquitectura/asr_ws/install/astra_camera/include/openni2, lib: /home/manza/Desktop/arquitectura/asr_ws/install/astra_camera/lib/libOpenNI2.so;libusb::libusb)
+[5.214s] -- Found Qhull version 8.0.2
+[6.081s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[6.995s] -- looking for PCL_COMMON
+[6.998s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[6.998s] -- looking for PCL_KDTREE
+[7.000s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[7.000s] -- looking for PCL_OCTREE
+[7.004s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[7.004s] -- looking for PCL_SEARCH
+[7.008s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[7.009s] -- looking for PCL_SAMPLE_CONSENSUS
+[7.015s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[7.015s] -- looking for PCL_FILTERS
+[7.015s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[7.016s] -- looking for PCL_2D
+[7.016s] -- Found PCL_2D: /usr/include/pcl-1.14  
+[7.016s] -- looking for PCL_GEOMETRY
+[7.017s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.14  
+[7.020s] -- looking for PCL_IO
+[7.020s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[7.020s] -- looking for PCL_FEATURES
+[7.022s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[7.022s] -- looking for PCL_ML
+[7.024s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[7.025s] -- looking for PCL_SEGMENTATION
+[7.032s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[7.032s] -- looking for PCL_VISUALIZATION
+[7.032s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[7.032s] -- looking for PCL_SURFACE
+[7.032s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[7.033s] -- looking for PCL_REGISTRATION
+[7.035s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[7.035s] -- looking for PCL_KEYPOINTS
+[7.042s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[7.043s] -- looking for PCL_TRACKING
+[7.043s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[7.043s] -- looking for PCL_RECOGNITION
+[7.044s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[7.044s] -- looking for PCL_STEREO
+[7.046s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[7.047s] -- looking for PCL_APPS
+[7.048s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[7.051s] -- looking for PCL_IN_HAND_SCANNER
+[7.051s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.14  
+[7.052s] -- looking for PCL_MODELER
+[7.052s] -- Found PCL_MODELER: /usr/include/pcl-1.14  
+[7.052s] -- looking for PCL_POINT_CLOUD_EDITOR
+[7.056s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.14  
+[7.056s] -- looking for PCL_OUTOFCORE
+[7.059s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[7.060s] -- looking for PCL_PEOPLE
+[7.061s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[7.063s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/home/manza/Desktop/arquitectura/asr_ws/install/astra_camera/lib/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::RenderingContextOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[7.081s] -- Found pcl_conversions: 2.6.2 (/opt/ros/jazzy/share/pcl_conversions/cmake)
+[7.512s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[8.140s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.147s] -- Configured cppcheck include dirs: 
+[8.147s] -- Configured cppcheck exclude dirs and/or files: 
+[8.158s] -- Added test 'flake8' to check Python code syntax and style conventions
+[8.159s] -- Configured 'flake8' exclude dirs and/or files: 
+[8.174s] -- Added test 'lint_cmake' to check CMake code style
+[8.191s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[8.217s] -- Added test 'uncrustify' to check C / C++ code style
+[8.217s] -- Configured uncrustify additional arguments: 
+[8.239s] -- Added test 'xmllint' to check XML markup files
+[8.276s] -- Configuring done (8.2s)
+[8.490s] -- Generating done (0.1s)
+[8.516s] -- Build files have been written to: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera
+[8.576s] Invoked command in '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manza/Desktop/arquitectura/asr_ws/install/yolo_ros:/home/manza/Desktop/arquitectura/asr_ws/install/rclpy_cascade_lifecycle:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/elp_stereo_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera
+[8.577s] Invoking command in '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manza/Desktop/arquitectura/asr_ws/install/yolo_ros:/home/manza/Desktop/arquitectura/asr_ws/install/rclpy_cascade_lifecycle:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera -- -j16 -l16
+[8.754s] [ 25%] [32mBuilding CXX object CMakeFiles/stereo_camera_node.dir/src/stereo_camera_node.cpp.o[0m
+[8.777s] [ 50%] [32mBuilding CXX object CMakeFiles/stereo_point_cloud_generator.dir/src/stereo_point_cloud_generator.cpp.o[0m
+[17.857s] [ 75%] [32m[1mLinking CXX executable stereo_camera_node[0m
+[18.656s] [ 75%] Built target stereo_camera_node
+[25.933s] [100%] [32m[1mLinking CXX executable stereo_point_cloud_generator[0m
+[27.048s] [100%] Built target stereo_point_cloud_generator
+[27.060s] Invoked command in '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manza/Desktop/arquitectura/asr_ws/install/yolo_ros:/home/manza/Desktop/arquitectura/asr_ws/install/rclpy_cascade_lifecycle:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera -- -j16 -l16
+[27.061s] Invoking command in '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manza/Desktop/arquitectura/asr_ws/install/yolo_ros:/home/manza/Desktop/arquitectura/asr_ws/install/rclpy_cascade_lifecycle:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera
+[27.070s] -- Install configuration: ""
+[27.070s] -- Execute custom install script
+[27.071s] -- Symlinking: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/lib/elp_stereo_camera/stereo_camera_node
+[27.081s] -- Symlinking: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/lib/elp_stereo_camera/stereo_point_cloud_generator
+[27.091s] -- Symlinking: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/elp_stereo_camera//launch/pc.launch.py
+[27.101s] -- Symlinking: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/elp_stereo_camera//launch/stereo_camera_launch.py
+[27.111s] -- Symlinking: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/elp_stereo_camera//config/supported_formats.txt
+[27.121s] -- Symlinking: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/elp_stereo_camera//cam_params/1280_480/left_camera.yaml
+[27.130s] -- Symlinking: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/elp_stereo_camera//cam_params/1280_480/left_camera_GS.yaml
+[27.140s] -- Symlinking: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/elp_stereo_camera//cam_params/1280_480/right_camera.yaml
+[27.150s] -- Symlinking: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/elp_stereo_camera//cam_params/1280_480/right_camera_GS.yaml
+[27.159s] -- Symlinking: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/elp_stereo_camera//cam_params/1600_600/left_camera.yaml
+[27.168s] -- Symlinking: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/elp_stereo_camera//cam_params/1600_600/left_camera_GS.yaml
+[27.178s] -- Symlinking: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/elp_stereo_camera//cam_params/1600_600/right_camera.yaml
+[27.188s] -- Symlinking: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/elp_stereo_camera//cam_params/1600_600/right_camera_GS.yaml
+[27.198s] -- Symlinking: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/ament_index/resource_index/package_run_dependencies/elp_stereo_camera
+[27.207s] -- Symlinking: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/ament_index/resource_index/parent_prefix_path/elp_stereo_camera
+[27.217s] -- Symlinking: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/elp_stereo_camera/environment/ament_prefix_path.sh
+[27.227s] -- Symlinking: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/elp_stereo_camera/environment/ament_prefix_path.dsv
+[27.236s] -- Symlinking: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/elp_stereo_camera/environment/path.sh
+[27.246s] -- Symlinking: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/elp_stereo_camera/environment/path.dsv
+[27.256s] -- Symlinking: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/elp_stereo_camera/local_setup.bash
+[27.265s] -- Symlinking: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/elp_stereo_camera/local_setup.sh
+[27.275s] -- Symlinking: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/elp_stereo_camera/local_setup.zsh
+[27.285s] -- Symlinking: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/elp_stereo_camera/local_setup.dsv
+[27.295s] -- Symlinking: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/elp_stereo_camera/package.dsv
+[27.304s] -- Symlinking: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/ament_index/resource_index/packages/elp_stereo_camera
+[27.314s] -- Symlinking: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/elp_stereo_camera/cmake/elp_stereo_cameraConfig.cmake
+[27.324s] -- Symlinking: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/elp_stereo_camera/cmake/elp_stereo_cameraConfig-version.cmake
+[27.334s] -- Symlinking: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/elp_stereo_camera/package.xml
+[27.346s] Invoked command in '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manza/Desktop/arquitectura/asr_ws/install/yolo_ros:/home/manza/Desktop/arquitectura/asr_ws/install/rclpy_cascade_lifecycle:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera

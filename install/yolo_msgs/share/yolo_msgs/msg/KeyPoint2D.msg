@@ -1,0 +1,1 @@
+/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs/msg/KeyPoint2D.msg

@@ -1,0 +1,32 @@
+[ 50%] Built target stereo_camera_node
+[100%] Built target stereo_point_cloud_generator
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/lib/elp_stereo_camera/stereo_camera_node
+-- Up-to-date symlink: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/lib/elp_stereo_camera/stereo_point_cloud_generator
+-- Up-to-date symlink: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/elp_stereo_camera//launch/pc.launch.py
+-- Up-to-date symlink: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/elp_stereo_camera//launch/stereo_camera_launch.py
+-- Up-to-date symlink: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/elp_stereo_camera//config/supported_formats.txt
+-- Up-to-date symlink: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/elp_stereo_camera//cam_params/1280_480/left_camera.yaml
+-- Up-to-date symlink: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/elp_stereo_camera//cam_params/1280_480/left_camera_GS.yaml
+-- Up-to-date symlink: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/elp_stereo_camera//cam_params/1280_480/right_camera.yaml
+-- Up-to-date symlink: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/elp_stereo_camera//cam_params/1280_480/right_camera_GS.yaml
+-- Up-to-date symlink: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/elp_stereo_camera//cam_params/1600_600/left_camera.yaml
+-- Up-to-date symlink: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/elp_stereo_camera//cam_params/1600_600/left_camera_GS.yaml
+-- Up-to-date symlink: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/elp_stereo_camera//cam_params/1600_600/right_camera.yaml
+-- Up-to-date symlink: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/elp_stereo_camera//cam_params/1600_600/right_camera_GS.yaml
+-- Up-to-date symlink: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/ament_index/resource_index/package_run_dependencies/elp_stereo_camera
+-- Up-to-date symlink: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/ament_index/resource_index/parent_prefix_path/elp_stereo_camera
+-- Up-to-date symlink: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/elp_stereo_camera/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/elp_stereo_camera/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/elp_stereo_camera/environment/path.sh
+-- Up-to-date symlink: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/elp_stereo_camera/environment/path.dsv
+-- Up-to-date symlink: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/elp_stereo_camera/local_setup.bash
+-- Up-to-date symlink: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/elp_stereo_camera/local_setup.sh
+-- Up-to-date symlink: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/elp_stereo_camera/local_setup.zsh
+-- Up-to-date symlink: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/elp_stereo_camera/local_setup.dsv
+-- Symlinking: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/elp_stereo_camera/package.dsv
+-- Up-to-date symlink: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/ament_index/resource_index/packages/elp_stereo_camera
+-- Up-to-date symlink: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/elp_stereo_camera/cmake/elp_stereo_cameraConfig.cmake
+-- Up-to-date symlink: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/elp_stereo_camera/cmake/elp_stereo_cameraConfig-version.cmake
+-- Up-to-date symlink: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/elp_stereo_camera/package.xml

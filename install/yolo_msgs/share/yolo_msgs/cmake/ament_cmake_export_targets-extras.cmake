@@ -1,0 +1,1 @@
+/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake

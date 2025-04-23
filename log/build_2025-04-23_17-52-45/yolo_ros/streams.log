@@ -1,0 +1,27 @@
+[1.622s] Invoking command in '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_ros': AMENT_PREFIX_PATH=/home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_ros/lib/python3.12/site-packages:/home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_ros/build --no-deps symlink_data
+[2.049s] running develop
+[2.395s] running egg_info
+[2.395s] creating yolo_ros.egg-info
+[2.431s] writing yolo_ros.egg-info/PKG-INFO
+[2.432s] writing dependency_links to yolo_ros.egg-info/dependency_links.txt
+[2.432s] writing entry points to yolo_ros.egg-info/entry_points.txt
+[2.432s] writing requirements to yolo_ros.egg-info/requires.txt
+[2.432s] writing top-level names to yolo_ros.egg-info/top_level.txt
+[2.432s] writing manifest file 'yolo_ros.egg-info/SOURCES.txt'
+[2.508s] reading manifest file 'yolo_ros.egg-info/SOURCES.txt'
+[2.508s] writing manifest file 'yolo_ros.egg-info/SOURCES.txt'
+[2.545s] running build_ext
+[2.545s] Creating /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_ros/lib/python3.12/site-packages/yolo-ros.egg-link (link to .)
+[2.546s] Installing debug_node script to /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_ros/lib/yolo_ros
+[2.546s] Installing detect_3d_node script to /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_ros/lib/yolo_ros
+[2.546s] Installing tracking_node script to /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_ros/lib/yolo_ros
+[2.546s] Installing yolo_node script to /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_ros/lib/yolo_ros
+[2.546s] 
+[2.547s] Installed /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_ros
+[2.547s] running symlink_data
+[2.547s] creating /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_ros/share/ament_index
+[2.547s] creating /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_ros/share/ament_index/resource_index
+[2.547s] creating /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_ros/share/ament_index/resource_index/packages
+[2.547s] symbolically linking /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_ros/resource/yolo_ros -> /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_ros/share/ament_index/resource_index/packages
+[2.547s] symbolically linking /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_ros/package.xml -> /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_ros/share/yolo_ros
+[2.590s] Invoked command in '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_ros' returned '0': AMENT_PREFIX_PATH=/home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_ros/lib/python3.12/site-packages:/home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_ros/build --no-deps symlink_data
