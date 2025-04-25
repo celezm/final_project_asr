@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<root main_tree_to_execute="BehaviorTree">
+    <!-- ////////// -->
+    <BehaviorTree ID="BehaviorTree">
+        <Sequence>
+            <Condition ID="RobotNearBase"/>
+            <Condition ID="CheckPerson"/>
+            <Sequence name="Where2go">
+                <Action ID="AskPlace"/>
+                <Action ID="CommunicatePlace"/>
+            </Sequence>
+        </Sequence>
+    </BehaviorTree>
+    <!-- ////////// -->
+    <TreeNodesModel>
+        <Action ID="AskPlace"/>
+        <Condition ID="CheckPerson"/>
+        <Action ID="CommunicatePlace"/>
+        <Condition ID="RobotNearBase"/>
+    </TreeNodesModel>
+    <!-- ////////// -->
+</root>
