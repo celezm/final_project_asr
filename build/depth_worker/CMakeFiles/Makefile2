@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker
+CMAKE_SOURCE_DIR = /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker
+CMAKE_BINARY_DIR = /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -89,14 +89,14 @@ clean: CMakeFiles/detection_2d_to_3d_pc2.dir/clean
 CMakeFiles/uninstall.dir/all: CMakeFiles/depth_worker_uninstall.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/CMakeFiles --progress-num= "Built target uninstall"
 .PHONY : CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/CMakeFiles 0
 .PHONY : CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -115,14 +115,14 @@ CMakeFiles/uninstall.dir/clean:
 CMakeFiles/depth_worker_uninstall.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/depth_worker_uninstall.dir/build.make CMakeFiles/depth_worker_uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/depth_worker_uninstall.dir/build.make CMakeFiles/depth_worker_uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles --progress-num= "Built target depth_worker_uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/CMakeFiles --progress-num= "Built target depth_worker_uninstall"
 .PHONY : CMakeFiles/depth_worker_uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/depth_worker_uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/depth_worker_uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/CMakeFiles 0
 .PHONY : CMakeFiles/depth_worker_uninstall.dir/rule
 
 # Convenience name for target.
@@ -141,14 +141,14 @@ CMakeFiles/depth_worker_uninstall.dir/clean:
 CMakeFiles/depth_worker.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/depth_worker.dir/build.make CMakeFiles/depth_worker.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/depth_worker.dir/build.make CMakeFiles/depth_worker.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles --progress-num=1,2,3,4 "Built target depth_worker"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/CMakeFiles --progress-num=1,2,3,4 "Built target depth_worker"
 .PHONY : CMakeFiles/depth_worker.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/depth_worker.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/depth_worker.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/CMakeFiles 0
 .PHONY : CMakeFiles/depth_worker.dir/rule
 
 # Convenience name for target.
@@ -167,14 +167,14 @@ CMakeFiles/depth_worker.dir/clean:
 CMakeFiles/yolo_detection.dir/all: CMakeFiles/depth_worker.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/yolo_detection.dir/build.make CMakeFiles/yolo_detection.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/yolo_detection.dir/build.make CMakeFiles/yolo_detection.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles --progress-num=7,8 "Built target yolo_detection"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/CMakeFiles --progress-num=7,8 "Built target yolo_detection"
 .PHONY : CMakeFiles/yolo_detection.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/yolo_detection.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/yolo_detection.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/CMakeFiles 0
 .PHONY : CMakeFiles/yolo_detection.dir/rule
 
 # Convenience name for target.
@@ -193,14 +193,14 @@ CMakeFiles/yolo_detection.dir/clean:
 CMakeFiles/yolo_parser.dir/all: CMakeFiles/depth_worker.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/yolo_parser.dir/build.make CMakeFiles/yolo_parser.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/yolo_parser.dir/build.make CMakeFiles/yolo_parser.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles --progress-num=9,10 "Built target yolo_parser"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/CMakeFiles --progress-num=9,10 "Built target yolo_parser"
 .PHONY : CMakeFiles/yolo_parser.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/yolo_parser.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/yolo_parser.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/CMakeFiles 0
 .PHONY : CMakeFiles/yolo_parser.dir/rule
 
 # Convenience name for target.
@@ -219,14 +219,14 @@ CMakeFiles/yolo_parser.dir/clean:
 CMakeFiles/detection_2d_to_3d_pc2.dir/all: CMakeFiles/depth_worker.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/detection_2d_to_3d_pc2.dir/build.make CMakeFiles/detection_2d_to_3d_pc2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/detection_2d_to_3d_pc2.dir/build.make CMakeFiles/detection_2d_to_3d_pc2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles --progress-num=5,6 "Built target detection_2d_to_3d_pc2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/CMakeFiles --progress-num=5,6 "Built target detection_2d_to_3d_pc2"
 .PHONY : CMakeFiles/detection_2d_to_3d_pc2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/detection_2d_to_3d_pc2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/detection_2d_to_3d_pc2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/CMakeFiles 0
 .PHONY : CMakeFiles/detection_2d_to_3d_pc2.dir/rule
 
 # Convenience name for target.

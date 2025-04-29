@@ -1,9 +1,0 @@
-# CMake generated Testfile for 
-# Source directory: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/navigation/navigation/test
-# Build directory: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation/test
-# 
-# This file includes the relevant testing commands required for 
-# testing this directory and lists subdirectories to be tested as well.
-add_test(comms_tests "/usr/bin/python3" "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation/test_results/navigation/comms_tests.gtest.xml" "--package-name" "navigation" "--output-file" "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation/ament_cmake_gtest/comms_tests.txt" "--command" "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation/test/comms_tests" "--gtest_output=xml:/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation/test_results/navigation/comms_tests.gtest.xml")
-set_tests_properties(comms_tests PROPERTIES  LABELS "gtest" REQUIRED_FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation/test/comms_tests" TIMEOUT "60" WORKING_DIRECTORY "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation/test" _BACKTRACE_TRIPLES "/opt/ros/jazzy/share/ament_cmake_test/cmake/ament_add_test.cmake;125;add_test;/opt/ros/jazzy/share/ament_cmake_gtest/cmake/ament_add_gtest_test.cmake;95;ament_add_test;/opt/ros/jazzy/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake;93;ament_add_gtest_test;/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/navigation/navigation/test/CMakeLists.txt;1;ament_add_gtest;/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/navigation/navigation/test/CMakeLists.txt;0;")
-subdirs("../gtest")

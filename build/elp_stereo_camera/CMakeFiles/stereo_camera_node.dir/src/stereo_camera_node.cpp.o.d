@@ -1,5 +1,5 @@
 CMakeFiles/stereo_camera_node.dir/src/stereo_camera_node.cpp.o: \
- /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/elp_stereo_camera/src/stereo_camera_node.cpp \
+ /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/elp_stereo_camera/src/stereo_camera_node.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/13/csignal \

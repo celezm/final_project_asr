@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/navigation/navigation
+CMAKE_SOURCE_DIR = /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/navigation/navigation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation
+CMAKE_BINARY_DIR = /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation
 
 # Include any dependencies generated for this target.
 include CMakeFiles/action_client_main.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/action_client_main.dir/progress.make
 include CMakeFiles/action_client_main.dir/flags.make
 
 CMakeFiles/action_client_main.dir/src/action_client_main.cpp.o: CMakeFiles/action_client_main.dir/flags.make
-CMakeFiles/action_client_main.dir/src/action_client_main.cpp.o: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/navigation/navigation/src/action_client_main.cpp
+CMakeFiles/action_client_main.dir/src/action_client_main.cpp.o: /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/navigation/navigation/src/action_client_main.cpp
 CMakeFiles/action_client_main.dir/src/action_client_main.cpp.o: CMakeFiles/action_client_main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/action_client_main.dir/src/action_client_main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/action_client_main.dir/src/action_client_main.cpp.o -MF CMakeFiles/action_client_main.dir/src/action_client_main.cpp.o.d -o CMakeFiles/action_client_main.dir/src/action_client_main.cpp.o -c /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/navigation/navigation/src/action_client_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/action_client_main.dir/src/action_client_main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/action_client_main.dir/src/action_client_main.cpp.o -MF CMakeFiles/action_client_main.dir/src/action_client_main.cpp.o.d -o CMakeFiles/action_client_main.dir/src/action_client_main.cpp.o -c /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/navigation/navigation/src/action_client_main.cpp
 
 CMakeFiles/action_client_main.dir/src/action_client_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/action_client_main.dir/src/action_client_main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/navigation/navigation/src/action_client_main.cpp > CMakeFiles/action_client_main.dir/src/action_client_main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/navigation/navigation/src/action_client_main.cpp > CMakeFiles/action_client_main.dir/src/action_client_main.cpp.i
 
 CMakeFiles/action_client_main.dir/src/action_client_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/action_client_main.dir/src/action_client_main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/navigation/navigation/src/action_client_main.cpp -o CMakeFiles/action_client_main.dir/src/action_client_main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/navigation/navigation/src/action_client_main.cpp -o CMakeFiles/action_client_main.dir/src/action_client_main.cpp.s
 
 # Object files for target action_client_main
 action_client_main_OBJECTS = \
@@ -227,7 +227,7 @@ action_client_main: /opt/ros/jazzy/lib/librcpputils.so
 action_client_main: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 action_client_main: /opt/ros/jazzy/lib/librcutils.so
 action_client_main: CMakeFiles/action_client_main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable action_client_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable action_client_main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/action_client_main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -239,6 +239,6 @@ CMakeFiles/action_client_main.dir/clean:
 .PHONY : CMakeFiles/action_client_main.dir/clean
 
 CMakeFiles/action_client_main.dir/depend:
-	cd /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/navigation/navigation /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/navigation/navigation /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation/CMakeFiles/action_client_main.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/navigation/navigation /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/navigation/navigation /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation/CMakeFiles/action_client_main.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/action_client_main.dir/depend
 

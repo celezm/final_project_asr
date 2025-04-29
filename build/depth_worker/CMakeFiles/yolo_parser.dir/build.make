@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker
+CMAKE_SOURCE_DIR = /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker
+CMAKE_BINARY_DIR = /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker
 
 # Include any dependencies generated for this target.
 include CMakeFiles/yolo_parser.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/yolo_parser.dir/progress.make
 include CMakeFiles/yolo_parser.dir/flags.make
 
 CMakeFiles/yolo_parser.dir/src/yolo_parser.cpp.o: CMakeFiles/yolo_parser.dir/flags.make
-CMakeFiles/yolo_parser.dir/src/yolo_parser.cpp.o: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker/src/yolo_parser.cpp
+CMakeFiles/yolo_parser.dir/src/yolo_parser.cpp.o: /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker/src/yolo_parser.cpp
 CMakeFiles/yolo_parser.dir/src/yolo_parser.cpp.o: CMakeFiles/yolo_parser.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/yolo_parser.dir/src/yolo_parser.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/yolo_parser.dir/src/yolo_parser.cpp.o -MF CMakeFiles/yolo_parser.dir/src/yolo_parser.cpp.o.d -o CMakeFiles/yolo_parser.dir/src/yolo_parser.cpp.o -c /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker/src/yolo_parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/yolo_parser.dir/src/yolo_parser.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/yolo_parser.dir/src/yolo_parser.cpp.o -MF CMakeFiles/yolo_parser.dir/src/yolo_parser.cpp.o.d -o CMakeFiles/yolo_parser.dir/src/yolo_parser.cpp.o -c /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker/src/yolo_parser.cpp
 
 CMakeFiles/yolo_parser.dir/src/yolo_parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/yolo_parser.dir/src/yolo_parser.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker/src/yolo_parser.cpp > CMakeFiles/yolo_parser.dir/src/yolo_parser.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker/src/yolo_parser.cpp > CMakeFiles/yolo_parser.dir/src/yolo_parser.cpp.i
 
 CMakeFiles/yolo_parser.dir/src/yolo_parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/yolo_parser.dir/src/yolo_parser.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker/src/yolo_parser.cpp -o CMakeFiles/yolo_parser.dir/src/yolo_parser.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker/src/yolo_parser.cpp -o CMakeFiles/yolo_parser.dir/src/yolo_parser.cpp.s
 
 # Object files for target yolo_parser
 yolo_parser_OBJECTS = \
@@ -110,7 +110,7 @@ yolo_parser: /opt/ros/jazzy/lib/libpcl_msgs__rosidl_typesupport_introspection_cp
 yolo_parser: /opt/ros/jazzy/lib/libpcl_msgs__rosidl_typesupport_cpp.so
 yolo_parser: /opt/ros/jazzy/lib/libpcl_msgs__rosidl_generator_py.so
 yolo_parser: /usr/lib/libOpenNI.so
-yolo_parser: /home/manza/Desktop/arquitectura/asr_ws/install/astra_camera/lib/libOpenNI2.so
+yolo_parser: /home/claudia-elez/Desktop/asoftwarer/asr_ws/install/astra_camera/lib/libOpenNI2.so
 yolo_parser: /usr/lib/x86_64-linux-gnu/libusb-1.0.so
 yolo_parser: /opt/ros/jazzy/lib/libcamera_calibration_parsers.so
 yolo_parser: /opt/ros/jazzy/lib/libcv_bridge.so
@@ -217,14 +217,14 @@ yolo_parser: /opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_introspection
 yolo_parser: /opt/ros/jazzy/lib/libsensor_msgs__rosidl_generator_py.so
 yolo_parser: /opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_c.so
 yolo_parser: /opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_cpp.so
-yolo_parser: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_fastrtps_c.so
-yolo_parser: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_introspection_c.so
-yolo_parser: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_fastrtps_cpp.so
-yolo_parser: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_introspection_cpp.so
-yolo_parser: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_cpp.so
-yolo_parser: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/lib/libyolo_msgs__rosidl_generator_py.so
-yolo_parser: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_c.so
-yolo_parser: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/lib/libyolo_msgs__rosidl_generator_c.so
+yolo_parser: /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_fastrtps_c.so
+yolo_parser: /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_introspection_c.so
+yolo_parser: /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_fastrtps_cpp.so
+yolo_parser: /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_introspection_cpp.so
+yolo_parser: /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_cpp.so
+yolo_parser: /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/lib/libyolo_msgs__rosidl_generator_py.so
+yolo_parser: /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_c.so
+yolo_parser: /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/lib/libyolo_msgs__rosidl_generator_c.so
 yolo_parser: /opt/ros/jazzy/lib/libstatic_transform_broadcaster_node.so
 yolo_parser: /opt/ros/jazzy/lib/libtf2_ros.so
 yolo_parser: /opt/ros/jazzy/lib/libmessage_filters.so
@@ -323,7 +323,7 @@ yolo_parser: /usr/lib/x86_64-linux-gnu/libboost_atomic.so.1.83.0
 yolo_parser: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so.1.83.0
 yolo_parser: /usr/lib/x86_64-linux-gnu/libboost_serialization.so.1.83.0
 yolo_parser: /usr/lib/libOpenNI.so
-yolo_parser: /home/manza/Desktop/arquitectura/asr_ws/install/astra_camera/lib/libOpenNI2.so
+yolo_parser: /home/claudia-elez/Desktop/asoftwarer/asr_ws/install/astra_camera/lib/libOpenNI2.so
 yolo_parser: /usr/lib/x86_64-linux-gnu/libusb-1.0.so
 yolo_parser: /usr/lib/x86_64-linux-gnu/libvtkChartsCore-9.1.so.9.1.0
 yolo_parser: /usr/lib/x86_64-linux-gnu/libvtkInteractionImage-9.1.so.9.1.0
@@ -566,7 +566,7 @@ yolo_parser: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 yolo_parser: /opt/ros/jazzy/lib/librcutils.so
 yolo_parser: /opt/ros/jazzy/lib/libdepth_image_proc.so
 yolo_parser: CMakeFiles/yolo_parser.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable yolo_parser"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable yolo_parser"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/yolo_parser.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -578,6 +578,6 @@ CMakeFiles/yolo_parser.dir/clean:
 .PHONY : CMakeFiles/yolo_parser.dir/clean
 
 CMakeFiles/yolo_parser.dir/depend:
-	cd /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/yolo_parser.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/CMakeFiles/yolo_parser.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/yolo_parser.dir/depend
 

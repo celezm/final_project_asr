@@ -1,8 +1,8 @@
-# Install script for directory: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py
+# Install script for directory: /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs")
+  set(CMAKE_INSTALL_PREFIX "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

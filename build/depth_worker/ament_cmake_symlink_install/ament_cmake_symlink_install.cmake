@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/depth_worker/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/depth_worker/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/depth_worker/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/depth_worker/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/depth_worker/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/depth_worker/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/depth_worker/${destination}")
+      set(destination "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/depth_worker/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -311,64 +311,64 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install("TARGETS" "depth_worker" "yolo_detection" "yolo_parser" "detection_2d_to_3d_pc2" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "lib/depth_worker")
-include("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(DIRECTORY "launch" "config" "DESTINATION" "share/depth_worker")
-ament_cmake_symlink_install_directory("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker" DIRECTORY "launch" "config" "DESTINATION" "share/depth_worker")
+ament_cmake_symlink_install_directory("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker" DIRECTORY "launch" "config" "DESTINATION" "share/depth_worker")
 
 # install(FILES "/opt/ros/jazzy/lib/python3.12/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/depth_worker/environment")
-ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker" FILES "/opt/ros/jazzy/lib/python3.12/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/depth_worker/environment")
+ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker" FILES "/opt/ros/jazzy/lib/python3.12/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/depth_worker/environment")
 
-# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/depth_worker/environment")
-ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/depth_worker/environment")
+# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/depth_worker/environment")
+ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/depth_worker/environment")
 
-# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/depth_worker" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/depth_worker" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/depth_worker" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/depth_worker" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/depth_worker" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/depth_worker" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/depth_worker" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/depth_worker" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/depth_worker/environment")
-ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/depth_worker/environment")
+ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/depth_worker/environment")
 
-# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/depth_worker/environment")
-ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/depth_worker/environment")
+# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/depth_worker/environment")
+ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/depth_worker/environment")
 
 # install(FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/depth_worker/environment")
-ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/depth_worker/environment")
+ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/depth_worker/environment")
 
-# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/depth_worker/environment")
-ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/depth_worker/environment")
+# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/depth_worker/environment")
+ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/depth_worker/environment")
 
-# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/depth_worker")
-ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/depth_worker")
+# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/depth_worker")
+ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/depth_worker")
 
-# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/depth_worker")
-ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/depth_worker")
+# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/depth_worker")
+ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/depth_worker")
 
-# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/depth_worker")
-ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/depth_worker")
+# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/depth_worker")
+ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/depth_worker")
 
-# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/depth_worker")
-ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/depth_worker")
+# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/depth_worker")
+ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/depth_worker")
 
-# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/depth_worker")
-ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/depth_worker")
+# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/depth_worker")
+ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/depth_worker")
 
-# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/ament_cmake_index/share/ament_index/resource_index/packages/depth_worker" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/ament_cmake_index/share/ament_index/resource_index/packages/depth_worker" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/ament_cmake_index/share/ament_index/resource_index/packages/depth_worker" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/ament_cmake_index/share/ament_index/resource_index/packages/depth_worker" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/depth_worker/cmake")
-ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/depth_worker/cmake")
+# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/depth_worker/cmake")
+ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/depth_worker/cmake")
 
-# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/depth_worker/cmake")
-ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/depth_worker/cmake")
+# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/depth_worker/cmake")
+ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/depth_worker/cmake")
 
-# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/depth_worker/cmake")
-ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/depth_worker/cmake")
+# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/depth_worker/cmake")
+ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/depth_worker/cmake")
 
-# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/ament_cmake_core/depth_workerConfig.cmake" "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/ament_cmake_core/depth_workerConfig-version.cmake" "DESTINATION" "share/depth_worker/cmake")
-ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/ament_cmake_core/depth_workerConfig.cmake" "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/ament_cmake_core/depth_workerConfig-version.cmake" "DESTINATION" "share/depth_worker/cmake")
+# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/ament_cmake_core/depth_workerConfig.cmake" "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/ament_cmake_core/depth_workerConfig-version.cmake" "DESTINATION" "share/depth_worker/cmake")
+ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/ament_cmake_core/depth_workerConfig.cmake" "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/ament_cmake_core/depth_workerConfig-version.cmake" "DESTINATION" "share/depth_worker/cmake")
 
-# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker/package.xml" "DESTINATION" "share/depth_worker")
-ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker/package.xml" "DESTINATION" "share/depth_worker")
+# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker/package.xml" "DESTINATION" "share/depth_worker")
+ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker/package.xml" "DESTINATION" "share/depth_worker")

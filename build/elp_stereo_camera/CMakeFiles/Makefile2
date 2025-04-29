@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/elp_stereo_camera
+CMAKE_SOURCE_DIR = /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/elp_stereo_camera
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera
+CMAKE_BINARY_DIR = /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/elp_stereo_camera
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -87,14 +87,14 @@ clean: CMakeFiles/tf.dir/clean
 CMakeFiles/uninstall.dir/all: CMakeFiles/elp_stereo_camera_uninstall.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera/CMakeFiles --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/elp_stereo_camera/CMakeFiles --progress-num= "Built target uninstall"
 .PHONY : CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/elp_stereo_camera/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/elp_stereo_camera/CMakeFiles 0
 .PHONY : CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -113,14 +113,14 @@ CMakeFiles/uninstall.dir/clean:
 CMakeFiles/elp_stereo_camera_uninstall.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/elp_stereo_camera_uninstall.dir/build.make CMakeFiles/elp_stereo_camera_uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/elp_stereo_camera_uninstall.dir/build.make CMakeFiles/elp_stereo_camera_uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera/CMakeFiles --progress-num= "Built target elp_stereo_camera_uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/elp_stereo_camera/CMakeFiles --progress-num= "Built target elp_stereo_camera_uninstall"
 .PHONY : CMakeFiles/elp_stereo_camera_uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/elp_stereo_camera_uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/elp_stereo_camera/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/elp_stereo_camera_uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/elp_stereo_camera/CMakeFiles 0
 .PHONY : CMakeFiles/elp_stereo_camera_uninstall.dir/rule
 
 # Convenience name for target.
@@ -139,14 +139,14 @@ CMakeFiles/elp_stereo_camera_uninstall.dir/clean:
 CMakeFiles/stereo_camera_node.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stereo_camera_node.dir/build.make CMakeFiles/stereo_camera_node.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stereo_camera_node.dir/build.make CMakeFiles/stereo_camera_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera/CMakeFiles --progress-num=1,2 "Built target stereo_camera_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/elp_stereo_camera/CMakeFiles --progress-num=1,2 "Built target stereo_camera_node"
 .PHONY : CMakeFiles/stereo_camera_node.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/stereo_camera_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/elp_stereo_camera/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/stereo_camera_node.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/elp_stereo_camera/CMakeFiles 0
 .PHONY : CMakeFiles/stereo_camera_node.dir/rule
 
 # Convenience name for target.
@@ -165,14 +165,14 @@ CMakeFiles/stereo_camera_node.dir/clean:
 CMakeFiles/stereo_point_cloud_generator.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stereo_point_cloud_generator.dir/build.make CMakeFiles/stereo_point_cloud_generator.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stereo_point_cloud_generator.dir/build.make CMakeFiles/stereo_point_cloud_generator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera/CMakeFiles --progress-num=3,4 "Built target stereo_point_cloud_generator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/elp_stereo_camera/CMakeFiles --progress-num=3,4 "Built target stereo_point_cloud_generator"
 .PHONY : CMakeFiles/stereo_point_cloud_generator.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/stereo_point_cloud_generator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/elp_stereo_camera/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/stereo_point_cloud_generator.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/elp_stereo_camera/CMakeFiles 0
 .PHONY : CMakeFiles/stereo_point_cloud_generator.dir/rule
 
 # Convenience name for target.
@@ -191,14 +191,14 @@ CMakeFiles/stereo_point_cloud_generator.dir/clean:
 CMakeFiles/tf.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tf.dir/build.make CMakeFiles/tf.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tf.dir/build.make CMakeFiles/tf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera/CMakeFiles --progress-num=5,6 "Built target tf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/elp_stereo_camera/CMakeFiles --progress-num=5,6 "Built target tf"
 .PHONY : CMakeFiles/tf.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/elp_stereo_camera/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tf.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/elp_stereo_camera/CMakeFiles 0
 .PHONY : CMakeFiles/tf.dir/rule
 
 # Convenience name for target.

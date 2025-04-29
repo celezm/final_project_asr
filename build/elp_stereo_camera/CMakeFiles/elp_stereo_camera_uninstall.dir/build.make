@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/elp_stereo_camera
+CMAKE_SOURCE_DIR = /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/elp_stereo_camera
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera
+CMAKE_BINARY_DIR = /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/elp_stereo_camera
 
 # Utility rule file for elp_stereo_camera_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/elp_stereo_camera_uninstall.dir/compiler_depend.make
 include CMakeFiles/elp_stereo_camera_uninstall.dir/progress.make
 
 CMakeFiles/elp_stereo_camera_uninstall:
-	/usr/bin/cmake -P /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/elp_stereo_camera/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 elp_stereo_camera_uninstall: CMakeFiles/elp_stereo_camera_uninstall
 elp_stereo_camera_uninstall: CMakeFiles/elp_stereo_camera_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/elp_stereo_camera_uninstall.dir/clean:
 .PHONY : CMakeFiles/elp_stereo_camera_uninstall.dir/clean
 
 CMakeFiles/elp_stereo_camera_uninstall.dir/depend:
-	cd /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/elp_stereo_camera /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/elp_stereo_camera /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera/CMakeFiles/elp_stereo_camera_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/elp_stereo_camera && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/elp_stereo_camera /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/elp_stereo_camera /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/elp_stereo_camera /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/elp_stereo_camera /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/elp_stereo_camera/CMakeFiles/elp_stereo_camera_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/elp_stereo_camera_uninstall.dir/depend
 

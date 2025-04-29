@@ -1,5 +1,5 @@
 CMakeFiles/navigation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/navigation_interfaces/action/_generate_information_s.c.o: \
- /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation_interfaces/rosidl_generator_py/navigation_interfaces/action/_generate_information_s.c \
+ /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation_interfaces/rosidl_generator_py/navigation_interfaces/action/_generate_information_s.c \
  /usr/include/stdc-predef.h /usr/include/python3.12/Python.h \
  /usr/include/python3.12/patchlevel.h /usr/include/python3.12/pyconfig.h \
  /usr/include/x86_64-linux-gnu/python3.12/pyconfig.h \
@@ -221,13 +221,13 @@ CMakeFiles/navigation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/na
  /usr/lib/python3/dist-packages/numpy/core/include/numpy/_neighborhood_iterator_imp.h \
  /usr/lib/python3/dist-packages/numpy/core/include/numpy/__multiarray_api.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
- /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation_interfaces/rosidl_generator_c/navigation_interfaces/action/detail/generate_information__struct.h \
+ /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation_interfaces/rosidl_generator_c/navigation_interfaces/action/detail/generate_information__struct.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
  /opt/ros/jazzy/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
  /opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h \
- /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation_interfaces/rosidl_generator_c/navigation_interfaces/action/detail/generate_information__functions.h \
+ /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation_interfaces/rosidl_generator_c/navigation_interfaces/action/detail/generate_information__functions.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_description__struct.h \
@@ -244,6 +244,6 @@ CMakeFiles/navigation_interfaces__rosidl_generator_py.dir/rosidl_generator_py/na
  /opt/ros/jazzy/include/rcutils/rcutils/sha256.h \
  /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
- /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation_interfaces/rosidl_generator_c/navigation_interfaces/msg/rosidl_generator_c__visibility_control.h \
+ /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation_interfaces/rosidl_generator_c/navigation_interfaces/msg/rosidl_generator_c__visibility_control.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence_functions.h

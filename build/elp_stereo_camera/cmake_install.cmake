@@ -1,8 +1,8 @@
-# Install script for directory: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/elp_stereo_camera
+# Install script for directory: /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/elp_stereo_camera
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera")
+  set(CMAKE_INSTALL_PREFIX "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/elp_stereo_camera")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/elp_stereo_camera/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/elp_stereo_camera/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

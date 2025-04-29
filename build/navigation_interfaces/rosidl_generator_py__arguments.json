@@ -1,9 +1,9 @@
 {
   "package_name": "navigation_interfaces",
-  "output_dir": "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation_interfaces/rosidl_generator_py/navigation_interfaces",
+  "output_dir": "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation_interfaces/rosidl_generator_py/navigation_interfaces",
   "template_dir": "/opt/ros/jazzy/share/rosidl_generator_py/cmake/../resource",
   "idl_tuples": [
-    "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation_interfaces/rosidl_adapter/navigation_interfaces:action/GenerateInformation.idl"
+    "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation_interfaces/rosidl_adapter/navigation_interfaces:action/GenerateInformation.idl"
   ],
   "ros_interface_dependencies": [
     "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
@@ -59,7 +59,7 @@
     "/opt/ros/jazzy/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
     "/opt/ros/jazzy/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
     "/opt/ros/jazzy/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
-    "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation_interfaces/rosidl_adapter/navigation_interfaces/action/GenerateInformation.idl",
+    "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation_interfaces/rosidl_adapter/navigation_interfaces/action/GenerateInformation.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl",
     "/opt/ros/jazzy/share/std_msgs/msg/Bool.idl",

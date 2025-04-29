@@ -1,5 +1,5 @@
 CMakeFiles/action_server_main.dir/src/action_server_main.cpp.o: \
- /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/navigation/navigation/src/action_server_main.cpp \
+ /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/navigation/navigation/src/action_server_main.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/13/memory \
  /usr/include/c++/13/bits/memoryfwd.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -115,7 +115,7 @@ CMakeFiles/action_server_main.dir/src/action_server_main.cpp.o: \
  /usr/include/c++/13/backward/auto_ptr.h \
  /usr/include/c++/13/pstl/glue_memory_defs.h \
  /usr/include/c++/13/pstl/execution_defs.h \
- /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/navigation/navigation/include/navigation/ActionServer.hpp \
+ /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/navigation/navigation/include/navigation/ActionServer.hpp \
  /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/action/navigate_to_pose.hpp \
  /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__struct.hpp \
  /usr/include/c++/13/algorithm /usr/include/c++/13/bits/stl_algo.h \

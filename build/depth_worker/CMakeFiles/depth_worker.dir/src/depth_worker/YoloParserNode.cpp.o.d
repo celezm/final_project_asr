@@ -1,5 +1,5 @@
 CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: \
- /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker/src/depth_worker/YoloParserNode.cpp \
+ /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker/src/depth_worker/YoloParserNode.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/13/memory \
  /usr/include/c++/13/bits/memoryfwd.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -115,9 +115,9 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: \
  /usr/include/c++/13/backward/auto_ptr.h \
  /usr/include/c++/13/pstl/glue_memory_defs.h \
  /usr/include/c++/13/pstl/execution_defs.h \
- /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker/include/depth_worker/YoloParserNode.hpp \
- /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detection_array.hpp \
- /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__struct.hpp \
+ /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker/include/depth_worker/YoloParserNode.hpp \
+ /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detection_array.hpp \
+ /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__struct.hpp \
  /usr/include/c++/13/algorithm /usr/include/c++/13/bits/stl_algo.h \
  /usr/include/c++/13/bits/algorithmfwd.h \
  /usr/include/c++/13/initializer_list /usr/include/c++/13/bits/stl_heap.h \
@@ -168,23 +168,23 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h \
  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp \
- /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__struct.hpp \
- /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__struct.hpp \
- /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__struct.hpp \
- /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__struct.hpp \
- /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__struct.hpp \
- /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__struct.hpp \
+ /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__struct.hpp \
+ /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__struct.hpp \
+ /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__struct.hpp \
+ /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__struct.hpp \
+ /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__struct.hpp \
+ /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__struct.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
- /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__struct.hpp \
- /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__struct.hpp \
- /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__struct.hpp \
- /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__struct.hpp \
- /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__struct.hpp \
- /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__builder.hpp \
- /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__traits.hpp \
+ /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__struct.hpp \
+ /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__struct.hpp \
+ /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__struct.hpp \
+ /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__struct.hpp \
+ /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__struct.hpp \
+ /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__builder.hpp \
+ /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__traits.hpp \
  /usr/include/c++/13/sstream /usr/include/c++/13/istream \
  /usr/include/c++/13/ios /usr/include/c++/13/bits/ios_base.h \
  /usr/include/c++/13/bits/locale_classes.h \
@@ -214,24 +214,24 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: \
  /usr/include/c++/13/bits/quoted_string.h \
  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp \
- /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__traits.hpp \
- /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__traits.hpp \
- /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__traits.hpp \
- /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__traits.hpp \
- /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__traits.hpp \
- /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__traits.hpp \
+ /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__traits.hpp \
+ /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box2_d__traits.hpp \
+ /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__traits.hpp \
+ /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/point2_d__traits.hpp \
+ /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/vector2__traits.hpp \
+ /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__traits.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
- /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__traits.hpp \
- /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__traits.hpp \
- /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__traits.hpp \
- /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__traits.hpp \
- /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__traits.hpp \
- /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__type_support.hpp \
+ /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/mask__traits.hpp \
+ /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__traits.hpp \
+ /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__traits.hpp \
+ /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__traits.hpp \
+ /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d__traits.hpp \
+ /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection_array__type_support.hpp \
  /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
- /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
  /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_description__struct.h \

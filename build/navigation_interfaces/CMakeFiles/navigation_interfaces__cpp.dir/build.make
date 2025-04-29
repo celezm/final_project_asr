@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/navigation/navigation_interfaces
+CMAKE_SOURCE_DIR = /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/navigation/navigation_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation_interfaces
+CMAKE_BINARY_DIR = /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation_interfaces
 
 # Utility rule file for navigation_interfaces__cpp.
 
@@ -131,8 +131,8 @@ rosidl_generator_cpp/navigation_interfaces/action/generate_information.hpp: /opt
 rosidl_generator_cpp/navigation_interfaces/action/generate_information.hpp: /opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl
 rosidl_generator_cpp/navigation_interfaces/action/generate_information.hpp: /opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl
 rosidl_generator_cpp/navigation_interfaces/action/generate_information.hpp: /opt/ros/jazzy/share/unique_identifier_msgs/msg/UUID.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation_interfaces/rosidl_generator_cpp__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation_interfaces/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/navigation_interfaces/action/detail/generate_information__builder.hpp: rosidl_generator_cpp/navigation_interfaces/action/generate_information.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/navigation_interfaces/action/detail/generate_information__builder.hpp
@@ -168,6 +168,6 @@ CMakeFiles/navigation_interfaces__cpp.dir/clean:
 .PHONY : CMakeFiles/navigation_interfaces__cpp.dir/clean
 
 CMakeFiles/navigation_interfaces__cpp.dir/depend:
-	cd /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/navigation/navigation_interfaces /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/navigation/navigation_interfaces /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation_interfaces /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation_interfaces /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation_interfaces/CMakeFiles/navigation_interfaces__cpp.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/navigation/navigation_interfaces /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/navigation/navigation_interfaces /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation_interfaces /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation_interfaces /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation_interfaces/CMakeFiles/navigation_interfaces__cpp.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/navigation_interfaces__cpp.dir/depend
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/navigation/navigation_interfaces
+CMAKE_SOURCE_DIR = /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/navigation/navigation_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation_interfaces
+CMAKE_BINARY_DIR = /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation_interfaces
 
 # Utility rule file for navigation_interfaces.
 
@@ -66,7 +66,7 @@ include CMakeFiles/navigation_interfaces.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/navigation_interfaces.dir/progress.make
 
-CMakeFiles/navigation_interfaces: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/navigation/navigation_interfaces/action/GenerateInformation.action
+CMakeFiles/navigation_interfaces: /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/navigation/navigation_interfaces/action/GenerateInformation.action
 CMakeFiles/navigation_interfaces: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
 CMakeFiles/navigation_interfaces: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
 CMakeFiles/navigation_interfaces: /opt/ros/jazzy/share/std_msgs/msg/Bool.idl
@@ -118,6 +118,6 @@ CMakeFiles/navigation_interfaces.dir/clean:
 .PHONY : CMakeFiles/navigation_interfaces.dir/clean
 
 CMakeFiles/navigation_interfaces.dir/depend:
-	cd /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/navigation/navigation_interfaces /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/navigation/navigation_interfaces /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation_interfaces /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation_interfaces /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation_interfaces/CMakeFiles/navigation_interfaces.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/navigation/navigation_interfaces /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/navigation/navigation_interfaces /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation_interfaces /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation_interfaces /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation_interfaces/CMakeFiles/navigation_interfaces.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/navigation_interfaces.dir/depend
 

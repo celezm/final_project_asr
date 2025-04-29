@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker
+CMAKE_SOURCE_DIR = /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker
+CMAKE_BINARY_DIR = /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker
 
 # Include any dependencies generated for this target.
 include CMakeFiles/detection_2d_to_3d_pc2.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/detection_2d_to_3d_pc2.dir/progress.make
 include CMakeFiles/detection_2d_to_3d_pc2.dir/flags.make
 
 CMakeFiles/detection_2d_to_3d_pc2.dir/src/detection_2d_to_3d_pc2_main.cpp.o: CMakeFiles/detection_2d_to_3d_pc2.dir/flags.make
-CMakeFiles/detection_2d_to_3d_pc2.dir/src/detection_2d_to_3d_pc2_main.cpp.o: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker/src/detection_2d_to_3d_pc2_main.cpp
+CMakeFiles/detection_2d_to_3d_pc2.dir/src/detection_2d_to_3d_pc2_main.cpp.o: /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker/src/detection_2d_to_3d_pc2_main.cpp
 CMakeFiles/detection_2d_to_3d_pc2.dir/src/detection_2d_to_3d_pc2_main.cpp.o: CMakeFiles/detection_2d_to_3d_pc2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/detection_2d_to_3d_pc2.dir/src/detection_2d_to_3d_pc2_main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/detection_2d_to_3d_pc2.dir/src/detection_2d_to_3d_pc2_main.cpp.o -MF CMakeFiles/detection_2d_to_3d_pc2.dir/src/detection_2d_to_3d_pc2_main.cpp.o.d -o CMakeFiles/detection_2d_to_3d_pc2.dir/src/detection_2d_to_3d_pc2_main.cpp.o -c /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker/src/detection_2d_to_3d_pc2_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/detection_2d_to_3d_pc2.dir/src/detection_2d_to_3d_pc2_main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/detection_2d_to_3d_pc2.dir/src/detection_2d_to_3d_pc2_main.cpp.o -MF CMakeFiles/detection_2d_to_3d_pc2.dir/src/detection_2d_to_3d_pc2_main.cpp.o.d -o CMakeFiles/detection_2d_to_3d_pc2.dir/src/detection_2d_to_3d_pc2_main.cpp.o -c /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker/src/detection_2d_to_3d_pc2_main.cpp
 
 CMakeFiles/detection_2d_to_3d_pc2.dir/src/detection_2d_to_3d_pc2_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/detection_2d_to_3d_pc2.dir/src/detection_2d_to_3d_pc2_main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker/src/detection_2d_to_3d_pc2_main.cpp > CMakeFiles/detection_2d_to_3d_pc2.dir/src/detection_2d_to_3d_pc2_main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker/src/detection_2d_to_3d_pc2_main.cpp > CMakeFiles/detection_2d_to_3d_pc2.dir/src/detection_2d_to_3d_pc2_main.cpp.i
 
 CMakeFiles/detection_2d_to_3d_pc2.dir/src/detection_2d_to_3d_pc2_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/detection_2d_to_3d_pc2.dir/src/detection_2d_to_3d_pc2_main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker/src/detection_2d_to_3d_pc2_main.cpp -o CMakeFiles/detection_2d_to_3d_pc2.dir/src/detection_2d_to_3d_pc2_main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker/src/detection_2d_to_3d_pc2_main.cpp -o CMakeFiles/detection_2d_to_3d_pc2.dir/src/detection_2d_to_3d_pc2_main.cpp.s
 
 # Object files for target detection_2d_to_3d_pc2
 detection_2d_to_3d_pc2_OBJECTS = \
@@ -110,7 +110,7 @@ detection_2d_to_3d_pc2: /opt/ros/jazzy/lib/libpcl_msgs__rosidl_typesupport_intro
 detection_2d_to_3d_pc2: /opt/ros/jazzy/lib/libpcl_msgs__rosidl_typesupport_cpp.so
 detection_2d_to_3d_pc2: /opt/ros/jazzy/lib/libpcl_msgs__rosidl_generator_py.so
 detection_2d_to_3d_pc2: /usr/lib/libOpenNI.so
-detection_2d_to_3d_pc2: /home/manza/Desktop/arquitectura/asr_ws/install/astra_camera/lib/libOpenNI2.so
+detection_2d_to_3d_pc2: /home/claudia-elez/Desktop/asoftwarer/asr_ws/install/astra_camera/lib/libOpenNI2.so
 detection_2d_to_3d_pc2: /usr/lib/x86_64-linux-gnu/libusb-1.0.so
 detection_2d_to_3d_pc2: /opt/ros/jazzy/lib/libcamera_calibration_parsers.so
 detection_2d_to_3d_pc2: /opt/ros/jazzy/lib/libcv_bridge.so
@@ -217,14 +217,14 @@ detection_2d_to_3d_pc2: /opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_in
 detection_2d_to_3d_pc2: /opt/ros/jazzy/lib/libsensor_msgs__rosidl_generator_py.so
 detection_2d_to_3d_pc2: /opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_c.so
 detection_2d_to_3d_pc2: /opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_cpp.so
-detection_2d_to_3d_pc2: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_fastrtps_c.so
-detection_2d_to_3d_pc2: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_introspection_c.so
-detection_2d_to_3d_pc2: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_fastrtps_cpp.so
-detection_2d_to_3d_pc2: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_introspection_cpp.so
-detection_2d_to_3d_pc2: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_cpp.so
-detection_2d_to_3d_pc2: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/lib/libyolo_msgs__rosidl_generator_py.so
-detection_2d_to_3d_pc2: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_c.so
-detection_2d_to_3d_pc2: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/lib/libyolo_msgs__rosidl_generator_c.so
+detection_2d_to_3d_pc2: /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_fastrtps_c.so
+detection_2d_to_3d_pc2: /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_introspection_c.so
+detection_2d_to_3d_pc2: /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_fastrtps_cpp.so
+detection_2d_to_3d_pc2: /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_introspection_cpp.so
+detection_2d_to_3d_pc2: /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_cpp.so
+detection_2d_to_3d_pc2: /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/lib/libyolo_msgs__rosidl_generator_py.so
+detection_2d_to_3d_pc2: /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_c.so
+detection_2d_to_3d_pc2: /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/lib/libyolo_msgs__rosidl_generator_c.so
 detection_2d_to_3d_pc2: /opt/ros/jazzy/lib/libstatic_transform_broadcaster_node.so
 detection_2d_to_3d_pc2: /opt/ros/jazzy/lib/libtf2_ros.so
 detection_2d_to_3d_pc2: /opt/ros/jazzy/lib/libmessage_filters.so
@@ -323,7 +323,7 @@ detection_2d_to_3d_pc2: /usr/lib/x86_64-linux-gnu/libboost_atomic.so.1.83.0
 detection_2d_to_3d_pc2: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so.1.83.0
 detection_2d_to_3d_pc2: /usr/lib/x86_64-linux-gnu/libboost_serialization.so.1.83.0
 detection_2d_to_3d_pc2: /usr/lib/libOpenNI.so
-detection_2d_to_3d_pc2: /home/manza/Desktop/arquitectura/asr_ws/install/astra_camera/lib/libOpenNI2.so
+detection_2d_to_3d_pc2: /home/claudia-elez/Desktop/asoftwarer/asr_ws/install/astra_camera/lib/libOpenNI2.so
 detection_2d_to_3d_pc2: /usr/lib/x86_64-linux-gnu/libusb-1.0.so
 detection_2d_to_3d_pc2: /usr/lib/x86_64-linux-gnu/libvtkChartsCore-9.1.so.9.1.0
 detection_2d_to_3d_pc2: /usr/lib/x86_64-linux-gnu/libvtkInteractionImage-9.1.so.9.1.0
@@ -566,7 +566,7 @@ detection_2d_to_3d_pc2: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 detection_2d_to_3d_pc2: /opt/ros/jazzy/lib/librcutils.so
 detection_2d_to_3d_pc2: /opt/ros/jazzy/lib/libdepth_image_proc.so
 detection_2d_to_3d_pc2: CMakeFiles/detection_2d_to_3d_pc2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable detection_2d_to_3d_pc2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable detection_2d_to_3d_pc2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/detection_2d_to_3d_pc2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -578,6 +578,6 @@ CMakeFiles/detection_2d_to_3d_pc2.dir/clean:
 .PHONY : CMakeFiles/detection_2d_to_3d_pc2.dir/clean
 
 CMakeFiles/detection_2d_to_3d_pc2.dir/depend:
-	cd /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/detection_2d_to_3d_pc2.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/CMakeFiles/detection_2d_to_3d_pc2.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/detection_2d_to_3d_pc2.dir/depend
 

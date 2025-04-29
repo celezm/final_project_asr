@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker
+CMAKE_SOURCE_DIR = /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker
+CMAKE_BINARY_DIR = /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/uninstall.dir/depend
 

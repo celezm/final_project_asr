@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_bringup/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_bringup/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_bringup/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_bringup/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_bringup/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_bringup/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_bringup/${destination}")
+      set(destination "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_bringup/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -311,46 +311,46 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install(DIRECTORY "launch" "DESTINATION" "share/yolo_bringup/")
-ament_cmake_symlink_install_directory("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_bringup" DIRECTORY "launch" "DESTINATION" "share/yolo_bringup/")
+ament_cmake_symlink_install_directory("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_bringup" DIRECTORY "launch" "DESTINATION" "share/yolo_bringup/")
 
-# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_bringup/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/yolo_bringup" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_bringup" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_bringup/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/yolo_bringup" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_bringup/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/yolo_bringup" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_bringup" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_bringup/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/yolo_bringup" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_bringup/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/yolo_bringup" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_bringup" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_bringup/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/yolo_bringup" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_bringup/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/yolo_bringup" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_bringup" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_bringup/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/yolo_bringup" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/yolo_bringup/environment")
-ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_bringup" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/yolo_bringup/environment")
+ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_bringup" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/yolo_bringup/environment")
 
-# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_bringup/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/yolo_bringup/environment")
-ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_bringup" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_bringup/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/yolo_bringup/environment")
+# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_bringup/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/yolo_bringup/environment")
+ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_bringup" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_bringup/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/yolo_bringup/environment")
 
 # install(FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/yolo_bringup/environment")
-ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_bringup" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/yolo_bringup/environment")
+ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_bringup" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/yolo_bringup/environment")
 
-# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_bringup/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/yolo_bringup/environment")
-ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_bringup" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_bringup/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/yolo_bringup/environment")
+# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_bringup/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/yolo_bringup/environment")
+ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_bringup" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_bringup/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/yolo_bringup/environment")
 
-# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_bringup/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/yolo_bringup")
-ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_bringup" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_bringup/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/yolo_bringup")
+# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_bringup/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/yolo_bringup")
+ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_bringup" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_bringup/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/yolo_bringup")
 
-# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_bringup/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/yolo_bringup")
-ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_bringup" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_bringup/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/yolo_bringup")
+# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_bringup/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/yolo_bringup")
+ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_bringup" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_bringup/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/yolo_bringup")
 
-# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_bringup/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/yolo_bringup")
-ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_bringup" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_bringup/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/yolo_bringup")
+# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_bringup/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/yolo_bringup")
+ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_bringup" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_bringup/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/yolo_bringup")
 
-# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_bringup/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/yolo_bringup")
-ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_bringup" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_bringup/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/yolo_bringup")
+# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_bringup/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/yolo_bringup")
+ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_bringup" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_bringup/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/yolo_bringup")
 
-# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_bringup/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/yolo_bringup")
-ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_bringup" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_bringup/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/yolo_bringup")
+# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_bringup/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/yolo_bringup")
+ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_bringup" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_bringup/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/yolo_bringup")
 
-# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_bringup/ament_cmake_index/share/ament_index/resource_index/packages/yolo_bringup" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_bringup" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_bringup/ament_cmake_index/share/ament_index/resource_index/packages/yolo_bringup" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_bringup/ament_cmake_index/share/ament_index/resource_index/packages/yolo_bringup" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_bringup" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_bringup/ament_cmake_index/share/ament_index/resource_index/packages/yolo_bringup" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_bringup/ament_cmake_core/yolo_bringupConfig.cmake" "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_bringup/ament_cmake_core/yolo_bringupConfig-version.cmake" "DESTINATION" "share/yolo_bringup/cmake")
-ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_bringup" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_bringup/ament_cmake_core/yolo_bringupConfig.cmake" "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_bringup/ament_cmake_core/yolo_bringupConfig-version.cmake" "DESTINATION" "share/yolo_bringup/cmake")
+# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_bringup/ament_cmake_core/yolo_bringupConfig.cmake" "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_bringup/ament_cmake_core/yolo_bringupConfig-version.cmake" "DESTINATION" "share/yolo_bringup/cmake")
+ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_bringup" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_bringup/ament_cmake_core/yolo_bringupConfig.cmake" "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_bringup/ament_cmake_core/yolo_bringupConfig-version.cmake" "DESTINATION" "share/yolo_bringup/cmake")
 
-# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_bringup/package.xml" "DESTINATION" "share/yolo_bringup")
-ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_bringup" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_bringup/package.xml" "DESTINATION" "share/yolo_bringup")
+# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_bringup/package.xml" "DESTINATION" "share/yolo_bringup")
+ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_bringup" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_bringup/package.xml" "DESTINATION" "share/yolo_bringup")

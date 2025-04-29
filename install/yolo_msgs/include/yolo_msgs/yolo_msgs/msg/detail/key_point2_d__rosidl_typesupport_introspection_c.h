@@ -1,1 +1,1 @@
-/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/key_point2_d__rosidl_typesupport_introspection_c.h
+/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_typesupport_introspection_c/yolo_msgs/msg/detail/key_point2_d__rosidl_typesupport_introspection_c.h

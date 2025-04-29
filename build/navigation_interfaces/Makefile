@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/navigation/navigation_interfaces
+CMAKE_SOURCE_DIR = /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/navigation/navigation_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation_interfaces
+CMAKE_BINARY_DIR = /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation_interfaces
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation_interfaces/CMakeFiles /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation_interfaces//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation_interfaces/CMakeFiles /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation_interfaces//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation_interfaces/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation_interfaces/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -415,7 +415,7 @@ navigation_interfaces__py: cmake_check_build_system
 
 # fast build rule for target.
 navigation_interfaces__py/fast:
-	$(MAKE) $(MAKESILENT) -f /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation_interfaces/navigation_interfaces__py/CMakeFiles/navigation_interfaces__py.dir/build.make /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation_interfaces/navigation_interfaces__py/CMakeFiles/navigation_interfaces__py.dir/build
+	$(MAKE) $(MAKESILENT) -f /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation_interfaces/navigation_interfaces__py/CMakeFiles/navigation_interfaces__py.dir/build.make /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation_interfaces/navigation_interfaces__py/CMakeFiles/navigation_interfaces__py.dir/build
 .PHONY : navigation_interfaces__py/fast
 
 rosidl_generator_c/navigation_interfaces/action/detail/generate_information__description.o: rosidl_generator_c/navigation_interfaces/action/detail/generate_information__description.c.o

@@ -1,5 +1,5 @@
 CMakeFiles/navigation.dir/src/navigation/ActionClient.cpp.o: \
- /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/navigation/navigation/src/navigation/ActionClient.cpp \
+ /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/navigation/navigation/src/navigation/ActionClient.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/action/navigate_to_pose.hpp \
  /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__struct.hpp \
@@ -257,7 +257,7 @@ CMakeFiles/navigation.dir/src/navigation/ActionClient.cpp.o: \
  /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
  /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/action_type_support.hpp \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
- /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/navigation/navigation/include/navigation/ActionClient.hpp \
+ /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/navigation/navigation/include/navigation/ActionClient.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/13/csignal /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \

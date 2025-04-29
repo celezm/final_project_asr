@@ -1,8 +1,8 @@
-# Install script for directory: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_bringup
+# Install script for directory: /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_bringup
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_bringup")
+  set(CMAKE_INSTALL_PREFIX "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_bringup")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_bringup/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_bringup/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_bringup/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_bringup/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

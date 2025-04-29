@@ -1,1 +1,1 @@
-/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera/ament_cmake_environment_hooks/local_setup.bash
+/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/elp_stereo_camera/ament_cmake_environment_hooks/local_setup.bash

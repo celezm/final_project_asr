@@ -1,1 +1,1 @@
-/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_generator_c/yolo_msgs/msg/detail/point2_d__struct.h
+/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_generator_c/yolo_msgs/msg/detail/point2_d__struct.h

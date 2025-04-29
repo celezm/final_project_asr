@@ -1,1 +1,1 @@
-/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_generator_cpp/yolo_msgs/msg/detail/detection__traits.hpp
+/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_generator_cpp/yolo_msgs/msg/detail/detection__traits.hpp

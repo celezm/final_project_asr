@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/navigation/navigation_interfaces
+CMAKE_SOURCE_DIR = /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/navigation/navigation_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation_interfaces
+CMAKE_BINARY_DIR = /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation_interfaces
 
 # Utility rule file for ament_cmake_python_symlink_navigation_interfaces.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_symlink_navigation_interfaces.dir/compiler
 include CMakeFiles/ament_cmake_python_symlink_navigation_interfaces.dir/progress.make
 
 CMakeFiles/ament_cmake_python_symlink_navigation_interfaces:
-	/usr/bin/cmake -E create_symlink /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation_interfaces/rosidl_generator_py/navigation_interfaces /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation_interfaces/ament_cmake_python/navigation_interfaces/navigation_interfaces
+	/usr/bin/cmake -E create_symlink /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation_interfaces/rosidl_generator_py/navigation_interfaces /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation_interfaces/ament_cmake_python/navigation_interfaces/navigation_interfaces
 
 ament_cmake_python_symlink_navigation_interfaces: CMakeFiles/ament_cmake_python_symlink_navigation_interfaces
 ament_cmake_python_symlink_navigation_interfaces: CMakeFiles/ament_cmake_python_symlink_navigation_interfaces.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_symlink_navigation_interfaces.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_symlink_navigation_interfaces.dir/clean
 
 CMakeFiles/ament_cmake_python_symlink_navigation_interfaces.dir/depend:
-	cd /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/navigation/navigation_interfaces /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/navigation/navigation_interfaces /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation_interfaces /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation_interfaces /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation_interfaces/CMakeFiles/ament_cmake_python_symlink_navigation_interfaces.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/navigation/navigation_interfaces /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/navigation/navigation_interfaces /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation_interfaces /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation_interfaces /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation_interfaces/CMakeFiles/ament_cmake_python_symlink_navigation_interfaces.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ament_cmake_python_symlink_navigation_interfaces.dir/depend
 

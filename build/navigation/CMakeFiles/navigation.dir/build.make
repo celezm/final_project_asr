@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/navigation/navigation
+CMAKE_SOURCE_DIR = /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/navigation/navigation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation
+CMAKE_BINARY_DIR = /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation
 
 # Include any dependencies generated for this target.
 include CMakeFiles/navigation.dir/depend.make
@@ -70,32 +70,32 @@ include CMakeFiles/navigation.dir/progress.make
 include CMakeFiles/navigation.dir/flags.make
 
 CMakeFiles/navigation.dir/src/navigation/ActionClient.cpp.o: CMakeFiles/navigation.dir/flags.make
-CMakeFiles/navigation.dir/src/navigation/ActionClient.cpp.o: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/navigation/navigation/src/navigation/ActionClient.cpp
+CMakeFiles/navigation.dir/src/navigation/ActionClient.cpp.o: /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/navigation/navigation/src/navigation/ActionClient.cpp
 CMakeFiles/navigation.dir/src/navigation/ActionClient.cpp.o: CMakeFiles/navigation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/navigation.dir/src/navigation/ActionClient.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/navigation.dir/src/navigation/ActionClient.cpp.o -MF CMakeFiles/navigation.dir/src/navigation/ActionClient.cpp.o.d -o CMakeFiles/navigation.dir/src/navigation/ActionClient.cpp.o -c /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/navigation/navigation/src/navigation/ActionClient.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/navigation.dir/src/navigation/ActionClient.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/navigation.dir/src/navigation/ActionClient.cpp.o -MF CMakeFiles/navigation.dir/src/navigation/ActionClient.cpp.o.d -o CMakeFiles/navigation.dir/src/navigation/ActionClient.cpp.o -c /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/navigation/navigation/src/navigation/ActionClient.cpp
 
 CMakeFiles/navigation.dir/src/navigation/ActionClient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/navigation.dir/src/navigation/ActionClient.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/navigation/navigation/src/navigation/ActionClient.cpp > CMakeFiles/navigation.dir/src/navigation/ActionClient.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/navigation/navigation/src/navigation/ActionClient.cpp > CMakeFiles/navigation.dir/src/navigation/ActionClient.cpp.i
 
 CMakeFiles/navigation.dir/src/navigation/ActionClient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/navigation.dir/src/navigation/ActionClient.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/navigation/navigation/src/navigation/ActionClient.cpp -o CMakeFiles/navigation.dir/src/navigation/ActionClient.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/navigation/navigation/src/navigation/ActionClient.cpp -o CMakeFiles/navigation.dir/src/navigation/ActionClient.cpp.s
 
 CMakeFiles/navigation.dir/src/navigation/ActionServer.cpp.o: CMakeFiles/navigation.dir/flags.make
-CMakeFiles/navigation.dir/src/navigation/ActionServer.cpp.o: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/navigation/navigation/src/navigation/ActionServer.cpp
+CMakeFiles/navigation.dir/src/navigation/ActionServer.cpp.o: /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/navigation/navigation/src/navigation/ActionServer.cpp
 CMakeFiles/navigation.dir/src/navigation/ActionServer.cpp.o: CMakeFiles/navigation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/navigation.dir/src/navigation/ActionServer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/navigation.dir/src/navigation/ActionServer.cpp.o -MF CMakeFiles/navigation.dir/src/navigation/ActionServer.cpp.o.d -o CMakeFiles/navigation.dir/src/navigation/ActionServer.cpp.o -c /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/navigation/navigation/src/navigation/ActionServer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/navigation.dir/src/navigation/ActionServer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/navigation.dir/src/navigation/ActionServer.cpp.o -MF CMakeFiles/navigation.dir/src/navigation/ActionServer.cpp.o.d -o CMakeFiles/navigation.dir/src/navigation/ActionServer.cpp.o -c /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/navigation/navigation/src/navigation/ActionServer.cpp
 
 CMakeFiles/navigation.dir/src/navigation/ActionServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/navigation.dir/src/navigation/ActionServer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/navigation/navigation/src/navigation/ActionServer.cpp > CMakeFiles/navigation.dir/src/navigation/ActionServer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/navigation/navigation/src/navigation/ActionServer.cpp > CMakeFiles/navigation.dir/src/navigation/ActionServer.cpp.i
 
 CMakeFiles/navigation.dir/src/navigation/ActionServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/navigation.dir/src/navigation/ActionServer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/navigation/navigation/src/navigation/ActionServer.cpp -o CMakeFiles/navigation.dir/src/navigation/ActionServer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/navigation/navigation/src/navigation/ActionServer.cpp -o CMakeFiles/navigation.dir/src/navigation/ActionServer.cpp.s
 
 # Object files for target navigation
 navigation_OBJECTS = \
@@ -242,7 +242,7 @@ libnavigation.so: /opt/ros/jazzy/lib/librcpputils.so
 libnavigation.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 libnavigation.so: /opt/ros/jazzy/lib/librcutils.so
 libnavigation.so: CMakeFiles/navigation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libnavigation.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libnavigation.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/navigation.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -254,6 +254,6 @@ CMakeFiles/navigation.dir/clean:
 .PHONY : CMakeFiles/navigation.dir/clean
 
 CMakeFiles/navigation.dir/depend:
-	cd /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/navigation/navigation /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/navigation/navigation /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation/CMakeFiles/navigation.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/navigation/navigation /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/navigation/navigation /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation/CMakeFiles/navigation.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/navigation.dir/depend
 

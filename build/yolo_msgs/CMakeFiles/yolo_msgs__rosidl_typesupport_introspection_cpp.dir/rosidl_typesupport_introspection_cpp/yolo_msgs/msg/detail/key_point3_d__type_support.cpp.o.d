@@ -1,5 +1,5 @@
 CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/key_point3_d__type_support.cpp.o: \
- /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/key_point3_d__type_support.cpp \
+ /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_typesupport_introspection_cpp/yolo_msgs/msg/detail/key_point3_d__type_support.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/13/array \
  /usr/include/c++/13/compare /usr/include/c++/13/initializer_list \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -140,14 +140,14 @@ CMakeFiles/yolo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesuppor
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
  /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
  /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
- /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_generator_c/yolo_msgs/msg/detail/key_point3_d__functions.h \
+ /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_generator_c/yolo_msgs/msg/detail/key_point3_d__functions.h \
  /usr/include/c++/13/stdlib.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
- /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_generator_c/yolo_msgs/msg/rosidl_generator_c__visibility_control.h \
- /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_generator_c/yolo_msgs/msg/detail/key_point3_d__struct.h \
+ /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_generator_c/yolo_msgs/msg/rosidl_generator_c__visibility_control.h \
+ /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_generator_c/yolo_msgs/msg/detail/key_point3_d__struct.h \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h \
- /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_generator_cpp/yolo_msgs/msg/detail/key_point3_d__struct.hpp \
+ /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_generator_cpp/yolo_msgs/msg/detail/key_point3_d__struct.hpp \
  /usr/include/c++/13/algorithm /usr/include/c++/13/bits/stl_algo.h \
  /usr/include/c++/13/bits/algorithmfwd.h \
  /usr/include/c++/13/bits/stl_heap.h \

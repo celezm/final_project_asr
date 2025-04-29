@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/elp_stereo_camera
+CMAKE_SOURCE_DIR = /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/elp_stereo_camera
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera
+CMAKE_BINARY_DIR = /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/elp_stereo_camera
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera/CMakeFiles /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/elp_stereo_camera/CMakeFiles /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/elp_stereo_camera//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/elp_stereo_camera/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

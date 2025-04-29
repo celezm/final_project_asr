@@ -1,5 +1,5 @@
 CMakeFiles/navigation_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/navigation_interfaces/action/generate_information__type_support.cpp.o: \
- /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation_interfaces/rosidl_typesupport_cpp/navigation_interfaces/action/generate_information__type_support.cpp \
+ /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation_interfaces/rosidl_typesupport_cpp/navigation_interfaces/action/generate_information__type_support.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/13/cstddef \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -40,7 +40,7 @@ CMakeFiles/navigation_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_
  /opt/ros/jazzy/include/rcutils/rcutils/sha256.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
  /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
- /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation_interfaces/rosidl_generator_c/navigation_interfaces/action/detail/generate_information__functions.h \
+ /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation_interfaces/rosidl_generator_c/navigation_interfaces/action/detail/generate_information__functions.h \
  /usr/include/c++/13/stdlib.h /usr/include/c++/13/cstdlib \
  /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
@@ -73,12 +73,12 @@ CMakeFiles/navigation_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_
  /usr/include/c++/13/bits/std_abs.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
- /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation_interfaces/rosidl_generator_c/navigation_interfaces/msg/rosidl_generator_c__visibility_control.h \
- /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation_interfaces/rosidl_generator_c/navigation_interfaces/action/detail/generate_information__struct.h \
+ /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation_interfaces/rosidl_generator_c/navigation_interfaces/msg/rosidl_generator_c__visibility_control.h \
+ /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation_interfaces/rosidl_generator_c/navigation_interfaces/action/detail/generate_information__struct.h \
  /opt/ros/jazzy/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
  /opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h \
- /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation_interfaces/rosidl_generator_cpp/navigation_interfaces/action/detail/generate_information__struct.hpp \
+ /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation_interfaces/rosidl_generator_cpp/navigation_interfaces/action/detail/generate_information__struct.hpp \
  /usr/include/c++/13/algorithm /usr/include/c++/13/bits/stl_algobase.h \
  /usr/include/c++/13/bits/functexcept.h \
  /usr/include/c++/13/bits/exception_defines.h \

@@ -1,1 +1,1 @@
-/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker/launch/yolo_detection.launch.py
+/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker/launch/yolo_detection.launch.py

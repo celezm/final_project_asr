@@ -1,8 +1,8 @@
-# Install script for directory: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation_interfaces/navigation_interfaces__py
+# Install script for directory: /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation_interfaces/navigation_interfaces__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/navigation_interfaces")
+  set(CMAKE_INSTALL_PREFIX "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/navigation_interfaces")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

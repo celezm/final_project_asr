@@ -1,8 +1,8 @@
 {
   "package_name": "navigation_interfaces",
-  "output_dir": "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation_interfaces/rosidl_generator_type_description/navigation_interfaces",
+  "output_dir": "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation_interfaces/rosidl_generator_type_description/navigation_interfaces",
   "idl_tuples": [
-    "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation_interfaces/rosidl_adapter/navigation_interfaces:action/GenerateInformation.idl"
+    "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation_interfaces/rosidl_adapter/navigation_interfaces:action/GenerateInformation.idl"
   ],
   "include_paths": [
     "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
