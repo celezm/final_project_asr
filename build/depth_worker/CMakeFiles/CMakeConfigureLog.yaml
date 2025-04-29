@@ -1418,3 +1418,1073 @@ events:
         
       exitCode: 0
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:275 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:567 (find_external_library)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)"
+      - "CMakeLists.txt:17 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-AEtHQQ"
+      binary: "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-AEtHQQ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/jazzy/share/tinyxml2_vendor/cmake/Modules;/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-AEtHQQ'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a0cbc/fast
+        gmake[1]: Entering directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-AEtHQQ'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a0cbc.dir/build.make CMakeFiles/cmTC_a0cbc.dir/build
+        gmake[2]: Entering directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-AEtHQQ'
+        Building C object CMakeFiles/cmTC_a0cbc.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_a0cbc.dir/test_mpi.c.o -c /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-AEtHQQ/test_mpi.c
+        Linking C executable cmTC_a0cbc
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0cbc.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_a0cbc.dir/test_mpi.c.o -o cmTC_a0cbc  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[2]: Leaving directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-AEtHQQ'
+        gmake[1]: Leaving directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-AEtHQQ'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:275 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:567 (find_external_library)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)"
+      - "CMakeLists.txt:17 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-AzC3YL"
+      binary: "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-AzC3YL"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/jazzy/share/tinyxml2_vendor/cmake/Modules;/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-AzC3YL'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ef0cc/fast
+        gmake[1]: Entering directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-AzC3YL'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ef0cc.dir/build.make CMakeFiles/cmTC_ef0cc.dir/build
+        gmake[2]: Entering directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-AzC3YL'
+        Building C object CMakeFiles/cmTC_ef0cc.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_ef0cc.dir/test_mpi.c.o -c /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-AzC3YL/test_mpi.c
+        Linking C executable cmTC_ef0cc
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef0cc.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_ef0cc.dir/test_mpi.c.o -o cmTC_ef0cc  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[2]: Leaving directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-AzC3YL'
+        gmake[1]: Leaving directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-AzC3YL'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:275 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)"
+      - "CMakeLists.txt:17 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-6cL0wn"
+      binary: "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-6cL0wn"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/jazzy/share/tinyxml2_vendor/cmake/Modules;/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-6cL0wn'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5e33c/fast
+        gmake[1]: Entering directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-6cL0wn'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_5e33c.dir/build.make CMakeFiles/cmTC_5e33c.dir/build
+        gmake[2]: Entering directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-6cL0wn'
+        Building C object CMakeFiles/cmTC_5e33c.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_5e33c.dir/test_mpi.c.o -c /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-6cL0wn/test_mpi.c
+        Linking C executable cmTC_5e33c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e33c.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_5e33c.dir/test_mpi.c.o -o cmTC_5e33c  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[2]: Leaving directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-6cL0wn'
+        gmake[1]: Leaving directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-6cL0wn'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:275 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:567 (find_external_library)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)"
+      - "CMakeLists.txt:17 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-a0laE4"
+      binary: "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-a0laE4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/jazzy/share/tinyxml2_vendor/cmake/Modules;/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-a0laE4'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f84a2/fast
+        gmake[1]: Entering directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-a0laE4'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f84a2.dir/build.make CMakeFiles/cmTC_f84a2.dir/build
+        gmake[2]: Entering directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-a0laE4'
+        Building C object CMakeFiles/cmTC_f84a2.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_f84a2.dir/test_mpi.c.o -c /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-a0laE4/test_mpi.c
+        Linking C executable cmTC_f84a2
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f84a2.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_f84a2.dir/test_mpi.c.o -o cmTC_f84a2  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[2]: Leaving directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-a0laE4'
+        gmake[1]: Leaving directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-a0laE4'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:275 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:567 (find_external_library)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)"
+      - "CMakeLists.txt:17 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-AtsXIV"
+      binary: "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-AtsXIV"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/jazzy/share/tinyxml2_vendor/cmake/Modules;/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-AtsXIV'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a3a25/fast
+        gmake[1]: Entering directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-AtsXIV'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a3a25.dir/build.make CMakeFiles/cmTC_a3a25.dir/build
+        gmake[2]: Entering directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-AtsXIV'
+        Building C object CMakeFiles/cmTC_a3a25.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_a3a25.dir/test_mpi.c.o -c /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-AtsXIV/test_mpi.c
+        Linking C executable cmTC_a3a25
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3a25.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_a3a25.dir/test_mpi.c.o -o cmTC_a3a25  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[2]: Leaving directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-AtsXIV'
+        gmake[1]: Leaving directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-AtsXIV'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:275 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:567 (find_external_library)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)"
+      - "CMakeLists.txt:17 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-fHaHkC"
+      binary: "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-fHaHkC"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/jazzy/share/tinyxml2_vendor/cmake/Modules;/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-fHaHkC'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_15884/fast
+        gmake[1]: Entering directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-fHaHkC'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_15884.dir/build.make CMakeFiles/cmTC_15884.dir/build
+        gmake[2]: Entering directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-fHaHkC'
+        Building C object CMakeFiles/cmTC_15884.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_15884.dir/test_mpi.c.o -c /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-fHaHkC/test_mpi.c
+        Linking C executable cmTC_15884
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15884.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_15884.dir/test_mpi.c.o -o cmTC_15884  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[2]: Leaving directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-fHaHkC'
+        gmake[1]: Leaving directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-fHaHkC'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:275 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:567 (find_external_library)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)"
+      - "CMakeLists.txt:17 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-RUvMcK"
+      binary: "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-RUvMcK"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/jazzy/share/tinyxml2_vendor/cmake/Modules;/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-RUvMcK'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_80fb3/fast
+        gmake[1]: Entering directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-RUvMcK'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_80fb3.dir/build.make CMakeFiles/cmTC_80fb3.dir/build
+        gmake[2]: Entering directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-RUvMcK'
+        Building C object CMakeFiles/cmTC_80fb3.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_80fb3.dir/test_mpi.c.o -c /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-RUvMcK/test_mpi.c
+        Linking C executable cmTC_80fb3
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80fb3.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_80fb3.dir/test_mpi.c.o -o cmTC_80fb3  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[2]: Leaving directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-RUvMcK'
+        gmake[1]: Leaving directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-RUvMcK'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:275 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)"
+      - "CMakeLists.txt:17 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-TDMIsN"
+      binary: "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-TDMIsN"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/jazzy/share/tinyxml2_vendor/cmake/Modules;/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-TDMIsN'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_fe4df/fast
+        gmake[1]: Entering directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-TDMIsN'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_fe4df.dir/build.make CMakeFiles/cmTC_fe4df.dir/build
+        gmake[2]: Entering directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-TDMIsN'
+        Building C object CMakeFiles/cmTC_fe4df.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_fe4df.dir/test_mpi.c.o -c /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-TDMIsN/test_mpi.c
+        Linking C executable cmTC_fe4df
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe4df.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_fe4df.dir/test_mpi.c.o -o cmTC_fe4df  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[2]: Leaving directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-TDMIsN'
+        gmake[1]: Leaving directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-TDMIsN'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:275 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:567 (find_external_library)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)"
+      - "CMakeLists.txt:17 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-22SuLw"
+      binary: "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-22SuLw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/jazzy/share/tinyxml2_vendor/cmake/Modules;/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-22SuLw'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ddb90/fast
+        gmake[1]: Entering directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-22SuLw'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ddb90.dir/build.make CMakeFiles/cmTC_ddb90.dir/build
+        gmake[2]: Entering directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-22SuLw'
+        Building C object CMakeFiles/cmTC_ddb90.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_ddb90.dir/test_mpi.c.o -c /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-22SuLw/test_mpi.c
+        Linking C executable cmTC_ddb90
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ddb90.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_ddb90.dir/test_mpi.c.o -o cmTC_ddb90  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[2]: Leaving directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-22SuLw'
+        gmake[1]: Leaving directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-22SuLw'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:275 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:567 (find_external_library)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)"
+      - "CMakeLists.txt:17 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-omKiFS"
+      binary: "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-omKiFS"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/jazzy/share/tinyxml2_vendor/cmake/Modules;/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-omKiFS'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_84f8f/fast
+        gmake[1]: Entering directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-omKiFS'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_84f8f.dir/build.make CMakeFiles/cmTC_84f8f.dir/build
+        gmake[2]: Entering directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-omKiFS'
+        Building C object CMakeFiles/cmTC_84f8f.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_84f8f.dir/test_mpi.c.o -c /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-omKiFS/test_mpi.c
+        Linking C executable cmTC_84f8f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84f8f.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_84f8f.dir/test_mpi.c.o -o cmTC_84f8f  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[2]: Leaving directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-omKiFS'
+        gmake[1]: Leaving directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-omKiFS'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:275 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:567 (find_external_library)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)"
+      - "CMakeLists.txt:17 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-8zLrKe"
+      binary: "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-8zLrKe"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/jazzy/share/tinyxml2_vendor/cmake/Modules;/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-8zLrKe'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8edf2/fast
+        gmake[1]: Entering directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-8zLrKe'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_8edf2.dir/build.make CMakeFiles/cmTC_8edf2.dir/build
+        gmake[2]: Entering directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-8zLrKe'
+        Building C object CMakeFiles/cmTC_8edf2.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_8edf2.dir/test_mpi.c.o -c /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-8zLrKe/test_mpi.c
+        Linking C executable cmTC_8edf2
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8edf2.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_8edf2.dir/test_mpi.c.o -o cmTC_8edf2  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[2]: Leaving directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-8zLrKe'
+        gmake[1]: Leaving directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-8zLrKe'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:275 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:567 (find_external_library)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)"
+      - "CMakeLists.txt:17 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-hhtNb6"
+      binary: "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-hhtNb6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/jazzy/share/tinyxml2_vendor/cmake/Modules;/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-hhtNb6'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a7d7f/fast
+        gmake[1]: Entering directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-hhtNb6'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a7d7f.dir/build.make CMakeFiles/cmTC_a7d7f.dir/build
+        gmake[2]: Entering directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-hhtNb6'
+        Building C object CMakeFiles/cmTC_a7d7f.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_a7d7f.dir/test_mpi.c.o -c /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-hhtNb6/test_mpi.c
+        Linking C executable cmTC_a7d7f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7d7f.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_a7d7f.dir/test_mpi.c.o -o cmTC_a7d7f  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[2]: Leaving directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-hhtNb6'
+        gmake[1]: Leaving directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-hhtNb6'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:275 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)"
+      - "CMakeLists.txt:17 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-s6BQ2Y"
+      binary: "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-s6BQ2Y"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/jazzy/share/tinyxml2_vendor/cmake/Modules;/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-s6BQ2Y'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_67532/fast
+        gmake[1]: Entering directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-s6BQ2Y'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_67532.dir/build.make CMakeFiles/cmTC_67532.dir/build
+        gmake[2]: Entering directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-s6BQ2Y'
+        Building C object CMakeFiles/cmTC_67532.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_67532.dir/test_mpi.c.o -c /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-s6BQ2Y/test_mpi.c
+        Linking C executable cmTC_67532
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67532.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_67532.dir/test_mpi.c.o -o cmTC_67532  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[2]: Leaving directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-s6BQ2Y'
+        gmake[1]: Leaving directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-s6BQ2Y'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:275 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:567 (find_external_library)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)"
+      - "CMakeLists.txt:17 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-q1Iv7a"
+      binary: "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-q1Iv7a"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/jazzy/share/tinyxml2_vendor/cmake/Modules;/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-q1Iv7a'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1eec2/fast
+        gmake[1]: Entering directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-q1Iv7a'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_1eec2.dir/build.make CMakeFiles/cmTC_1eec2.dir/build
+        gmake[2]: Entering directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-q1Iv7a'
+        Building C object CMakeFiles/cmTC_1eec2.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_1eec2.dir/test_mpi.c.o -c /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-q1Iv7a/test_mpi.c
+        Linking C executable cmTC_1eec2
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1eec2.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_1eec2.dir/test_mpi.c.o -o cmTC_1eec2  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[2]: Leaving directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-q1Iv7a'
+        gmake[1]: Leaving directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-q1Iv7a'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:275 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:567 (find_external_library)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)"
+      - "CMakeLists.txt:17 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-YLDZaX"
+      binary: "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-YLDZaX"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/jazzy/share/tinyxml2_vendor/cmake/Modules;/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-YLDZaX'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_dc6a2/fast
+        gmake[1]: Entering directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-YLDZaX'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_dc6a2.dir/build.make CMakeFiles/cmTC_dc6a2.dir/build
+        gmake[2]: Entering directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-YLDZaX'
+        Building C object CMakeFiles/cmTC_dc6a2.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_dc6a2.dir/test_mpi.c.o -c /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-YLDZaX/test_mpi.c
+        Linking C executable cmTC_dc6a2
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc6a2.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_dc6a2.dir/test_mpi.c.o -o cmTC_dc6a2  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[2]: Leaving directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-YLDZaX'
+        gmake[1]: Leaving directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-YLDZaX'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:275 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:567 (find_external_library)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)"
+      - "CMakeLists.txt:17 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-ZDAaFK"
+      binary: "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-ZDAaFK"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/jazzy/share/tinyxml2_vendor/cmake/Modules;/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-ZDAaFK'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3e4c7/fast
+        gmake[1]: Entering directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-ZDAaFK'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_3e4c7.dir/build.make CMakeFiles/cmTC_3e4c7.dir/build
+        gmake[2]: Entering directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-ZDAaFK'
+        Building C object CMakeFiles/cmTC_3e4c7.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_3e4c7.dir/test_mpi.c.o -c /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-ZDAaFK/test_mpi.c
+        Linking C executable cmTC_3e4c7
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e4c7.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_3e4c7.dir/test_mpi.c.o -o cmTC_3e4c7  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[2]: Leaving directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-ZDAaFK'
+        gmake[1]: Leaving directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-ZDAaFK'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:275 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:567 (find_external_library)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)"
+      - "CMakeLists.txt:17 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-zonnxa"
+      binary: "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-zonnxa"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/jazzy/share/tinyxml2_vendor/cmake/Modules;/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-zonnxa'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_cc1de/fast
+        gmake[1]: Entering directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-zonnxa'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_cc1de.dir/build.make CMakeFiles/cmTC_cc1de.dir/build
+        gmake[2]: Entering directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-zonnxa'
+        Building C object CMakeFiles/cmTC_cc1de.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_cc1de.dir/test_mpi.c.o -c /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-zonnxa/test_mpi.c
+        Linking C executable cmTC_cc1de
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc1de.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_cc1de.dir/test_mpi.c.o -o cmTC_cc1de  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[2]: Leaving directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-zonnxa'
+        gmake[1]: Leaving directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-zonnxa'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:275 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)"
+      - "CMakeLists.txt:17 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-8F5KB3"
+      binary: "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-8F5KB3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/jazzy/share/tinyxml2_vendor/cmake/Modules;/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-8F5KB3'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_50a58/fast
+        gmake[1]: Entering directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-8F5KB3'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_50a58.dir/build.make CMakeFiles/cmTC_50a58.dir/build
+        gmake[2]: Entering directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-8F5KB3'
+        Building C object CMakeFiles/cmTC_50a58.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_50a58.dir/test_mpi.c.o -c /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-8F5KB3/test_mpi.c
+        Linking C executable cmTC_50a58
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50a58.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_50a58.dir/test_mpi.c.o -o cmTC_50a58  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[2]: Leaving directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-8F5KB3'
+        gmake[1]: Leaving directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-8F5KB3'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:275 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:567 (find_external_library)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)"
+      - "CMakeLists.txt:17 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-5rOj7i"
+      binary: "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-5rOj7i"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/jazzy/share/tinyxml2_vendor/cmake/Modules;/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-5rOj7i'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_028bf/fast
+        gmake[1]: Entering directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-5rOj7i'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_028bf.dir/build.make CMakeFiles/cmTC_028bf.dir/build
+        gmake[2]: Entering directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-5rOj7i'
+        Building C object CMakeFiles/cmTC_028bf.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_028bf.dir/test_mpi.c.o -c /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-5rOj7i/test_mpi.c
+        Linking C executable cmTC_028bf
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_028bf.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_028bf.dir/test_mpi.c.o -o cmTC_028bf  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[2]: Leaving directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-5rOj7i'
+        gmake[1]: Leaving directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-5rOj7i'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:275 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:567 (find_external_library)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)"
+      - "CMakeLists.txt:17 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-OnkMhg"
+      binary: "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-OnkMhg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/jazzy/share/tinyxml2_vendor/cmake/Modules;/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-OnkMhg'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7addc/fast
+        gmake[1]: Entering directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-OnkMhg'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_7addc.dir/build.make CMakeFiles/cmTC_7addc.dir/build
+        gmake[2]: Entering directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-OnkMhg'
+        Building C object CMakeFiles/cmTC_7addc.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_7addc.dir/test_mpi.c.o -c /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-OnkMhg/test_mpi.c
+        Linking C executable cmTC_7addc
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7addc.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_7addc.dir/test_mpi.c.o -o cmTC_7addc  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[2]: Leaving directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-OnkMhg'
+        gmake[1]: Leaving directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-OnkMhg'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:275 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:567 (find_external_library)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)"
+      - "CMakeLists.txt:18 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-6JaJQj"
+      binary: "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-6JaJQj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/jazzy/share/tinyxml2_vendor/cmake/Modules;/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-6JaJQj'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_44176/fast
+        gmake[1]: Entering directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-6JaJQj'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_44176.dir/build.make CMakeFiles/cmTC_44176.dir/build
+        gmake[2]: Entering directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-6JaJQj'
+        Building C object CMakeFiles/cmTC_44176.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_44176.dir/test_mpi.c.o -c /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-6JaJQj/test_mpi.c
+        Linking C executable cmTC_44176
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44176.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_44176.dir/test_mpi.c.o -o cmTC_44176  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[2]: Leaving directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-6JaJQj'
+        gmake[1]: Leaving directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-6JaJQj'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:275 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:567 (find_external_library)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)"
+      - "CMakeLists.txt:18 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-L2XAMB"
+      binary: "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-L2XAMB"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/jazzy/share/tinyxml2_vendor/cmake/Modules;/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-L2XAMB'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c98a1/fast
+        gmake[1]: Entering directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-L2XAMB'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c98a1.dir/build.make CMakeFiles/cmTC_c98a1.dir/build
+        gmake[2]: Entering directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-L2XAMB'
+        Building C object CMakeFiles/cmTC_c98a1.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_c98a1.dir/test_mpi.c.o -c /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-L2XAMB/test_mpi.c
+        Linking C executable cmTC_c98a1
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c98a1.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_c98a1.dir/test_mpi.c.o -o cmTC_c98a1  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[2]: Leaving directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-L2XAMB'
+        gmake[1]: Leaving directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-L2XAMB'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:275 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)"
+      - "CMakeLists.txt:18 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-nnj9Jn"
+      binary: "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-nnj9Jn"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/jazzy/share/tinyxml2_vendor/cmake/Modules;/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-nnj9Jn'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4ea9e/fast
+        gmake[1]: Entering directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-nnj9Jn'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_4ea9e.dir/build.make CMakeFiles/cmTC_4ea9e.dir/build
+        gmake[2]: Entering directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-nnj9Jn'
+        Building C object CMakeFiles/cmTC_4ea9e.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_4ea9e.dir/test_mpi.c.o -c /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-nnj9Jn/test_mpi.c
+        Linking C executable cmTC_4ea9e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ea9e.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_4ea9e.dir/test_mpi.c.o -o cmTC_4ea9e  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[2]: Leaving directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-nnj9Jn'
+        gmake[1]: Leaving directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-nnj9Jn'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:275 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:567 (find_external_library)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)"
+      - "CMakeLists.txt:18 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-4jdZ5t"
+      binary: "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-4jdZ5t"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/jazzy/share/tinyxml2_vendor/cmake/Modules;/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-4jdZ5t'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0d2d4/fast
+        gmake[1]: Entering directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-4jdZ5t'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_0d2d4.dir/build.make CMakeFiles/cmTC_0d2d4.dir/build
+        gmake[2]: Entering directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-4jdZ5t'
+        Building C object CMakeFiles/cmTC_0d2d4.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_0d2d4.dir/test_mpi.c.o -c /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-4jdZ5t/test_mpi.c
+        Linking C executable cmTC_0d2d4
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d2d4.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_0d2d4.dir/test_mpi.c.o -o cmTC_0d2d4  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[2]: Leaving directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-4jdZ5t'
+        gmake[1]: Leaving directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-4jdZ5t'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:275 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:567 (find_external_library)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)"
+      - "CMakeLists.txt:18 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-m2KRHf"
+      binary: "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-m2KRHf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/jazzy/share/tinyxml2_vendor/cmake/Modules;/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-m2KRHf'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f3a5d/fast
+        gmake[1]: Entering directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-m2KRHf'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f3a5d.dir/build.make CMakeFiles/cmTC_f3a5d.dir/build
+        gmake[2]: Entering directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-m2KRHf'
+        Building C object CMakeFiles/cmTC_f3a5d.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_f3a5d.dir/test_mpi.c.o -c /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-m2KRHf/test_mpi.c
+        Linking C executable cmTC_f3a5d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3a5d.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_f3a5d.dir/test_mpi.c.o -o cmTC_f3a5d  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[2]: Leaving directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-m2KRHf'
+        gmake[1]: Leaving directory '/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/CMakeScratch/TryCompile-m2KRHf'
+        
+      exitCode: 0
+...

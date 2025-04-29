@@ -223,6 +223,19 @@ stereo_point_cloud_generator/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stereo_point_cloud_generator.dir/build.make CMakeFiles/stereo_point_cloud_generator.dir/build
 .PHONY : stereo_point_cloud_generator/fast
 
+#=============================================================================
+# Target rules for targets named tf
+
+# Build rule for target.
+tf: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tf
+.PHONY : tf
+
+# fast build rule for target.
+tf/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tf.dir/build.make CMakeFiles/tf.dir/build
+.PHONY : tf/fast
+
 src/stereo_camera_node.o: src/stereo_camera_node.cpp.o
 .PHONY : src/stereo_camera_node.o
 
@@ -271,6 +284,30 @@ src/stereo_point_cloud_generator.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stereo_point_cloud_generator.dir/build.make CMakeFiles/stereo_point_cloud_generator.dir/src/stereo_point_cloud_generator.cpp.s
 .PHONY : src/stereo_point_cloud_generator.cpp.s
 
+src/tf.o: src/tf.cpp.o
+.PHONY : src/tf.o
+
+# target to build an object file
+src/tf.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tf.dir/build.make CMakeFiles/tf.dir/src/tf.cpp.o
+.PHONY : src/tf.cpp.o
+
+src/tf.i: src/tf.cpp.i
+.PHONY : src/tf.i
+
+# target to preprocess a source file
+src/tf.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tf.dir/build.make CMakeFiles/tf.dir/src/tf.cpp.i
+.PHONY : src/tf.cpp.i
+
+src/tf.s: src/tf.cpp.s
+.PHONY : src/tf.s
+
+# target to generate assembly for a file
+src/tf.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tf.dir/build.make CMakeFiles/tf.dir/src/tf.cpp.s
+.PHONY : src/tf.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -288,12 +325,16 @@ help:
 	@echo "... uninstall"
 	@echo "... stereo_camera_node"
 	@echo "... stereo_point_cloud_generator"
+	@echo "... tf"
 	@echo "... src/stereo_camera_node.o"
 	@echo "... src/stereo_camera_node.i"
 	@echo "... src/stereo_camera_node.s"
 	@echo "... src/stereo_point_cloud_generator.o"
 	@echo "... src/stereo_point_cloud_generator.i"
 	@echo "... src/stereo_point_cloud_generator.s"
+	@echo "... src/tf.o"
+	@echo "... src/tf.i"
+	@echo "... src/tf.s"
 .PHONY : help
 
 

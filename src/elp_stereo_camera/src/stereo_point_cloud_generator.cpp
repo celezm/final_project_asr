@@ -31,35 +31,34 @@ public:
     {
         RCLCPP_INFO(this->get_logger(), "Iniciando Stereo Point Cloud Generator (Color, Ajustes Densidad)...");
 
-        // --- Parámetros ---
-        // SGBM - ¡AJUSTA ESTOS VALORES EXPERIMENTALMENTE!
+        // Parámetros del SGBM (ajustar experimentalmente)
         int minDisparity = 0;
-        int numDisparities = 128; // Aumentado un poco más
-        int blockSize = 5;       // Reducido para más detalle (puede aumentar ruido)
+        int numDisparities = 128;
+        int blockSize = 5;
         int P1 = 8 * 3 * blockSize * blockSize;
         int P2 = 32 * 3 * blockSize * blockSize;
         int disp12MaxDiff = 1;
         int preFilterCap = 63;
-        int uniquenessRatio = 5;  // Reducido para permitir más matches (puede aumentar ruido)
-        int speckleWindowSize = 50; // Reducido (o 0 para desactivar -> más densidad y ruido)
-        int speckleRange = 2;     // Reducido
+        int uniquenessRatio = 5;
+        int speckleWindowSize = 50;
+        int speckleRange = 2;
         int mode = cv::StereoSGBM::MODE_SGBM_3WAY;
 
-        // SOR Filter (Parámetros si se activa)
+        // SOR Filter
         sor_mean_k_ = 50;
         sor_stddev_thresh_ = 1.0;
 
-        // Frame ID - Cambiado al frame óptico (¡ASEGÚRATE QUE EXISTE EN TU TF!)
-        point_cloud_frame_id_ = "camera_link"; // O el nombre correcto en tu sistema TF
+        // Frame ID
+        point_cloud_frame_id_ = "camera_link"; 
 
-        // --- Inicialización SGBM ---
+        // Inicializar SGBM
         stereoSGBM_ = cv::StereoSGBM::create(
             minDisparity, numDisparities, blockSize, P1, P2, disp12MaxDiff,
             preFilterCap, uniquenessRatio, speckleWindowSize, speckleRange, mode);
         RCLCPP_INFO(this->get_logger(), "StereoSGBM params: numDisp=%d, blkSize=%d, uniqueRatio=%d, speckleWin=%d",
                     numDisparities, blockSize, uniquenessRatio, speckleWindowSize);
 
-        // --- Suscriptores y Publicador (sin cambios en la lógica) ---
+        // Suscriptores y Publicador
         left_camera_info_subscriber_ = this->create_subscription<sensor_msgs::msg::CameraInfo>(
             "/stereo/left/camera_info", 10,
             std::bind(&StereoPointCloudGenerator::left_camera_info_callback, this, std::placeholders::_1));
@@ -78,56 +77,49 @@ public:
     }
 
 private:
-    // Callbacks de CameraInfo (sin cambios)
-    void left_camera_info_callback(const sensor_msgs::msg::CameraInfo::SharedPtr msg) { /* ... igual que antes ... */
+    void left_camera_info_callback(const sensor_msgs::msg::CameraInfo::SharedPtr msg) {
         if (!left_info_ready_) {
             fx_ = msg->k[0]; cx_ = msg->k[2]; cy_ = msg->k[5];
             left_info_ready_ = true;
             RCLCPP_INFO_ONCE(this->get_logger(), "Info cámara izquierda OK (fx=%.2f, cx=%.2f, cy=%.2f).", fx_, cx_, cy_);
         }
     }
-    void right_camera_info_callback(const sensor_msgs::msg::CameraInfo::SharedPtr msg) { /* ... igual que antes ... */
-         if (!right_info_ready_) {
+    void right_camera_info_callback(const sensor_msgs::msg::CameraInfo::SharedPtr msg) {
+        if (!right_info_ready_) {
             double p_fx = msg->p[0]; double p_tx = msg->p[3];
             if (std::abs(p_fx) > 1e-6) {
                  baseline_ = -p_tx / p_fx;
                  right_info_ready_ = true;
                  RCLCPP_INFO_ONCE(this->get_logger(), "Info cámara derecha OK (baseline=%.4f m).", baseline_);
-                 if (std::abs(baseline_) < 1e-4) { /* Warning baseline pequeña */ }
-            } else { /* Error fx' cero */ }
-         }
+            } else {
+                // Error, fx es 0
+            }
+        }
     }
 
     void image_callback(const sensor_msgs::msg::Image::ConstSharedPtr& left_msg,
                         const sensor_msgs::msg::Image::ConstSharedPtr& right_msg)
     {
-        if (!left_info_ready_ || !right_info_ready_) { /* Esperando info */ return; }
+        if (!left_info_ready_ || !right_info_ready_) { return; }
 
-        // Conversión de imágenes (igual que antes)
         cv_bridge::CvImagePtr left_cv_ptr_mono, right_cv_ptr_mono, left_cv_ptr_color;
-        try { /* ... igual que antes ... */
+        try {
             left_cv_ptr_color = cv_bridge::toCvCopy(left_msg, sensor_msgs::image_encodings::BGR8);
             left_cv_ptr_mono = cv_bridge::toCvCopy(left_msg, sensor_msgs::image_encodings::MONO8);
             right_cv_ptr_mono = cv_bridge::toCvCopy(right_msg, sensor_msgs::image_encodings::MONO8);
-        } catch (const cv_bridge::Exception& e) { /* Error cv_bridge */ return; }
+        } catch (const cv_bridge::Exception& e) {
+            return;
+        }
 
-        // --- Calcular Disparidad ---
+        // Calcular disparidad
         cv::Mat disparity_sgbm;
-        auto start_time = this->get_clock()->now(); // Medir tiempo (opcional)
         stereoSGBM_->compute(left_cv_ptr_mono->image, right_cv_ptr_mono->image, disparity_sgbm);
-        auto end_time = this->get_clock()->now(); // Medir tiempo (opcional)
-        // RCLCPP_INFO(this->get_logger(), "Tiempo SGBM: %.4f s", (end_time - start_time).seconds()); // Descomenta para ver tiempo
 
+        // Convertir disparidad a formato de 32F
         cv::Mat disparity;
         disparity_sgbm.convertTo(disparity, CV_32F, 1.0 / 16.0);
 
-        // --- Visualizar Disparidad (Opcional, útil para debug) ---
-        // cv::Mat disparity_display;
-        // cv::normalize(disparity, disparity_display, 0, 255, cv::NORM_MINMAX, CV_8U);
-        // cv::imshow("Disparidad SGBM", disparity_display);
-        // cv::waitKey(1); // Necesario para que imshow funcione
-
-        // --- Generar Point Cloud con Color ---
+        // Generar Point Cloud con Color
         pcl::PointCloud<pcl::PointXYZRGB>::Ptr cloud(new pcl::PointCloud<pcl::PointXYZRGB>);
         cloud->points.reserve(disparity.rows * disparity.cols);
         float min_disparity_threshold = 0.5;
@@ -152,18 +144,18 @@ private:
                     continue;
                 }
 
-                float Z = (baseline_ * fx_) / disp;
-                if (Z > max_depth_threshold || Z <= 0) {
+                float Zc = (baseline_ * fx_) / disp;
+                if (Zc > max_depth_threshold || Zc <= 0) {
                     point.x = point.y = point.z = std::numeric_limits<float>::quiet_NaN();
                     point.r = point.g = point.b = 0;
                     continue;
                 }
 
-                float X = (j - cx_) * Z / fx_;
-                float Y = (i - cy_) * Z / fx_;
-                point.x = X;
-                point.y = Y;
-                point.z = Z;
+                float Xc = (j - cx_) * Zc / fx_; // La coordenada X se calcula normalmente
+                float Yc = (i - cy_) * Zc / fx_; // Para Y se mantiene la fórmula
+                point.x = Zc; // Movimiento hacia el eje X
+                point.y = -Yc; // No se modifica Y
+                point.z = -Xc; // La distancia Z se calcula correctamente
 
                 const cv::Vec3b& color = left_color_image.at<cv::Vec3b>(i, j);
                 point.b = color[0];
@@ -172,39 +164,19 @@ private:
             }
         }
 
-        // RCLCPP_INFO(this->get_logger(), "Puntos crudos generados: %ld", cloud->points.size()); // Descomenta para ver densidad
+        // Filtrar nube de puntos (opcional)
+        pcl::PointCloud<pcl::PointXYZRGB>::Ptr cloud_filtered = cloud;
 
-        // --- Filtrar Point Cloud (SOR) ---
-        // Comentado para MAXIMA densidad cruda. Descomenta si hay demasiado ruido.
-        /*
-        pcl::PointCloud<pcl::PointXYZRGB>::Ptr cloud_filtered(new pcl::PointCloud<pcl::PointXYZRGB>);
-        if (!cloud->points.empty()) {
-            RCLCPP_INFO_ONCE(this->get_logger(), "Aplicando filtro SOR (MeanK=%d, StdDev=%.1f)...", sor_mean_k_, sor_stddev_thresh_);
-            pcl::StatisticalOutlierRemoval<pcl::PointXYZRGB> sor;
-            sor.setInputCloud(cloud);
-            sor.setMeanK(sor_mean_k_);
-            sor.setStddevMulThresh(sor_stddev_thresh_);
-            sor.filter(*cloud_filtered);
-            // RCLCPP_INFO(this->get_logger(), "Puntos después de SOR: %ld", cloud_filtered->points.size());
-        } else {
-            cloud_filtered = cloud; // Nube vacía
-        }
-        */
-        // Para usar la nube SIN filtrar SOR:
-        pcl::PointCloud<pcl::PointXYZRGB>::Ptr cloud_filtered = cloud; // Asigna la nube cruda a la que se va a publicar
-
-
-        // --- Publicar Point Cloud ---
+        // Publicar Point Cloud
         if (!cloud_filtered->points.empty()) {
             sensor_msgs::msg::PointCloud2 output_cloud_msg;
             pcl::toROSMsg(*cloud_filtered, output_cloud_msg);
-            output_cloud_msg.header.stamp = left_msg->header.stamp; // Timestamp sincronizado
-            output_cloud_msg.header.frame_id = point_cloud_frame_id_; // Frame ID corregido
+            output_cloud_msg.header.stamp = left_msg->header.stamp;
+            output_cloud_msg.header.frame_id = point_cloud_frame_id_;
             point_cloud_publisher_->publish(output_cloud_msg);
         }
     }
 
-    // Miembros (igual que antes)
     message_filters::Subscriber<sensor_msgs::msg::Image> left_image_sub_;
     message_filters::Subscriber<sensor_msgs::msg::Image> right_image_sub_;
     std::shared_ptr<message_filters::Synchronizer<ApproxSyncPolicy>> sync_;
@@ -213,7 +185,7 @@ private:
     rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr point_cloud_publisher_;
     cv::Ptr<cv::StereoSGBM> stereoSGBM_;
     bool left_info_ready_, right_info_ready_;
-    double baseline_, fx_, cx_, cy_;
+    double baseline_, fx_, cx_, cy_, fy_;
     int sor_mean_k_;
     double sor_stddev_thresh_;
     std::string point_cloud_frame_id_;

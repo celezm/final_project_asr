@@ -38,6 +38,7 @@ using std::placeholders::_2;
 DetectionTo3DfromPCNode::DetectionTo3DfromPCNode()
 : Node("detection_to_3d_from_pc2_node")
 {
+  fprintf(stderr, "DetectionTo3DfromPCNode::DetectionTo3DfromPCNode()\n");
   pc2_sub_ = std::make_shared<message_filters::Subscriber<sensor_msgs::msg::PointCloud2>>(
     this, "input_pointcloud", rclcpp::SensorDataQoS().get_rmw_qos_profile());
   detection_sub_ =
@@ -56,7 +57,7 @@ DetectionTo3DfromPCNode::callback_sync(
   const sensor_msgs::msg::PointCloud2::ConstSharedPtr & pc_msg,
   const vision_msgs::msg::Detection2DArray::ConstSharedPtr & detection_msg)
 {
-  if (detection_pub_->get_subscription_count() > 0) {
+  
     pcl::PointCloud<pcl::PointXYZ>::Ptr pc(new pcl::PointCloud<pcl::PointXYZ>);
     pcl::fromROSMsg(*pc_msg, *pc);
 
@@ -75,6 +76,7 @@ DetectionTo3DfromPCNode::callback_sync(
       detection_3d_msg.bbox.center.position.x = center.x;
       detection_3d_msg.bbox.center.position.y = center.y;
       detection_3d_msg.bbox.center.position.z = center.z;
+      RCLCPP_INFO(get_logger(), "Detection at (%f, %f, %f)", center.x, center.y, center.z);
 
       if (!std::isnan(center.x) && !std::isinf(center.x)) {
         detections_3d_msg.detections.push_back(detection_3d_msg);
@@ -84,7 +86,7 @@ DetectionTo3DfromPCNode::callback_sync(
     if (!detections_3d_msg.detections.empty()) {
       detection_pub_->publish(detections_3d_msg);
     }
-  }
+  
 }
 
-}  // namespace camera
+}  // namespace depth_worker

@@ -23,8 +23,23 @@ CMakeFiles/depth_worker.dir/src/depth_worker/DetectionTo3DfromPCNode.cpp.o: /hom
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
   /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__type_support.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp \
+  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp \
   /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp \
@@ -253,7 +268,9 @@ CMakeFiles/depth_worker.dir/src/depth_worker/DetectionTo3DfromPCNode.cpp.o: /hom
   /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/detail/node_interfaces_helpers.hpp \
   /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_base_interface.hpp \
   /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_clock_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_logging_interface.hpp \
   /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_services_interface.hpp \
   /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_timers_interface.hpp \
   /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_topics_interface.hpp \
   /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_base.hpp \
@@ -263,9 +280,11 @@ CMakeFiles/depth_worker.dir/src/depth_worker/DetectionTo3DfromPCNode.cpp.o: /hom
   /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_clock_interface_traits.hpp \
   /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp \
   /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_logging_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_logging_interface_traits.hpp \
   /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp \
   /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface_traits.hpp \
   /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp \
+  /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_services_interface_traits.hpp \
   /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_time_source_interface.hpp \
   /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_timers_interface.hpp \
   /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_timers_interface_traits.hpp \
@@ -457,6 +476,40 @@ CMakeFiles/depth_worker.dir/src/depth_worker/DetectionTo3DfromPCNode.cpp.o: /hom
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__type_support.hpp \
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/header.hpp \
   /opt/ros/jazzy/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/tf2/tf2/LinearMath/Matrix3x3.hpp \
+  /opt/ros/jazzy/include/tf2/tf2/LinearMath/MinMax.hpp \
+  /opt/ros/jazzy/include/tf2/tf2/LinearMath/QuadWord.hpp \
+  /opt/ros/jazzy/include/tf2/tf2/LinearMath/Quaternion.hpp \
+  /opt/ros/jazzy/include/tf2/tf2/LinearMath/Scalar.hpp \
+  /opt/ros/jazzy/include/tf2/tf2/LinearMath/Transform.hpp \
+  /opt/ros/jazzy/include/tf2/tf2/LinearMath/Vector3.hpp \
+  /opt/ros/jazzy/include/tf2/tf2/buffer_core.hpp \
+  /opt/ros/jazzy/include/tf2/tf2/buffer_core_interface.hpp \
+  /opt/ros/jazzy/include/tf2/tf2/convert.hpp \
+  /opt/ros/jazzy/include/tf2/tf2/exceptions.hpp \
+  /opt/ros/jazzy/include/tf2/tf2/impl/convert.hpp \
+  /opt/ros/jazzy/include/tf2/tf2/time.hpp \
+  /opt/ros/jazzy/include/tf2/tf2/transform_datatypes.hpp \
+  /opt/ros/jazzy/include/tf2/tf2/transform_storage.hpp \
+  /opt/ros/jazzy/include/tf2/tf2/visibility_control.h \
+  /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__builder.hpp \
+  /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__struct.hpp \
+  /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__traits.hpp \
+  /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__type_support.hpp \
+  /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/tf_message.hpp \
+  /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__builder.hpp \
+  /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__struct.hpp \
+  /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__traits.hpp \
+  /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__type_support.hpp \
+  /opt/ros/jazzy/include/tf2_msgs/tf2_msgs/srv/frame_graph.hpp \
+  /opt/ros/jazzy/include/tf2_ros/tf2_ros/async_buffer_interface.h \
+  /opt/ros/jazzy/include/tf2_ros/tf2_ros/buffer.h \
+  /opt/ros/jazzy/include/tf2_ros/tf2_ros/buffer_interface.h \
+  /opt/ros/jazzy/include/tf2_ros/tf2_ros/create_timer_interface.h \
+  /opt/ros/jazzy/include/tf2_ros/tf2_ros/qos.hpp \
+  /opt/ros/jazzy/include/tf2_ros/tf2_ros/transform_listener.h \
+  /opt/ros/jazzy/include/tf2_ros/tf2_ros/visibility_control.h \
   /opt/ros/jazzy/include/tracetools/tracetools/config.h \
   /opt/ros/jazzy/include/tracetools/tracetools/tracetools.h \
   /opt/ros/jazzy/include/tracetools/tracetools/utils.hpp \
@@ -1163,6 +1216,7 @@ CMakeFiles/depth_worker.dir/src/depth_worker/DetectionTo3DfromPCNode.cpp.o: /hom
   /usr/include/c++/13/cassert \
   /usr/include/c++/13/cctype \
   /usr/include/c++/13/cerrno \
+  /usr/include/c++/13/cfloat \
   /usr/include/c++/13/chrono \
   /usr/include/c++/13/climits \
   /usr/include/c++/13/clocale \
@@ -1206,6 +1260,7 @@ CMakeFiles/depth_worker.dir/src/depth_worker/DetectionTo3DfromPCNode.cpp.o: /hom
   /usr/include/c++/13/list \
   /usr/include/c++/13/locale \
   /usr/include/c++/13/map \
+  /usr/include/c++/13/math.h \
   /usr/include/c++/13/memory \
   /usr/include/c++/13/mutex \
   /usr/include/c++/13/new \
@@ -1641,6 +1696,7 @@ CMakeFiles/depth_worker.dir/src/depth_worker/DetectionTo3DfromPCNode.cpp.o: /hom
   /usr/include/x86_64-linux-gnu/sys/types.h \
   /usr/include/x86_64-linux-gnu/sys/ucontext.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/emmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/mm_malloc.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/mmintrin.h \
@@ -3352,6 +3408,8 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h:
 
+/usr/lib/gcc/x86_64-linux-gnu/13/include/float.h:
+
 /usr/lib/gcc/x86_64-linux-gnu/13/include/emmintrin.h:
 
 /usr/include/x86_64-linux-gnu/sys/ucontext.h:
@@ -3492,10 +3550,6 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
 
-/usr/include/x86_64-linux-gnu/bits/setjmp.h:
-
-/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
-
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
 /usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
@@ -3506,11 +3560,7 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
-/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
-
 /usr/include/x86_64-linux-gnu/bits/fcntl.h:
-
-/usr/include/x86_64-linux-gnu/bits/errno.h:
 
 /usr/include/x86_64-linux-gnu/bits/dirent.h:
 
@@ -3556,13 +3606,9 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /usr/include/pcl-1.14/pcl/io/lzf.h:
 
-/usr/include/pcl-1.14/pcl/exceptions.h:
-
 /usr/include/pcl-1.14/pcl/console/print.h:
 
 /usr/include/pcl-1.14/pcl/common/copy_point.h:
-
-/usr/include/pcl-1.14/pcl/Vertices.h:
 
 /usr/include/pcl-1.14/pcl/PolygonMesh.h:
 
@@ -3830,8 +3876,6 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /usr/include/eigen3/Eigen/Core:
 
-/usr/include/dirent.h:
-
 /usr/include/ctype.h:
 
 /usr/include/c++/13/version:
@@ -3899,6 +3943,8 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
 /usr/include/c++/13/memory:
+
+/usr/include/c++/13/math.h:
 
 /usr/include/c++/13/list:
 
@@ -4048,105 +4094,87 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /usr/include/c++/13/bits/shared_ptr_atomic.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
+/usr/include/c++/13/bits/refwrap.h:
 
-/usr/include/boost/config/stdlib/libstdcpp3.hpp:
+/usr/include/c++/13/bits/ptr_traits.h:
 
-/usr/include/boost/config/platform/linux.hpp:
+/usr/include/c++/13/bits/predefined_ops.h:
 
-/usr/include/boost/config/no_tr1/cmath.hpp:
+/usr/include/c++/13/bits/ostream.tcc:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__builder.hpp:
+/usr/include/c++/13/bits/node_handle.h:
 
-/usr/include/boost/config/helper_macros.hpp:
+/usr/include/c++/13/bits/new_allocator.h:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp:
+/usr/include/c++/13/bits/move.h:
 
-/usr/include/eigen3/Eigen/Geometry:
+/usr/include/c++/13/bits/localefwd.h:
 
-/opt/ros/jazzy/include/rmw/rmw/message_sequence.h:
+/usr/include/c++/13/bits/locale_facets_nonio.h:
 
-/usr/include/boost/concept/detail/concept_undef.hpp:
-
-/usr/include/boost/assert.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/type_adapter.hpp:
-
-/usr/include/boost/algorithm/string/trim.hpp:
-
-/usr/include/boost/config/detail/suffix.hpp:
+/usr/include/c++/13/bits/locale_facets.tcc:
 
 /usr/include/c++/13/tr1/hypergeometric.tcc:
 
 /usr/include/c++/13/bits/locale_facets.h:
 
-/usr/include/boost/mpl/aux_/preprocessed/gcc/less.hpp:
+/usr/include/c++/13/bits/list.tcc:
 
-/usr/include/c++/13/bitset:
+/usr/include/c++/13/bits/istream.tcc:
 
-/usr/include/boost/algorithm/string/detail/trim.hpp:
+/usr/include/c++/13/bits/ios_base.h:
 
-/usr/include/eigen3/Eigen/src/Core/CoreEvaluators.h:
+/usr/include/c++/13/bits/invoke.h:
 
-/usr/include/boost/algorithm/string/detail/finder.hpp:
+/usr/include/c++/13/bits/hashtable_policy.h:
 
-/usr/include/boost/algorithm/string/constants.hpp:
+/usr/include/c++/13/bits/hashtable.h:
 
-/usr/include/linux/types.h:
+/usr/include/c++/13/bits/fstream.tcc:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp:
+/usr/include/eigen3/Eigen/src/Core/util/SymbolicIndex.h:
 
-/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+/usr/include/c++/13/bits/specfun.h:
 
-/usr/include/boost/algorithm/string/classification.hpp:
+/usr/include/c++/13/bits/exception_ptr.h:
 
-/usr/include/boost/move/detail/meta_utils_core.hpp:
+/usr/include/c++/13/bits/exception_defines.h:
 
-/usr/include/asm-generic/errno-base.h:
+/usr/include/c++/13/bits/exception.h:
 
-/usr/include/boost/intrusive/detail/mpl.hpp:
+/usr/include/c++/13/bits/erase_if.h:
 
-/usr/include/asm-generic/types.h:
+/usr/include/c++/13/bits/cxxabi_forced.h:
 
-/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field__struct.h:
+/usr/include/c++/13/bits/cpp_type_traits.h:
 
-/opt/ros/jazzy/include/vision_msgs/vision_msgs/msg/detail/detection2_d_array__builder.hpp:
+/usr/include/c++/13/bits/concept_check.h:
 
-/opt/ros/jazzy/include/vision_msgs/vision_msgs/msg/detail/point2_d__traits.hpp:
+/usr/include/c++/13/bits/codecvt.h:
 
-/opt/ros/jazzy/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis_with_pose__traits.hpp:
+/usr/include/c++/13/bits/charconv.h:
 
-/usr/include/x86_64-linux-gnu/bits/locale.h:
+/usr/include/c++/13/bits/basic_string.h:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__type_support.hpp:
+/usr/include/c++/13/bits/basic_ios.h:
+
+/usr/include/c++/13/bits/atomic_lockfree_defines.h:
 
 /opt/ros/jazzy/include/vision_msgs/vision_msgs/msg/detail/detection3_d_array__traits.hpp:
 
 /usr/include/boost/preprocessor/repeat.hpp:
 
-/usr/include/assert.h:
-
-/usr/include/boost/mpl/aux_/config/has_xxx.hpp:
-
 /opt/ros/jazzy/include/vision_msgs/vision_msgs/msg/detail/detection3_d__traits.hpp:
 
 /opt/ros/jazzy/include/vision_msgs/vision_msgs/msg/detail/detection3_d__struct.hpp:
 
-/opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/type_source__struct.h:
-
-/opt/ros/jazzy/include/rcutils/rcutils/error_handling.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/publisher_factory.hpp:
+/opt/ros/jazzy/include/pcl_msgs/pcl_msgs/msg/vertices.hpp:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp:
-
-/opt/ros/jazzy/include/pcl_msgs/pcl_msgs/msg/vertices.hpp:
 
 /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/point_field__traits.hpp:
 
 /usr/include/boost/type_traits/is_class.hpp:
-
-/usr/include/boost/algorithm/string/detail/classification.hpp:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp:
 
@@ -4156,11 +4184,11 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /usr/include/boost/preprocessor/list/limits/fold_left_256.hpp:
 
-/usr/include/c++/13/bits/stl_uninitialized.h:
+/opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/type_source__struct.h:
 
-/opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/srv/get_type_description.h:
+/opt/ros/jazzy/include/rcutils/rcutils/error_handling.h:
 
-/usr/include/boost/config/detail/posix_features.hpp:
+/opt/ros/jazzy/include/rclcpp/rclcpp/publisher_factory.hpp:
 
 /opt/ros/jazzy/include/rmw/rmw/network_flow_endpoint_array.h:
 
@@ -4168,21 +4196,77 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /opt/ros/jazzy/include/tracetools/tracetools/config.h:
 
+/opt/ros/jazzy/include/tf2_ros/tf2_ros/visibility_control.h:
+
+/opt/ros/jazzy/include/tf2_ros/tf2_ros/transform_listener.h:
+
+/usr/include/boost/type_traits/make_unsigned.hpp:
+
+/opt/ros/jazzy/include/message_filters/message_filters/visibility_control.h:
+
+/opt/ros/jazzy/include/message_filters/message_filters/synchronizer.h:
+
+/usr/include/pcl-1.14/pcl/exceptions.h:
+
+/opt/ros/jazzy/include/tf2_ros/tf2_ros/buffer_interface.h:
+
+/usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h:
+
+/usr/include/pcl-1.14/pcl/impl/point_types.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/serialization.hpp:
+
+/opt/ros/jazzy/include/tf2_msgs/tf2_msgs/srv/frame_graph.hpp:
+
+/opt/ros/jazzy/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__struct.hpp:
+
+/usr/include/pcl-1.14/pcl/common/concatenate.h:
+
+/opt/ros/jazzy/include/rmw/rmw/domain_id.h:
+
+/usr/include/boost/preprocessor/arithmetic/mod.hpp:
+
+/usr/include/pcl-1.14/pcl/Vertices.h:
+
+/opt/ros/jazzy/include/tf2/tf2/exceptions.hpp:
+
+/opt/ros/jazzy/include/tf2/tf2/LinearMath/Transform.hpp:
+
+/usr/include/dirent.h:
+
+/opt/ros/jazzy/include/tf2/tf2/LinearMath/Scalar.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
+
+/usr/include/boost/type_traits/negation.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+
+/opt/ros/jazzy/include/tf2/tf2/LinearMath/QuadWord.hpp:
+
+/opt/ros/jazzy/include/rcutils/rcutils/snprintf.h:
+
+/usr/include/boost/iterator/iterator_concepts.hpp:
+
+/usr/include/boost/mpl/aux_/arity.hpp:
+
+/usr/include/pcl-1.14/pcl/point_types.h:
+
+/usr/include/boost/preprocessor/arithmetic/limits/inc_256.hpp:
+
 /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__traits.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:
 
 /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:
 
-/usr/include/alloca.h:
-
 /usr/include/x86_64-linux-gnu/bits/mman-linux.h:
 
 /usr/include/boost/preprocessor/array/data.hpp:
 
 /usr/include/boost/type_traits/remove_reference.hpp:
-
-/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp:
 
 /usr/include/boost/mpl/aux_/inserter_algorithm.hpp:
 
@@ -4192,11 +4276,9 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /usr/include/boost/interprocess/detail/os_thread_functions.hpp:
 
-/opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.hpp:
+/opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__builder.hpp:
 
-/usr/include/asm-generic/posix_types.h:
-
-/opt/ros/jazzy/include/rmw/rmw/events_statuses/incompatible_type.h:
+/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:
 
 /usr/include/pcl-1.14/pcl/ModelCoefficients.h:
 
@@ -4211,6 +4293,8 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__traits.hpp:
 
 /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/executors/executor_notify_waitable.hpp:
 
 /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__type_support.hpp:
 
@@ -4230,17 +4314,23 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /usr/include/boost/mpl/bool_fwd.hpp:
 
+/opt/ros/jazzy/include/tf2/tf2/LinearMath/Matrix3x3.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/util/BlasUtil.h:
+
+/opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h:
+
 /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/intra_process_manager.hpp:
 
 /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_source__struct.h:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__traits.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:
-
 /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field_type__struct.h:
 
 /usr/include/boost/mpl/aux_/common_name_wknd.hpp:
+
+/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/field__struct.h:
 
 /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
 
@@ -4250,27 +4340,13 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-/usr/include/boost/algorithm/string/detail/predicate.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/message_memory_strategy.hpp:
-
 /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h:
 
 /opt/ros/jazzy/include/rmw/rmw/topic_endpoint_info.h:
 
-/usr/include/boost/config/detail/select_stdlib_config.hpp:
-
-/usr/include/boost/mpl/equal_to.hpp:
-
 /usr/include/eigen3/Eigen/src/Geometry/Umeyama.h:
 
 /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/types.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
-
-/usr/include/boost/concept/assert.hpp:
 
 /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/api/serialization_support_interface.h:
 
@@ -4287,6 +4363,10 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/rosidl_generator_c__visibility_control.h:
 
 /usr/include/boost/type_traits/function_traits.hpp:
+
+/usr/include/boost/type_traits/detail/has_binary_operator.hpp:
+
+/opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/api/serialization_support.h:
 
 /opt/ros/jazzy/include/vision_msgs/vision_msgs/msg/detail/detection2_d__traits.hpp:
 
@@ -4320,25 +4400,19 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /opt/ros/jazzy/include/rmw/rmw/ret_types.h:
 
-/usr/include/boost/concept/detail/backward_compatibility.hpp:
-
 /usr/include/c++/13/bits/range_access.h:
 
 /opt/ros/jazzy/include/rmw/rmw/qos_string_conversions.h:
 
-/usr/include/c++/13/bits/basic_ios.h:
-
-/usr/include/boost/concept/usage.hpp:
+/opt/ros/jazzy/include/tf2_ros/tf2_ros/create_timer_interface.h:
 
 /opt/ros/jazzy/include/rmw/rmw/network_flow_endpoint.h:
 
+/usr/include/eigen3/Eigen/Geometry:
+
+/opt/ros/jazzy/include/rmw/rmw/message_sequence.h:
+
 /opt/ros/jazzy/include/rmw/rmw/macros.h:
-
-/opt/ros/jazzy/include/rmw/rmw/impl/cpp/demangle.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/executors/executor_entities_collector.hpp:
-
-/opt/ros/jazzy/include/rcl/rcl/event_callback.h:
 
 /usr/include/c++/13/variant:
 
@@ -4346,11 +4420,11 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:
 
-/usr/include/boost/concept_check.hpp:
-
 /opt/ros/jazzy/include/rclcpp/rclcpp/create_client.hpp:
 
 /opt/ros/jazzy/include/rmw/rmw/events_statuses/requested_deadline_missed.h:
+
+/opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/tf_message.hpp:
 
 /opt/ros/jazzy/include/rmw/rmw/events_statuses/message_lost.h:
 
@@ -4376,27 +4450,23 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp:
 
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+
+/usr/include/boost/concept/assert.hpp:
+
+/usr/include/boost/type_traits/is_enum.hpp:
+
+/usr/include/boost/type_traits/detail/config.hpp:
+
 /opt/ros/jazzy/include/rcutils/rcutils/visibility_control_macros.h:
 
 /opt/ros/jazzy/include/rcutils/rcutils/types/uint8_array.h:
 
 /opt/ros/jazzy/include/rcutils/rcutils/types/string_array.h:
 
-/usr/include/boost/mpl/vector/aux_/empty.hpp:
-
-/opt/ros/jazzy/include/rcutils/rcutils/types/rcutils_ret.h:
-
-/usr/include/boost/config/detail/cxx_composite.hpp:
-
-/usr/include/c++/13/bits/istream.tcc:
-
-/opt/ros/jazzy/include/rcutils/rcutils/snprintf.h:
-
-/usr/include/boost/type_traits/detail/config.hpp:
-
-/usr/include/boost/type_traits/is_enum.hpp:
-
 /opt/ros/jazzy/include/rcutils/rcutils/qsort.h:
+
+/usr/include/c++/13/cfloat:
 
 /opt/ros/jazzy/include/rmw/rmw/events_statuses/liveliness_lost.h:
 
@@ -4414,37 +4484,11 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /opt/ros/jazzy/include/rmw/rmw/qos_profiles.h:
 
+/opt/ros/jazzy/include/tf2/tf2/transform_datatypes.hpp:
+
 /opt/ros/jazzy/include/rmw/rmw/event.h:
 
-/usr/include/boost/preprocessor/arithmetic/add.hpp:
-
-/opt/ros/jazzy/include/rcpputils/rcpputils/time.hpp:
-
 /opt/ros/jazzy/include/rclcpp/rclcpp/event_handler.hpp:
-
-/usr/include/boost/iterator/iterator_traits.hpp:
-
-/usr/include/boost/preprocessor/arithmetic/detail/maximum_number.hpp:
-
-/usr/include/boost/config/compiler/gcc.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/detail/qos_parameters.hpp:
-
-/usr/include/eigen3/Eigen/src/misc/RealSvd2x2.h:
-
-/usr/include/boost/iterator/interoperable.hpp:
-
-/opt/ros/jazzy/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis__traits.hpp:
-
-/usr/include/boost/algorithm/string/find.hpp:
-
-/usr/include/boost/iterator/advance.hpp:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
-
-/usr/include/boost/mpl/find.hpp:
 
 /usr/include/c++/13/bits/alloc_traits.h:
 
@@ -4478,11 +4522,9 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/timer.hpp:
-
-/usr/include/asm-generic/int-ll64.h:
-
 /opt/ros/jazzy/include/rclcpp/rclcpp/time.hpp:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/create_intra_process_buffer.hpp:
 
@@ -4490,13 +4532,15 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/individual_type_description__struct.h:
 
+/usr/include/x86_64-linux-gnu/bits/stat.h:
+
+/usr/include/c++/13/limits:
+
+/usr/include/c++/13/bits/chrono.h:
+
+/usr/include/boost/mpl/aux_/is_msvc_eti_arg.hpp:
+
 /opt/ros/jazzy/include/rclcpp/rclcpp/subscription_wait_set_mask.hpp:
-
-/usr/include/c++/13/bits/requires_hosted.h:
-
-/usr/include/boost/iterator/detail/enable_if.hpp:
-
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:
 
 /usr/include/boost/mpl/and.hpp:
 
@@ -4524,8 +4568,6 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /usr/include/boost/mpl/aux_/config/arrays.hpp:
 
-/usr/include/c++/13/bits/predefined_ops.h:
-
 /usr/include/eigen3/Eigen/src/Core/PermutationMatrix.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/publisher_base.hpp:
@@ -4548,6 +4590,12 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_type_descriptions_interface.hpp:
 
+/opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__traits.hpp:
+
+/opt/ros/jazzy/include/tf2/tf2/impl/convert.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/set_parameters_atomically.hpp:
+
 /usr/include/c++/13/bits/stl_pair.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_timers_interface.hpp:
@@ -4556,7 +4604,11 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /usr/include/boost/numeric/conversion/detail/meta.hpp:
 
+/opt/ros/jazzy/include/tf2/tf2/LinearMath/Vector3.hpp:
+
 /usr/include/boost/numeric/conversion/detail/int_float_mixture.hpp:
+
+/opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/timex.h:
 
@@ -4598,25 +4650,91 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /usr/include/boost/preprocessor/control/deduce_d.hpp:
 
+/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_services_interface_traits.hpp:
+
+/usr/include/boost/mpl/aux_/preprocessed/gcc/equal_to.hpp:
+
+/usr/include/boost/mpl/size_fwd.hpp:
+
 /usr/include/c++/13/bits/unique_ptr.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_base_interface_traits.hpp:
 
-/opt/ros/jazzy/include/vision_msgs/vision_msgs/msg/detail/detection3_d_array__builder.hpp:
+/opt/ros/jazzy/include/tf2/tf2/convert.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/wait_result.hpp:
+/opt/ros/jazzy/include/vision_msgs/vision_msgs/msg/detail/detection2_d_array__type_support.hpp:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__struct.hpp:
+/usr/include/boost/interprocess/sync/file_lock.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/subscription_factory.hpp:
+/usr/include/x86_64-linux-gnu/bits/dirent_ext.h:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__type_support.hpp:
+/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp:
 
-/usr/include/eigen3/Eigen/src/Core/PartialReduxEvaluator.h:
+/opt/ros/jazzy/include/message_filters/message_filters/message_event.h:
 
-/usr/include/c++/13/backward/auto_ptr.h:
+/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_base.hpp:
 
-/usr/include/boost/mpl/aux_/preprocessed/gcc/plus.hpp:
+/opt/ros/jazzy/include/vision_msgs/vision_msgs/msg/detail/bounding_box3_d__struct.hpp:
+
+/opt/ros/jazzy/include/vision_msgs/vision_msgs/msg/detail/pose2_d__traits.hpp:
+
+/usr/include/boost/mpl/apply_fwd.hpp:
+
+/opt/ros/jazzy/include/rmw/rmw/security_options.h:
+
+/opt/ros/jazzy/include/rcutils/rcutils/allocator.h:
+
+/usr/include/c++/13/iostream:
+
+/usr/include/c++/13/bits/hash_bytes.h:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__struct.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_clock_interface.hpp:
+
+/opt/ros/jazzy/include/tf2/tf2/LinearMath/Quaternion.hpp:
+
+/opt/ros/jazzy/include/rcutils/rcutils/visibility_control.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_base_interface.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/visibility_control.hpp:
+
+/opt/ros/jazzy/include/rcutils/rcutils/types/char_array.h:
+
+/usr/include/x86_64-linux-gnu/bits/signal_ext.h:
+
+/opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/srv/detail/get_type_description__type_support.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/detail/resolve_enable_topic_statistics.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/MapBase.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/network_flow_endpoint.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/message_memory_strategy.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/boost/algorithm/string/detail/predicate.hpp:
+
+/usr/include/boost/preprocessor/arithmetic/detail/maximum_number.hpp:
+
+/usr/include/boost/iterator/iterator_traits.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/CommaInitializer.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/message_info.hpp:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp:
+
+/usr/include/boost/range/detail/has_member_size.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__type_support.hpp:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__type_support.hpp:
 
@@ -4628,43 +4746,11 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/timers_manager.hpp:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp:
+/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_description__struct.h:
 
 /opt/ros/jazzy/include/vision_msgs/vision_msgs/msg/detail/detection3_d__type_support.hpp:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__builder.hpp:
-
-/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/type_description__struct.h:
-
-/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__type_support.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/list_parameters_result.hpp:
-
-/usr/include/boost/mpl/aux_/config/eti.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/allocator/allocator_deleter.hpp:
-
-/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/sequence_bound.h:
-
-/usr/include/eigen3/Eigen/src/plugins/ReshapedMethods.h:
-
-/opt/ros/jazzy/include/vision_msgs/vision_msgs/msg/detection3_d_array.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_logging_interface.hpp:
-
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp:
-
-/usr/include/eigen3/Eigen/src/Core/products/TriangularSolverVector.h:
-
-/usr/include/boost/move/detail/config_begin.hpp:
-
-/usr/include/boost/mpl/long_fwd.hpp:
-
-/usr/include/boost/mpl/aux_/preprocessed/gcc/apply_fwd.hpp:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__traits.hpp:
 
@@ -4684,17 +4770,15 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /opt/ros/jazzy/include/rcl/rcl/visibility_control.h:
 
-/usr/include/x86_64-linux-gnu/bits/environments.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/loaned_message.hpp:
-
 /usr/include/boost/mpl/aux_/config/workaround.hpp:
 
-/home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__traits.hpp:
+/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp:
 
-/opt/ros/jazzy/include/rcl/rcl/types.h:
+/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_topics_interface.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:
+/opt/ros/jazzy/include/rcl/rcl/time.h:
+
+/opt/ros/jazzy/include/message_filters/message_filters/simple_filter.h:
 
 /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/identifier.h:
 
@@ -4706,14 +4790,6 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /opt/ros/jazzy/include/rcl/rcl/subscription.h:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/exceptions/exceptions.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/experimental/buffers/intra_process_buffer.hpp:
-
-/opt/ros/jazzy/include/rcl/rcl/service.h:
-
-/usr/include/boost/preprocessor/seq/transform.hpp:
-
 /opt/ros/jazzy/include/rmw/rmw/events_statuses/liveliness_changed.h:
 
 /usr/include/boost/mpl/aux_/traits_lambda_spec.hpp:
@@ -4724,6 +4800,10 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/subscription_intra_process_buffer.hpp:
 
+/usr/include/c++/13/bits/locale_classes.h:
+
+/opt/ros/jazzy/include/rcutils/rcutils/shared_library.h:
+
 /opt/ros/jazzy/include/rclcpp/rclcpp/topic_statistics_state.hpp:
 
 /opt/ros/jazzy/include/pcl_msgs/pcl_msgs/msg/polygon_mesh.hpp:
@@ -4731,6 +4811,20 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 /opt/ros/jazzy/include/pcl_msgs/pcl_msgs/msg/detail/point_indices__struct.hpp:
 
 /usr/include/boost/core/noncopyable.hpp:
+
+/opt/ros/jazzy/include/vision_msgs/vision_msgs/msg/detail/detection2_d_array__builder.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/executors/executor_entities_collector.hpp:
+
+/opt/ros/jazzy/include/rmw/rmw/impl/cpp/demangle.hpp:
+
+/opt/ros/jazzy/include/rcl/rcl/event_callback.h:
+
+/usr/include/c++/13/bits/requires_hosted.h:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:
+
+/usr/include/boost/iterator/detail/enable_if.hpp:
 
 /usr/include/boost/mpl/aux_/has_type.hpp:
 
@@ -4740,21 +4834,17 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/ros_message_intra_process_buffer.hpp:
 
-/usr/include/boost/utility/identity_type.hpp:
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__struct.hpp:
 
-/usr/include/boost/preprocessor/control/limits/while_256.hpp:
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__type_support.hpp:
 
-/usr/include/boost/interprocess/exceptions.hpp:
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
-/opt/ros/jazzy/include/rcl/rcl/context.h:
+/usr/include/boost/algorithm/string/classification.hpp:
 
-/usr/include/c++/13/bits/stl_tempbuf.h:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__traits.hpp:
+/usr/include/boost/move/detail/meta_utils_core.hpp:
 
 /usr/include/c++/13/bits/basic_string.tcc:
 
@@ -4774,33 +4864,15 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /opt/ros/jazzy/include/rcl/rcl/allocator.h:
 
+/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_logging_interface_traits.hpp:
+
 /usr/include/boost/mpl/aux_/config/integral.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/create_service.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/signum-generic.h:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/detail/subscription_callback_type_helper.hpp:
-
-/opt/ros/jazzy/include/pcl_msgs/pcl_msgs/msg/point_indices.hpp:
-
-/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:
+/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_logging_interface.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/get_message_type_support_handle.hpp:
-
-/opt/ros/jazzy/include/rcutils/rcutils/types/char_array.h:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__struct.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/signal_ext.h:
-
-/opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/srv/detail/get_type_description__type_support.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/detail/resolve_enable_topic_statistics.hpp:
 
 /opt/ros/jazzy/include/pcl_msgs/pcl_msgs/msg/detail/vertices__builder.hpp:
 
@@ -4824,27 +4896,227 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /opt/ros/jazzy/include/pcl_msgs/pcl_msgs/msg/detail/vertices__struct.hpp:
 
-/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:
+/opt/ros/jazzy/include/rcl/rcl/node.h:
 
-/usr/include/boost/mpl/aux_/O1_size_impl.hpp:
+/usr/include/boost/mpl/push_front.hpp:
 
-/opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp:
+/opt/ros/jazzy/include/rmw/rmw/event_callback_type.h:
 
-/usr/include/boost/mpl/aux_/numeric_op.hpp:
+/opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/static_storage.hpp:
 
-/usr/include/boost/preprocessor/control/detail/limits/while_256.hpp:
+/usr/include/boost/mpl/aux_/na.hpp:
+
+/opt/ros/jazzy/include/pcl_msgs/pcl_msgs/msg/detail/point_indices__traits.hpp:
+
+/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:
+
+/opt/ros/jazzy/include/tf2/tf2/buffer_core_interface.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__type_support.hpp:
+
+/usr/include/boost/interprocess/detail/timed_utils.hpp:
+
+/usr/include/boost/preprocessor/cat.hpp:
+
+/home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__struct.hpp:
+
+/usr/include/boost/type_traits/is_const.hpp:
+
+/usr/include/boost/numeric/conversion/detail/converter.hpp:
+
+/usr/include/boost/range/detail/msvc_has_iterator_workaround.hpp:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h:
+
+/opt/ros/jazzy/include/pcl_msgs/pcl_msgs/msg/detail/model_coefficients__traits.hpp:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+
+/usr/include/c++/13/cctype:
+
+/opt/ros/jazzy/include/rcpputils/rcpputils/scope_exit.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/environments.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/loaned_message.hpp:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:
+
+/usr/include/boost/predef/os/bsd.h:
+
+/opt/ros/jazzy/include/pcl_msgs/pcl_msgs/msg/detail/model_coefficients__builder.hpp:
+
+/opt/ros/jazzy/include/rcutils/rcutils/types/string_map.h:
+
+/usr/include/boost/type_traits/conjunction.hpp:
+
+/opt/ros/jazzy/include/pcl_msgs/pcl_msgs/msg/detail/polygon_mesh__type_support.hpp:
+
+/usr/include/boost/preprocessor/facilities/expand.hpp:
+
+/usr/include/c++/13/cwchar:
+
+/usr/include/boost/preprocessor/seq/enum.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp:
+
+/usr/include/boost/mpl/begin_end_fwd.hpp:
+
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/point_field__type_support.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp:
+
+/usr/include/boost/config/helper_macros.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/allocator/allocator_common.hpp:
+
+/usr/include/c++/13/debug/assertions.h:
+
+/usr/include/boost/mpl/placeholders.hpp:
+
+/usr/include/boost/mpl/aux_/preprocessed/gcc/apply_fwd.hpp:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__type_support.hpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h:
+
+/usr/include/boost/type_traits/is_signed.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/get_parameters.hpp:
+
+/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/sequence_bound.h:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/products/TriangularSolverVector.h:
+
+/usr/include/boost/move/detail/config_begin.hpp:
+
+/usr/include/boost/mpl/long_fwd.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_logging_interface.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/list_parameters_result.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/allocator/allocator_deleter.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_timers_interface_traits.hpp:
+
+/opt/ros/jazzy/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__type_support.hpp:
 
 /opt/ros/jazzy/include/rcutils/rcutils/testing/fault_injection.h:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__type_support.hpp:
-
 /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp:
+
+/opt/ros/jazzy/include/rmw/rmw/events_statuses/incompatible_type.h:
+
+/usr/include/asm-generic/posix_types.h:
+
+/usr/include/c++/13/bits/enable_special_members.h:
+
+/usr/include/boost/preprocessor/repetition/enum_binary_params.hpp:
+
+/usr/include/stdint.h:
+
+/usr/include/boost/mpl/aux_/preprocessed/gcc/vector.hpp:
+
+/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__builder.hpp:
+
+/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:
+
+/usr/include/boost/mpl/aux_/has_begin.hpp:
+
+/usr/include/c++/13/bits/uses_allocator.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_waitables_interface.hpp:
+
+/usr/include/boost/mpl/int_fwd.hpp:
+
+/opt/ros/jazzy/include/tf2/tf2/visibility_control.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/type_adapter.hpp:
+
+/usr/include/boost/assert.hpp:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/errno.h:
+
+/opt/ros/jazzy/include/tf2/tf2/buffer_core.hpp:
+
+/usr/include/boost/mpl/aux_/config/has_xxx.hpp:
+
+/usr/include/assert.h:
+
+/usr/include/c++/13/ext/aligned_buffer.h:
+
+/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/subscription.hpp:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp:
+
+/usr/include/limits.h:
+
+/opt/ros/jazzy/include/rmw/rmw/impl/config.h:
+
+/usr/include/boost/mpl/if.hpp:
+
+/opt/ros/jazzy/include/pcl_msgs/pcl_msgs/msg/detail/polygon_mesh__builder.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/signum-generic.h:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/detail/subscription_callback_type_helper.hpp:
+
+/opt/ros/jazzy/include/pcl_msgs/pcl_msgs/msg/point_indices.hpp:
+
+/usr/include/c++/13/bits/stl_uninitialized.h:
+
+/opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/srv/get_type_description.h:
+
+/usr/include/boost/config/detail/posix_features.hpp:
+
+/opt/ros/jazzy/include/rcpputils/rcpputils/time.hpp:
+
+/usr/include/boost/preprocessor/arithmetic/add.hpp:
+
+/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__traits.hpp:
+
+/usr/include/boost/mpl/vector/aux_/pop_front.hpp:
+
+/opt/ros/jazzy/include/rcpputils/rcpputils/shared_library.hpp:
+
+/usr/include/boost/mpl/vector/aux_/front.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__traits.hpp:
+
+/usr/include/boost/config/detail/select_platform_config.hpp:
+
+/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp:
+
+/opt/ros/jazzy/include/rcutils/rcutils/time.h:
+
+/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp:
 
 /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker/include/depth_worker/DetectionTo3DfromPCNode.hpp:
 
 /usr/include/boost/type_traits/is_arithmetic.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp:
 
 /usr/include/c++/13/condition_variable:
 
@@ -4857,6 +5129,88 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 /usr/include/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h:
 
 /usr/include/boost/type_traits/is_array.hpp:
+
+/opt/ros/jazzy/include/vision_msgs/vision_msgs/msg/detail/detection3_d_array__builder.hpp:
+
+/opt/ros/jazzy/include/rcl/rcl/wait.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:
+
+/home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/detection__traits.hpp:
+
+/opt/ros/jazzy/include/rcl/rcl/types.h:
+
+/usr/include/linux/types.h:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp:
+
+/usr/include/boost/algorithm/string/constants.hpp:
+
+/opt/ros/jazzy/include/rmw/rmw/discovery_options.h:
+
+/opt/ros/jazzy/include/message_filters/message_filters/parameter_adapter.h:
+
+/home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__struct.hpp:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h:
+
+/opt/ros/jazzy/include/pcl_msgs/pcl_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+
+/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:
+
+/opt/ros/jazzy/include/rcl/rcl/context.h:
+
+/opt/ros/jazzy/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__traits.hpp:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.hpp:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__type_support.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:
+
+/opt/ros/jazzy/include/rcl/rcl/macros.h:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__struct.hpp:
+
+/opt/ros/jazzy/include/rcpputils/rcpputils/filesystem_helper.hpp:
+
+/opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:
+
+/usr/include/boost/type_traits/has_plus_assign.hpp:
+
+/opt/ros/jazzy/include/pcl_msgs/pcl_msgs/msg/detail/point_indices__builder.hpp:
+
+/opt/ros/jazzy/include/pcl_msgs/pcl_msgs/msg/model_coefficients.hpp:
+
+/usr/include/boost/mpl/clear.hpp:
+
+/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp:
+
+/opt/ros/jazzy/include/rmw/rmw/publisher_options.h:
+
+/opt/ros/jazzy/include/rmw/rmw/localhost.h:
+
+/opt/ros/jazzy/include/rcl/rcl/timer.h:
+
+/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:
+
+/usr/include/boost/mpl/sequence_tag_fwd.hpp:
+
+/opt/ros/jazzy/include/rcl/rcl/service.h:
+
+/usr/include/boost/preprocessor/seq/transform.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/exceptions/exceptions.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/experimental/buffers/intra_process_buffer.hpp:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/dynamic_typesupport/dynamic_message.hpp:
+
+/usr/include/boost/interprocess/exceptions.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/arch/SSE/TypeCasting.h:
 
@@ -4872,6 +5226,8 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/subscription_content_filter_options.hpp:
 
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__builder.hpp:
+
 /opt/ros/jazzy/include/message_filters/message_filters/connection.h:
 
 /usr/include/c++/13/bits/std_abs.h:
@@ -4882,51 +5238,11 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /usr/include/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_long_long.hpp:
 
-/opt/ros/jazzy/include/message_filters/message_filters/signal9.h:
+/opt/ros/jazzy/include/rclcpp/rclcpp/timer.hpp:
 
-/usr/include/boost/mpl/aux_/has_begin.hpp:
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp:
 
-/usr/include/c++/13/bits/uses_allocator.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_waitables_interface.hpp:
-
-/usr/include/boost/mpl/int_fwd.hpp:
-
-/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__builder.hpp:
-
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp:
-
-/usr/include/c++/13/ext/aligned_buffer.h:
-
-/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/subscription.hpp:
-
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:
-
-/usr/include/pcl-1.14/pcl/common/concatenate.h:
-
-/opt/ros/jazzy/include/rmw/rmw/domain_id.h:
-
-/usr/include/boost/preprocessor/arithmetic/mod.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp:
-
-/usr/include/limits.h:
-
-/opt/ros/jazzy/include/rmw/rmw/impl/config.h:
-
-/usr/include/boost/mpl/if.hpp:
-
-/opt/ros/jazzy/include/pcl_msgs/pcl_msgs/msg/detail/polygon_mesh__builder.hpp:
-
-/opt/ros/jazzy/include/rcpputils/rcpputils/shared_library.hpp:
-
-/usr/include/boost/mpl/vector/aux_/front.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__traits.hpp:
-
-/usr/include/boost/config/detail/select_platform_config.hpp:
+/opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp:
 
 /usr/include/c++/13/string:
 
@@ -4935,6 +5251,8 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 /usr/include/eigen3/Eigen/src/Householder/BlockHouseholder.h:
 
 /usr/include/eigen3/Eigen/src/Core/util/IntegralConstant.h:
+
+/opt/ros/jazzy/include/tf2/tf2/transform_storage.hpp:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__builder.hpp:
 
@@ -4945,146 +5263,6 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:
 
 /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h:
-
-/usr/include/eigen3/Eigen/Householder:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/generic_client.hpp:
-
-/usr/include/boost/concept/detail/has_constraints.hpp:
-
-/opt/ros/jazzy/include/rmw/rmw/discovery_options.h:
-
-/opt/ros/jazzy/include/message_filters/message_filters/parameter_adapter.h:
-
-/home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/bounding_box3_d__struct.hpp:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h:
-
-/opt/ros/jazzy/include/pcl_msgs/pcl_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
-
-/opt/ros/jazzy/include/rcutils/rcutils/time.h:
-
-/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp:
-
-/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp:
-
-/usr/include/stdio.h:
-
-/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp:
-
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__struct.hpp:
-
-/usr/include/c++/13/bits/fstream.tcc:
-
-/opt/ros/jazzy/include/vision_msgs/vision_msgs/msg/detection2_d_array.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/mman_ext.h:
-
-/usr/include/boost/algorithm/string/compare.hpp:
-
-/opt/ros/jazzy/include/rcpputils/rcpputils/filesystem_helper.hpp:
-
-/opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:
-
-/usr/include/boost/type_traits/has_plus_assign.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h:
-
-/usr/include/pcl-1.14/pcl/impl/point_types.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/serialization.hpp:
-
-/opt/ros/jazzy/include/pcl_msgs/pcl_msgs/msg/detail/point_indices__builder.hpp:
-
-/opt/ros/jazzy/include/pcl_msgs/pcl_msgs/msg/model_coefficients.hpp:
-
-/usr/include/boost/mpl/clear.hpp:
-
-/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp:
-
-/opt/ros/jazzy/include/rmw/rmw/publisher_options.h:
-
-/opt/ros/jazzy/include/rmw/rmw/localhost.h:
-
-/opt/ros/jazzy/include/rcl/rcl/timer.h:
-
-/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:
-
-/usr/include/boost/mpl/sequence_tag_fwd.hpp:
-
-/usr/include/eigen3/Eigen/src/SVD/SVDBase.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/rate.hpp:
-
-/usr/include/boost/mpl/aux_/clear_impl.hpp:
-
-/usr/include/boost/mpl/aux_/has_apply.hpp:
-
-/usr/include/wctype.h:
-
-/usr/include/c++/13/mutex:
-
-/usr/include/boost/preprocessor/arithmetic/detail/is_maximum_number.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__traits.hpp:
-
-/usr/include/c++/13/debug/debug.h:
-
-/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
-
-/usr/include/sched.h:
-
-/usr/include/boost/mpl/times.hpp:
-
-/opt/ros/jazzy/include/rcutils/rcutils/visibility_control.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_clock_interface.hpp:
-
-/usr/include/eigen3/Eigen/src/LU/InverseImpl.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/init_options.hpp:
-
-/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp:
-
-/usr/include/boost/iterator/iterator_adaptor.hpp:
-
-/usr/include/eigen3/Eigen/src/Core/CommaInitializer.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/message_info.hpp:
-
-/opt/ros/jazzy/include/message_filters/message_filters/visibility_control.h:
-
-/opt/ros/jazzy/include/message_filters/message_filters/synchronizer.h:
-
-/opt/ros/jazzy/include/rcl/rcl/arguments.h:
-
-/usr/include/boost/preprocessor/control/while.hpp:
-
-/home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__struct.hpp:
-
-/usr/include/boost/predef/os/bsd/bsdi.h:
-
-/opt/ros/jazzy/include/message_filters/message_filters/message_event.h:
-
-/usr/include/x86_64-linux-gnu/bits/dirent_ext.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp:
-
-/opt/ros/jazzy/include/message_filters/message_filters/simple_filter.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h:
-
-/opt/ros/jazzy/include/pcl_msgs/pcl_msgs/msg/detail/model_coefficients__traits.hpp:
-
-/usr/include/c++/13/cctype:
-
-/opt/ros/jazzy/include/rcpputils/rcpputils/scope_exit.hpp:
 
 /usr/include/boost/intrusive/detail/config_end.hpp:
 
@@ -5100,37 +5278,101 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/image.hpp:
 
-/opt/ros/jazzy/include/rcl/rcl/macros.h:
+/usr/include/eigen3/Eigen/src/SVD/SVDBase.h:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:
+/opt/ros/jazzy/include/rclcpp/rclcpp/rate.hpp:
 
-/usr/include/asm-generic/errno.h:
+/usr/include/boost/mpl/aux_/clear_impl.hpp:
 
-/opt/ros/jazzy/include/rmw/rmw/names_and_types.h:
+/usr/include/boost/mpl/aux_/has_apply.hpp:
 
-/usr/include/boost/preprocessor/repetition/limits/repeat_256.hpp:
+/usr/include/wctype.h:
 
-/usr/include/pcl-1.14/pcl/common/impl/io.hpp:
+/usr/include/c++/13/mutex:
 
-/usr/include/boost/concept/detail/concept_def.hpp:
+/usr/include/boost/preprocessor/arithmetic/detail/is_maximum_number.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/sequential_synchronization.hpp:
+/opt/ros/jazzy/include/tf2_ros/tf2_ros/async_buffer_interface.h:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__type_support.hpp:
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__traits.hpp:
 
-/usr/include/boost/range/detail/has_member_size.hpp:
+/usr/include/c++/13/debug/debug.h:
+
+/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
+
+/usr/include/sched.h:
+
+/usr/include/boost/mpl/times.hpp:
+
+/usr/include/eigen3/Eigen/src/LU/InverseImpl.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/init_options.hpp:
+
+/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp:
+
+/opt/ros/jazzy/include/rcl/rcl/arguments.h:
+
+/usr/include/boost/preprocessor/control/while.hpp:
+
+/home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d_array__struct.hpp:
+
+/usr/include/boost/predef/os/bsd/bsdi.h:
+
+/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:
+
+/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_period.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/dynamic_typesupport/dynamic_message_type.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__struct.hpp:
+
+/opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/visibility_control.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/any_service_callback.hpp:
+
+/opt/ros/jazzy/include/message_filters/message_filters/sync_policies/approximate_time.h:
+
+/usr/include/boost/mpl/vector/vector20.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/experimental/buffers/buffer_implementation_base.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp:
+
+/usr/include/boost/preprocessor/arithmetic/detail/is_minimum_number.hpp:
+
+/usr/include/c++/13/bits/stl_tempbuf.h:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__traits.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/subscription_factory.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__type_support.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/PartialReduxEvaluator.h:
+
+/usr/include/c++/13/backward/auto_ptr.h:
+
+/usr/include/boost/mpl/aux_/preprocessed/gcc/plus.hpp:
 
 /usr/include/c++/13/cerrno:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/create_timer.hpp:
-
 /opt/ros/jazzy/include/message_filters/message_filters/null_types.h:
 
-/usr/include/boost/algorithm/string/config.hpp:
+/opt/ros/jazzy/include/rclcpp/rclcpp/create_timer.hpp:
 
-/usr/include/boost/mpl/aux_/unwrap.hpp:
+/usr/include/c++/13/bits/uses_allocator_args.h:
 
-/opt/ros/jazzy/include/rcl/rcl/wait.h:
+/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_timers_interface.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/wait_result.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__struct.hpp:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__type_support.hpp:
 
@@ -5150,79 +5392,31 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /usr/include/boost/range/rend.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/stat.h:
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__builder.hpp:
 
-/usr/include/c++/13/limits:
+/usr/include/boost/config/no_tr1/cmath.hpp:
 
-/usr/include/boost/mpl/aux_/is_msvc_eti_arg.hpp:
+/usr/include/asm-generic/types.h:
 
-/usr/include/c++/13/bits/chrono.h:
+/usr/include/boost/intrusive/detail/mpl.hpp:
 
-/usr/include/stdint.h:
+/usr/include/boost/mpl/aux_/numeric_op.hpp:
 
-/usr/include/boost/mpl/aux_/preprocessed/gcc/vector.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_timers_interface_traits.hpp:
-
-/home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/pose2_d__struct.hpp:
-
-/usr/include/boost/type_traits/is_const.hpp:
-
-/usr/include/boost/numeric/conversion/detail/converter.hpp:
-
-/usr/include/boost/range/detail/msvc_has_iterator_workaround.hpp:
+/usr/include/boost/preprocessor/control/detail/limits/while_256.hpp:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp:
 
 /usr/include/boost/predef/os/bsd/dragonfly.h:
 
-/opt/ros/jazzy/include/rcl/rcl/node.h:
+/usr/include/stdio.h:
 
-/usr/include/boost/mpl/push_front.hpp:
+/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp:
 
-/opt/ros/jazzy/include/rmw/rmw/event_callback_type.h:
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/static_storage.hpp:
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp:
 
-/usr/include/boost/mpl/aux_/na.hpp:
-
-/opt/ros/jazzy/include/pcl_msgs/pcl_msgs/msg/detail/point_indices__traits.hpp:
-
-/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:
-
-/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:
-
-/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_period.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/dynamic_typesupport/dynamic_message_type.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__struct.hpp:
-
-/opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/visibility_control.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/any_service_callback.hpp:
-
-/opt/ros/jazzy/include/message_filters/message_filters/sync_policies/approximate_time.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp:
-
-/usr/include/boost/preprocessor/arithmetic/detail/is_minimum_number.hpp:
-
-/opt/ros/jazzy/include/pcl_msgs/pcl_msgs/msg/detail/model_coefficients__builder.hpp:
-
-/opt/ros/jazzy/include/rcutils/rcutils/types/string_map.h:
-
-/usr/include/boost/type_traits/conjunction.hpp:
-
-/usr/include/boost/preprocessor/facilities/expand.hpp:
-
-/usr/include/c++/13/cwchar:
-
-/usr/include/boost/preprocessor/seq/enum.hpp:
-
-/usr/include/c++/13/bits/hashtable_policy.h:
-
-/opt/ros/jazzy/include/pcl_msgs/pcl_msgs/msg/detail/polygon_mesh__type_support.hpp:
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__type_support.hpp:
 
 /opt/ros/jazzy/include/pcl_msgs/pcl_msgs/msg/detail/polygon_mesh__traits.hpp:
 
@@ -5244,13 +5438,13 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /usr/include/boost/preprocessor/variadic/limits/elem_64.hpp:
 
-/usr/include/eigen3/Eigen/src/Core/MapBase.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:
-
 /usr/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp:
+
+/usr/include/boost/mpl/bool.hpp:
+
+/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp:
 
 /usr/include/boost/interprocess/detail/config_end.hpp:
 
@@ -5267,8 +5461,6 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 /opt/ros/jazzy/include/vision_msgs/vision_msgs/msg/detail/bounding_box2_d__struct.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/detail/rmw_implementation_specific_payload.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/network_flow_endpoint.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/parameter_client.hpp:
 
@@ -5316,27 +5508,19 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__builder.hpp:
 
-/opt/ros/jazzy/include/vision_msgs/vision_msgs/msg/detail/point2_d__struct.hpp:
-
 /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp:
-
-/usr/include/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h:
-
-/usr/include/boost/concept/detail/general.hpp:
-
-/opt/ros/jazzy/include/rmw/rmw/init_options.h:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp:
 
 /usr/include/boost/mpl/aux_/contains_impl.hpp:
 
+/usr/include/x86_64-linux-gnu/bits/locale.h:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__type_support.hpp:
+
+/opt/ros/jazzy/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis_with_pose__traits.hpp:
+
 /opt/ros/jazzy/include/rmw/rmw/qos_policy_kind.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h:
-
-/usr/include/boost/type_traits/is_signed.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/get_parameters.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/Reshaped.h:
 
@@ -5346,13 +5530,21 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:
 
+/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:
+
+/usr/include/eigen3/Eigen/src/plugins/ReshapedMethods.h:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:
+
+/opt/ros/jazzy/include/vision_msgs/vision_msgs/msg/detection3_d_array.hpp:
+
 /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/set_parameters_atomically.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/dynamic_typesupport/dynamic_message.hpp:
-
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:
+
+/opt/ros/jazzy/include/tf2_ros/tf2_ros/buffer.h:
+
+/opt/ros/jazzy/include/vision_msgs/vision_msgs/msg/detail/point2_d__traits.hpp:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stdalign.h:
 
@@ -5360,23 +5552,13 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/callback_group.hpp:
 
-/usr/include/eigen3/Eigen/src/Core/ConditionEstimator.h:
-
-/usr/include/c++/13/ext/numeric_traits.h:
-
-/usr/include/boost/algorithm/string/predicate_facade.hpp:
-
-/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h:
-
-/usr/include/boost/mpl/aux_/config/ctps.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/publisher_options.hpp:
-
-/opt/ros/jazzy/include/vision_msgs/vision_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/context.hpp:
-
 /usr/include/boost/core/checked_delete.hpp:
+
+/usr/include/c++/13/bits/nested_exception.h:
+
+/usr/include/boost/range/range_fwd.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/create_generic_subscription.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/detail/resolve_use_intra_process.hpp:
 
@@ -5386,6 +5568,8 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.hpp:
 
+/opt/ros/jazzy/include/tf2_ros/tf2_ros/qos.hpp:
+
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__struct.hpp:
 
 /usr/include/c++/13/bits/stl_raw_storage_iter.h:
@@ -5394,21 +5578,25 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/create_subscription.hpp:
 
-/usr/include/boost/config.hpp:
-
-/usr/include/eigen3/Eigen/src/Core/VectorBlock.h:
-
-/usr/include/boost/core/use_default.hpp:
-
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__traits.hpp:
 
 /usr/include/c++/13/bits/atomic_futex.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/detail/add_guard_condition_to_rcl_wait_set.hpp:
 
+/opt/ros/jazzy/include/rclcpp/rclcpp/detail/qos_parameters.hpp:
+
+/usr/include/boost/config/compiler/gcc.hpp:
+
+/usr/include/eigen3/Eigen/src/misc/RealSvd2x2.h:
+
+/usr/include/boost/iterator/interoperable.hpp:
+
 /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/executors/events_executor/simple_events_queue.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/detail/resolve_intra_process_buffer_type.hpp:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_topics_interface_traits.hpp:
 
@@ -5440,27 +5628,17 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/executors/events_executor/events_executor.hpp:
 
-/usr/include/boost/range/range_fwd.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/create_generic_subscription.hpp:
-
-/usr/include/c++/13/bits/nested_exception.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/detail/rmw_implementation_specific_publisher_payload.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/executors/executor_notify_waitable.hpp:
-
-/usr/include/eigen3/Eigen/src/Core/util/BlasUtil.h:
-
-/opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h:
-
 /opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/detail/synchronization_policy_common.hpp:
 
 /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/individual_type_description__struct.h:
+
+/opt/ros/jazzy/include/tf2/tf2/time.hpp:
 
 /opt/ros/jazzy/include/rmw/rmw/events_statuses/incompatible_qos.h:
 
@@ -5475,10 +5653,6 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__struct.hpp:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp:
-
-/opt/ros/jazzy/include/vision_msgs/vision_msgs/msg/detail/pose2_d__struct.hpp:
-
-/usr/include/boost/mpl/vector/aux_/clear.hpp:
 
 /usr/include/boost/predef/library/c/gnu.h:
 
@@ -5504,73 +5678,163 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/generic_publisher.hpp:
 
-/usr/include/c++/13/bits/erase_if.h:
-
 /usr/include/x86_64-linux-gnu/c++/13/bits/cxxabi_tweaks.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/intra_process_setting.hpp:
 
 /usr/include/boost/core/enable_if.hpp:
 
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp:
-
 /opt/ros/jazzy/include/pcl_msgs/pcl_msgs/msg/detail/vertices__type_support.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/macros.hpp:
 
-/usr/include/boost/mpl/begin_end_fwd.hpp:
+/opt/ros/jazzy/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis__traits.hpp:
 
-/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/point_field__type_support.hpp:
+/usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/allocator/allocator_common.hpp:
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
-/usr/include/c++/13/debug/assertions.h:
+/usr/include/boost/mpl/find.hpp:
 
-/usr/include/boost/mpl/placeholders.hpp:
+/usr/include/boost/preprocessor/control/limits/while_256.hpp:
 
-/usr/include/boost/preprocessor/repetition/enum_binary_params.hpp:
+/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:
 
-/usr/include/c++/13/bits/enable_special_members.h:
+/usr/include/boost/utility/identity_type.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/visibility_control.hpp:
+/usr/include/c++/13/bits/locale_classes.tcc:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_base_interface.hpp:
+/usr/include/boost/mpl/aux_/preprocessed/gcc/times.hpp:
 
-/opt/ros/jazzy/include/rmw/rmw/security_options.h:
+/opt/ros/jazzy/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis_with_pose__struct.hpp:
 
-/opt/ros/jazzy/include/rcutils/rcutils/allocator.h:
+/usr/include/boost/mpl/aux_/config/eti.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp:
+/opt/ros/jazzy/include/vision_msgs/vision_msgs/msg/detail/point2_d__struct.hpp:
+
+/usr/include/boost/mpl/vector/aux_/clear.hpp:
+
+/opt/ros/jazzy/include/vision_msgs/vision_msgs/msg/detail/pose2_d__struct.hpp:
+
+/usr/include/boost/iterator/iterator_adaptor.hpp:
+
+/opt/ros/jazzy/include/vision_msgs/vision_msgs/msg/detection2_d_array.hpp:
+
+/usr/include/boost/mpl/aux_/config/ctps.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/publisher_options.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/context.hpp:
+
+/opt/ros/jazzy/include/vision_msgs/vision_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+
+/usr/include/alloca.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/asm-generic/errno.h:
+
+/opt/ros/jazzy/include/rmw/rmw/names_and_types.h:
+
+/usr/include/boost/preprocessor/repetition/limits/repeat_256.hpp:
+
+/usr/include/asm-generic/int-ll64.h:
+
+/usr/include/x86_64-linux-gnu/bits/mman_ext.h:
+
+/usr/include/boost/algorithm/string/compare.hpp:
+
+/usr/include/boost/algorithm/string/config.hpp:
+
+/usr/include/boost/mpl/aux_/unwrap.hpp:
+
+/usr/include/boost/algorithm/string/detail/classification.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/CoreEvaluators.h:
+
+/usr/include/boost/algorithm/string/detail/finder.hpp:
+
+/usr/include/c++/13/bitset:
+
+/usr/include/boost/algorithm/string/detail/trim.hpp:
+
+/usr/include/boost/iterator/advance.hpp:
+
+/usr/include/boost/algorithm/string/find.hpp:
+
+/usr/include/boost/mpl/aux_/preprocessed/gcc/less.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/ConditionEstimator.h:
+
+/usr/include/c++/13/ext/numeric_traits.h:
+
+/opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h:
+
+/usr/include/boost/algorithm/string/predicate_facade.hpp:
+
+/usr/include/boost/algorithm/string/trim.hpp:
+
+/usr/include/boost/concept/detail/backward_compatibility.hpp:
+
+/opt/ros/jazzy/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__builder.hpp:
+
+/opt/ros/jazzy/include/rcutils/rcutils/types/rcutils_ret.h:
+
+/usr/include/boost/mpl/vector/aux_/empty.hpp:
+
+/usr/include/pcl-1.14/pcl/common/impl/io.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/sequential_synchronization.hpp:
+
+/usr/include/boost/concept/detail/concept_def.hpp:
 
 /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point2_d__traits.hpp:
 
-/usr/include/boost/mpl/sequence_tag.hpp:
-
 /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker/src/depth_worker/DetectionTo3DfromPCNode.cpp:
 
-/usr/include/c++/13/bits/uses_allocator_args.h:
+/usr/include/boost/mpl/sequence_tag.hpp:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp:
+/usr/include/boost/concept/detail/concept_undef.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_timers_interface.hpp:
+/usr/include/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h:
 
-/opt/ros/jazzy/include/rcl/rcl/time.h:
+/opt/ros/jazzy/include/rmw/rmw/init_options.h:
 
-/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp:
+/usr/include/boost/concept/detail/general.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_topics_interface.hpp:
+/usr/include/eigen3/Eigen/Householder:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_base.hpp:
+/opt/ros/jazzy/include/rclcpp/rclcpp/generic_client.hpp:
 
-/opt/ros/jazzy/include/vision_msgs/vision_msgs/msg/detail/pose2_d__traits.hpp:
+/usr/include/boost/concept/detail/has_constraints.hpp:
 
-/opt/ros/jazzy/include/vision_msgs/vision_msgs/msg/detail/bounding_box3_d__struct.hpp:
+/usr/include/boost/concept/usage.hpp:
 
-/usr/include/boost/mpl/apply_fwd.hpp:
+/usr/include/boost/concept_check.hpp:
 
-/opt/ros/jazzy/include/vision_msgs/vision_msgs/msg/detail/detection2_d_array__type_support.hpp:
+/usr/include/boost/config.hpp:
 
-/usr/include/boost/interprocess/sync/file_lock.hpp:
+/usr/include/eigen3/Eigen/src/Core/VectorBlock.h:
+
+/usr/include/boost/core/use_default.hpp:
+
+/usr/include/boost/config/detail/cxx_composite.hpp:
+
+/usr/include/boost/config/detail/select_stdlib_config.hpp:
+
+/opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp:
+
+/usr/include/boost/mpl/aux_/O1_size_impl.hpp:
+
+/usr/include/boost/mpl/equal_to.hpp:
+
+/usr/include/boost/config/detail/suffix.hpp:
+
+/usr/include/boost/config/platform/linux.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
+
+/usr/include/boost/config/stdlib/libstdcpp3.hpp:
 
 /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/include/yolo_msgs/yolo_msgs/msg/detail/key_point3_d_array__struct.hpp:
 
@@ -5608,12 +5872,6 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /usr/include/boost/numeric/conversion/detail/udt_builtin_mixture.hpp:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__type_support.hpp:
-
-/usr/include/boost/interprocess/detail/timed_utils.hpp:
-
-/usr/include/boost/preprocessor/cat.hpp:
-
 /opt/ros/jazzy/include/rmw/rmw/subscription_options.h:
 
 /usr/include/boost/mpl/aux_/preprocessed/gcc/quote.hpp:
@@ -5638,11 +5896,11 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /usr/include/boost/interprocess/sync/detail/common_algorithms.hpp:
 
-/usr/include/c++/13/bits/hashtable.h:
-
 /usr/include/boost/interprocess/sync/detail/locks.hpp:
 
-/usr/include/c++/13/bits/basic_string.h:
+/usr/include/c++/13/bits/functional_hash.h:
+
+/usr/include/boost/mpl/limits/vector.hpp:
 
 /usr/include/boost/interprocess/sync/spin/wait.hpp:
 
@@ -5655,6 +5913,8 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 /usr/include/boost/config/user.hpp:
 
 /usr/include/boost/iterator/detail/config_def.hpp:
+
+/opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp:
 
@@ -5673,14 +5933,6 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 /usr/include/boost/detail/workaround.hpp:
 
 /usr/include/boost/iterator/iterator_categories.hpp:
-
-/usr/include/boost/iterator/iterator_concepts.hpp:
-
-/usr/include/boost/mpl/aux_/arity.hpp:
-
-/usr/include/pcl-1.14/pcl/point_types.h:
-
-/usr/include/boost/preprocessor/arithmetic/limits/inc_256.hpp:
 
 /usr/include/boost/iterator/iterator_facade.hpp:
 
@@ -5776,8 +6028,6 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /usr/include/boost/mpl/aux_/comparison_op.hpp:
 
-/usr/include/c++/13/bits/cxxabi_forced.h:
-
 /usr/include/boost/interprocess/errors.hpp:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__builder.hpp:
@@ -5808,9 +6058,9 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /usr/include/boost/mpl/aux_/config/gpu.hpp:
 
-/usr/include/boost/config/workaround.hpp:
-
 /usr/include/c++/13/bits/memory_resource.h:
+
+/usr/include/boost/config/workaround.hpp:
 
 /usr/include/boost/mpl/aux_/preprocessor/enum.hpp:
 
@@ -5842,6 +6092,8 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /usr/include/boost/mpl/aux_/config/use_preprocessed.hpp:
 
+/opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__struct.hpp:
+
 /usr/include/boost/mpl/aux_/find_if_pred.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/signum-arch.h:
@@ -5851,8 +6103,6 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 /usr/include/boost/mpl/aux_/full_lambda.hpp:
 
 /usr/include/boost/mpl/aux_/has_size.hpp:
-
-/usr/include/c++/13/bits/atomic_lockfree_defines.h:
 
 /usr/include/boost/mpl/aux_/has_tag.hpp:
 
@@ -5896,6 +6146,8 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /usr/include/boost/preprocessor/variadic/limits/size_64.hpp:
 
+/opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/get_node_services_interface.hpp:
+
 /opt/ros/jazzy/include/rcl/rcl/graph.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/intra_process_buffer_type.hpp:
@@ -5924,6 +6176,8 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /usr/include/boost/mpl/iter_fold_if.hpp:
 
+/opt/ros/jazzy/include/tf2/tf2/LinearMath/MinMax.hpp:
+
 /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/subscription_intra_process.hpp:
 
 /opt/ros/jazzy/include/pcl_msgs/pcl_msgs/msg/detail/vertices__traits.hpp:
@@ -5932,19 +6186,11 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /usr/include/boost/mpl/aux_/preprocessed/gcc/apply_wrap.hpp:
 
-/opt/ros/jazzy/include/rcutils/rcutils/shared_library.h:
-
-/usr/include/c++/13/bits/locale_classes.h:
-
 /opt/ros/jazzy/include/rcl/rcl/error_handling.h:
 
 /usr/include/boost/mpl/aux_/preprocessed/gcc/bind.hpp:
 
 /usr/include/boost/mpl/deref.hpp:
-
-/usr/include/boost/mpl/aux_/preprocessed/gcc/equal_to.hpp:
-
-/usr/include/boost/mpl/size_fwd.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h:
 
@@ -5968,17 +6214,21 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /usr/include/boost/mpl/remove_if.hpp:
 
-/opt/ros/jazzy/include/vision_msgs/vision_msgs/msg/detail/object_hypothesis_with_pose__struct.hpp:
-
-/usr/include/c++/13/bits/locale_classes.tcc:
-
-/usr/include/boost/mpl/aux_/preprocessed/gcc/times.hpp:
-
 /usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:
 
 /usr/include/boost/mpl/pop_back_fwd.hpp:
 
 /usr/include/boost/range/detail/extract_optional_type.hpp:
+
+/usr/include/c++/13/bits/deque.tcc:
+
+/opt/ros/jazzy/include/vision_msgs/vision_msgs/msg/detail/detection2_d_array__struct.hpp:
+
+/usr/include/boost/mpl/aux_/arithmetic_op.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp:
+
+/usr/include/boost/mpl/aux_/preprocessor/params.hpp:
 
 /usr/include/boost/preprocessor/arithmetic/limits/dec_256.hpp:
 
@@ -6006,21 +6256,7 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /usr/include/boost/mpl/bind.hpp:
 
-/usr/include/c++/13/iostream:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__struct.hpp:
-
-/usr/include/c++/13/bits/hash_bytes.h:
-
 /usr/include/boost/mpl/bind_fwd.hpp:
-
-/opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp:
-
-/usr/include/boost/mpl/bool.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/experimental/buffers/buffer_implementation_base.hpp:
-
-/usr/include/boost/mpl/vector/vector20.hpp:
 
 /usr/include/boost/mpl/clear_fwd.hpp:
 
@@ -6122,8 +6358,6 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /usr/include/boost/preprocessor/stringize.hpp:
 
-/usr/include/c++/13/bits/exception_defines.h:
-
 /usr/include/boost/mpl/not.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/arch/Default/Half.h:
@@ -6156,6 +6390,14 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /usr/include/boost/mpl/same_as.hpp:
 
+/usr/include/c++/13/csignal:
+
+/usr/include/c++/13/bits/quoted_string.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/qos_overriding_options.hpp:
+
+/usr/include/boost/mpl/vector/aux_/O1_size.hpp:
+
 /usr/include/linux/stddef.h:
 
 /usr/include/boost/mpl/vector/aux_/at.hpp:
@@ -6166,17 +6408,17 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /usr/include/boost/type_traits/is_floating_point.hpp:
 
-/usr/include/c++/13/bits/codecvt.h:
-
 /usr/include/boost/mpl/aux_/config/intel.hpp:
 
 /usr/include/boost/mpl/vector/aux_/pop_back.hpp:
 
-/usr/include/boost/mpl/vector/aux_/pop_front.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
 /usr/include/boost/mpl/vector/aux_/preprocessed/typeof_based/vector10.hpp:
+
+/usr/include/c++/13/bits/ostream_insert.h:
+
+/usr/include/boost/preprocessor/config/limits.hpp:
 
 /usr/include/boost/mpl/vector/aux_/preprocessed/typeof_based/vector20.hpp:
 
@@ -6192,9 +6434,9 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /usr/include/boost/type_traits/conversion_traits.hpp:
 
-/usr/include/boost/interprocess/detail/type_traits.hpp:
-
 /usr/include/boost/range/rbegin.hpp:
+
+/usr/include/boost/interprocess/detail/type_traits.hpp:
 
 /usr/include/boost/mpl/vector/aux_/vector0.hpp:
 
@@ -6244,15 +6486,17 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /usr/include/boost/numeric/conversion/udt_builtin_mixture_enum.hpp:
 
-/usr/include/c++/13/bits/invoke.h:
-
 /usr/include/boost/predef/detail/_cassert.h:
+
+/usr/include/c++/13/bits/functexcept.h:
+
+/opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/visibility_control.h:
+
+/usr/include/boost/predef/library/c/_prefix.h:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp:
 
 /usr/include/boost/predef/make.h:
-
-/usr/include/boost/predef/os/bsd.h:
 
 /usr/include/boost/predef/os/macos.h:
 
@@ -6262,9 +6506,9 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /opt/ros/jazzy/include/rmw/rmw/subscription_content_filter_options.h:
 
-/opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp:
-
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:
+
+/opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp:
 
 /usr/include/boost/predef/platform/android.h:
 
@@ -6326,9 +6570,9 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /usr/include/boost/preprocessor/facilities/overload.hpp:
 
-/usr/include/boost/preprocessor/array/size.hpp:
-
 /usr/include/boost/mpl/aux_/preprocessed/gcc/bind_fwd.hpp:
+
+/usr/include/boost/preprocessor/array/size.hpp:
 
 /usr/include/boost/preprocessor/inc.hpp:
 
@@ -6378,7 +6622,7 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /usr/include/boost/preprocessor/repetition/repeat_from_to.hpp:
 
-/usr/include/c++/13/bits/locale_facets.tcc:
+/opt/ros/jazzy/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__type_support.hpp:
 
 /usr/include/boost/preprocessor/seq/cat.hpp:
 
@@ -6430,6 +6674,10 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /usr/include/boost/range/detail/misc_concept.hpp:
 
+/usr/include/c++/13/bits/locale_facets_nonio.tcc:
+
+/usr/include/boost/range/detail/safe_bool.hpp:
+
 /usr/include/boost/range/detail/sfinae.hpp:
 
 /usr/include/boost/range/detail/str_types.hpp:
@@ -6452,6 +6700,14 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /usr/include/boost/range/iterator_range_core.hpp:
 
+/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
+
+/usr/include/c++/13/bits/stl_bvector.h:
+
+/usr/include/c++/13/bits/parse_numbers.h:
+
+/usr/include/boost/range/iterator_range_io.hpp:
+
 /usr/include/boost/range/reverse_iterator.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/NestByValue.h:
@@ -6463,8 +6719,6 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__builder.hpp:
 
 /usr/include/boost/range/size_type.hpp:
-
-/usr/include/c++/13/bits/localefwd.h:
 
 /usr/include/boost/range/value_type.hpp:
 
@@ -6496,8 +6750,6 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /usr/include/boost/type_traits/integral_constant.hpp:
 
-/usr/include/c++/13/bits/charconv.h:
-
 /usr/include/boost/type_traits/add_rvalue_reference.hpp:
 
 /usr/include/c++/13/tuple:
@@ -6513,14 +6765,6 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 /usr/include/boost/type_traits/add_volatile.hpp:
 
 /usr/include/boost/type_traits/conditional.hpp:
-
-/opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/api/serialization_support.h:
-
-/usr/include/boost/type_traits/detail/has_binary_operator.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
-
-/usr/include/boost/type_traits/negation.hpp:
 
 /usr/include/boost/type_traits/detail/is_function_cxx_11.hpp:
 
@@ -6547,8 +6791,6 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 /usr/include/boost/type_traits/intrinsics.hpp:
 
 /usr/include/boost/type_traits/is_abstract.hpp:
-
-/usr/include/c++/13/bits/new_allocator.h:
 
 /usr/include/boost/type_traits/is_base_and_derived.hpp:
 
@@ -6584,10 +6826,6 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 
 /usr/include/boost/type_traits/is_volatile.hpp:
 
-/usr/include/c++/13/bits/concept_check.h:
-
-/usr/include/boost/type_traits/make_unsigned.hpp:
-
 /usr/include/boost/mpl/aux_/config/has_apply.hpp:
 
 /usr/include/boost/type_traits/remove_cv.hpp:
@@ -6619,73 +6857,3 @@ CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/D
 /usr/include/c++/13/bits/allocated_ptr.h:
 
 /usr/include/c++/13/bits/atomic_base.h:
-
-/usr/include/c++/13/bits/cpp_type_traits.h:
-
-/opt/ros/jazzy/include/vision_msgs/vision_msgs/msg/detail/detection2_d_array__struct.hpp:
-
-/usr/include/boost/mpl/aux_/arithmetic_op.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp:
-
-/usr/include/boost/mpl/aux_/preprocessor/params.hpp:
-
-/usr/include/c++/13/bits/deque.tcc:
-
-/usr/include/c++/13/bits/exception.h:
-
-/usr/include/eigen3/Eigen/src/Core/util/SymbolicIndex.h:
-
-/usr/include/c++/13/bits/specfun.h:
-
-/usr/include/c++/13/bits/exception_ptr.h:
-
-/opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/visibility_control.h:
-
-/usr/include/boost/predef/library/c/_prefix.h:
-
-/usr/include/c++/13/bits/functexcept.h:
-
-/usr/include/boost/mpl/limits/vector.hpp:
-
-/usr/include/c++/13/bits/functional_hash.h:
-
-/usr/include/c++/13/bits/ios_base.h:
-
-/usr/include/c++/13/bits/list.tcc:
-
-/usr/include/c++/13/bits/locale_facets_nonio.h:
-
-/usr/include/boost/range/detail/safe_bool.hpp:
-
-/usr/include/c++/13/bits/locale_facets_nonio.tcc:
-
-/usr/include/c++/13/bits/move.h:
-
-/usr/include/c++/13/bits/node_handle.h:
-
-/usr/include/c++/13/bits/ostream.tcc:
-
-/usr/include/boost/preprocessor/config/limits.hpp:
-
-/usr/include/c++/13/bits/ostream_insert.h:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
-
-/usr/include/c++/13/bits/stl_bvector.h:
-
-/usr/include/boost/range/iterator_range_io.hpp:
-
-/usr/include/c++/13/bits/parse_numbers.h:
-
-/usr/include/c++/13/bits/ptr_traits.h:
-
-/usr/include/c++/13/csignal:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/qos_overriding_options.hpp:
-
-/usr/include/boost/mpl/vector/aux_/O1_size.hpp:
-
-/usr/include/c++/13/bits/quoted_string.h:
-
-/usr/include/c++/13/bits/refwrap.h:

@@ -19,6 +19,8 @@
   <depend>opencv</depend>
   <depend>cv_bridge</depend>
   <depend>camera_info_manager</depend>
+  <depend>tf2_ros</depend>
+  <depend>geometry_msgs</depend>
 
   <!-- Point Cloud Library (PCL) dependencies -->
   <depend>PCL</depend>

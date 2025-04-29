@@ -16,6 +16,8 @@ find_package(OpenCV REQUIRED)
 find_package(camera_info_manager REQUIRED)
 find_package(PCL REQUIRED)
 find_package(pcl_conversions REQUIRED)
+find_package(tf2_ros REQUIRED)
+find_package(geometry_msgs REQUIRED)
 
 
 
@@ -39,6 +41,18 @@ ament_target_dependencies(stereo_point_cloud_generator
   pcl_conversions
   camera_info_manager)
 
+  add_executable(tf src/tf.cpp)
+  ament_target_dependencies(tf 
+    rclcpp 
+    sensor_msgs 
+    cv_bridge 
+    OpenCV
+    PCL
+    tf2_ros
+    geometry_msgs
+    pcl_conversions
+    camera_info_manager)
+
 
 install(TARGETS
   stereo_camera_node
@@ -49,6 +63,9 @@ install(TARGETS
   stereo_point_cloud_generator
   DESTINATION lib/${PROJECT_NAME})
 
+install(TARGETS
+  tf
+  DESTINATION lib/${PROJECT_NAME})
 
 # Install launch files
 install(DIRECTORY launch

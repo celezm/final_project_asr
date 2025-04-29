@@ -316,6 +316,9 @@ include("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build
 # install("TARGETS" "stereo_point_cloud_generator" "DESTINATION" "lib/elp_stereo_camera")
 include("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
+# install("TARGETS" "tf" "DESTINATION" "lib/elp_stereo_camera")
+include("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
 # install(DIRECTORY "launch" "DESTINATION" "share/elp_stereo_camera/")
 ament_cmake_symlink_install_directory("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/elp_stereo_camera" DIRECTORY "launch" "DESTINATION" "share/elp_stereo_camera/")
 

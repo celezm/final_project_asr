@@ -1,5 +1,6 @@
 /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/lib/elp_stereo_camera/stereo_camera_node
 /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/lib/elp_stereo_camera/stereo_point_cloud_generator
+/home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/lib/elp_stereo_camera/tf
 /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/elp_stereo_camera//launch/pc.launch.py
 /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/elp_stereo_camera//launch/stereo_camera_launch.py
 /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/elp_stereo_camera/share/elp_stereo_camera//config/supported_formats.txt

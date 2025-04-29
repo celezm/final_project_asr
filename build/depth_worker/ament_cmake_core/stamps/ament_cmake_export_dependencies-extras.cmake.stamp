@@ -1,6 +1,6 @@
 # generated from ament_cmake_export_dependencies/cmake/ament_cmake_export_dependencies-extras.cmake.in
 
-set(_exported_dependencies "rclcpp;sensor_msgs;vision_msgs;image_transport;cv_bridge;OpenCV;message_filters;pcl_conversions;pcl_ros;image_geometry;depth_image_proc;yolo_msgs;geometry_msgs;tf2_geometry_msgs;tf2;tf2_ros")
+set(_exported_dependencies "rclcpp;sensor_msgs;tf2_sensor_msgs;vision_msgs;image_transport;cv_bridge;OpenCV;message_filters;pcl_conversions;pcl_ros;image_geometry;depth_image_proc;yolo_msgs;geometry_msgs;tf2;tf2_ros;tf2_geometry_msgs")
 
 find_package(ament_cmake_libraries QUIET REQUIRED)
 
