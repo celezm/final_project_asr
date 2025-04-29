@@ -40,6 +40,17 @@ def generate_launch_description():
                 'minimize_motion_blur': LaunchConfiguration('minimize_motion_blur'),
             }]
         ),
+        Node(
+            package='elp_stereo_camera',
+            executable='stereo_point_cloud_generator',
+            name='stereo_point_cloud_generator',
+        ),
+
+        Node(
+            package='elp_stereo_camera',
+            executable='tf',
+            name='tf',
+        ),
 
         # Static transform for camera_link (world-oriented) to camera_optical_link
         Node(
