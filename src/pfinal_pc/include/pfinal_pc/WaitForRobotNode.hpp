@@ -38,9 +38,13 @@ public:
 private:
   rclcpp::Node::SharedPtr node_;
   bool robot_arrived_ = false;
+  bool is_active_ = false;
   rclcpp::Subscription<std_msgs::msg::Int32>::SharedPtr arrival_sub_;
+  rclcpp::Subscription<std_msgs::msg::Int32>::SharedPtr exit_sub_;
+
 
   void arrival_callback(const std_msgs::msg::Int32::SharedPtr msg);
+  void exit_callback(const std_msgs::msg::Int32::SharedPtr msg);
 
 
 };

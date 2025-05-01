@@ -60,8 +60,22 @@ AskForDestinationNode::tick()
   }
 
   std_msgs::msg::Int32 msg;
-  msg.data = choice;  // Publicar el índice como un número entero
-  publisher_->publish(msg);
+
+  for (int i = 0; i < 5; ++i) {
+    msg.data = -1;  // Publicar el índice como un número entero
+    publisher_->publish(msg);
+  }
+  sleep(1);
+  for (int i = 0; i < 5; ++i) {
+    msg.data = choice;  // Publicar el índice como un número entero
+    publisher_->publish(msg);
+  }
+  sleep(1);
+  for (int i = 0; i < 5; ++i) {
+    msg.data = 0;  // Publicar el índice como un número entero
+    publisher_->publish(msg);
+  }
+
 
   std::cout << "Has elegido: " << destinations[choice] << " (índice: " << choice << ")\n";
 

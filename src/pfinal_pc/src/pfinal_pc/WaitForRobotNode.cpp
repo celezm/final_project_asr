@@ -35,14 +35,33 @@ WaitForRobotNode::WaitForRobotNode(
   
   arrival_sub_ = node_->create_subscription<std_msgs::msg::Int32>(
     "/arrival", 10, std::bind(&WaitForRobotNode::arrival_callback, this, _1));
+
+    exit_sub_ = node_->create_subscription<std_msgs::msg::Int32>(
+      "/exit", 10, std::bind(&WaitForRobotNode::exit_callback, this, _1));
+  exit_sub_.reset();
+
 }
 
 void
 WaitForRobotNode::arrival_callback(const std_msgs::msg::Int32::SharedPtr msg)
 {
-  if (msg->data == 0) {
+  if (msg->data == 0 ) {
     robot_arrived_ = true;
     std::cout << "El robot ha llegado al destino.\n";
+    arrival_sub_.reset();
+    exit_sub_ = node_->create_subscription<std_msgs::msg::Int32>(
+      "/exit", 10, std::bind(&WaitForRobotNode::exit_callback, this, _1));
+  } 
+}
+
+void
+WaitForRobotNode::exit_callback(const std_msgs::msg::Int32::SharedPtr msg)
+{
+  if (msg->data == 0 ) {
+    std::cout << "El robot ha salido al aula.\n";
+    exit_sub_.reset();
+    arrival_sub_ = node_->create_subscription<std_msgs::msg::Int32>(
+      "/arrival", 10, std::bind(&WaitForRobotNode::arrival_callback, this, _1));
   } 
 }
 
@@ -50,8 +69,8 @@ WaitForRobotNode::arrival_callback(const std_msgs::msg::Int32::SharedPtr msg)
 BT::NodeStatus
 WaitForRobotNode::tick()
 {
-
   if (!robot_arrived_) {
+
     std::cout << "Esperando a que el robot llegue al destino...\n";
     return BT::NodeStatus::FAILURE;
   }else {
@@ -60,7 +79,6 @@ WaitForRobotNode::tick()
     return BT::NodeStatus::SUCCESS;
 
   }
-
 }
 
 
