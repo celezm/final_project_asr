@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/elp_stereo_camera/src/stereo_camera_node.cpp" "CMakeFiles/stereo_camera_node.dir/src/stereo_camera_node.cpp.o" "gcc" "CMakeFiles/stereo_camera_node.dir/src/stereo_camera_node.cpp.o.d"
+  "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/elp_stereo_camera/src/stereo_camera_node.cpp" "CMakeFiles/stereo_camera_node.dir/src/stereo_camera_node.cpp.o" "gcc" "CMakeFiles/stereo_camera_node.dir/src/stereo_camera_node.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

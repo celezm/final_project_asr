@@ -1,1 +1,1 @@
-/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_bringup/ament_cmake_core/yolo_bringupConfig-version.cmake
+/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_bringup/ament_cmake_core/yolo_bringupConfig-version.cmake

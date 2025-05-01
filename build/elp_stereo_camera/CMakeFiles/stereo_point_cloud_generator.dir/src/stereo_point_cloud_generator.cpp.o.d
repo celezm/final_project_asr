@@ -1,5 +1,5 @@
 CMakeFiles/stereo_point_cloud_generator.dir/src/stereo_point_cloud_generator.cpp.o: \
- /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/elp_stereo_camera/src/stereo_point_cloud_generator.cpp \
+ /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/elp_stereo_camera/src/stereo_point_cloud_generator.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/13/csignal \

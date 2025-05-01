@@ -1,1 +1,1 @@
-/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_bringup/launch/yolov9.launch.py
+/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_bringup/launch/yolov9.launch.py

@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/${destination}")
+      set(destination "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -310,230 +310,230 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/yolo_msgs" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/yolo_msgs" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/yolo_msgs" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/yolo_msgs" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/msg/Point2D.json" "DESTINATION" "share/yolo_msgs/msg")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/msg/Point2D.json" "DESTINATION" "share/yolo_msgs/msg")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/msg/Point2D.json" "DESTINATION" "share/yolo_msgs/msg")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/msg/Point2D.json" "DESTINATION" "share/yolo_msgs/msg")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/msg/Vector2.json" "DESTINATION" "share/yolo_msgs/msg")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/msg/Vector2.json" "DESTINATION" "share/yolo_msgs/msg")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/msg/Vector2.json" "DESTINATION" "share/yolo_msgs/msg")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/msg/Vector2.json" "DESTINATION" "share/yolo_msgs/msg")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/msg/Pose2D.json" "DESTINATION" "share/yolo_msgs/msg")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/msg/Pose2D.json" "DESTINATION" "share/yolo_msgs/msg")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/msg/Pose2D.json" "DESTINATION" "share/yolo_msgs/msg")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/msg/Pose2D.json" "DESTINATION" "share/yolo_msgs/msg")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/msg/BoundingBox2D.json" "DESTINATION" "share/yolo_msgs/msg")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/msg/BoundingBox2D.json" "DESTINATION" "share/yolo_msgs/msg")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/msg/BoundingBox2D.json" "DESTINATION" "share/yolo_msgs/msg")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/msg/BoundingBox2D.json" "DESTINATION" "share/yolo_msgs/msg")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/msg/BoundingBox3D.json" "DESTINATION" "share/yolo_msgs/msg")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/msg/BoundingBox3D.json" "DESTINATION" "share/yolo_msgs/msg")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/msg/BoundingBox3D.json" "DESTINATION" "share/yolo_msgs/msg")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/msg/BoundingBox3D.json" "DESTINATION" "share/yolo_msgs/msg")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/msg/Mask.json" "DESTINATION" "share/yolo_msgs/msg")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/msg/Mask.json" "DESTINATION" "share/yolo_msgs/msg")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/msg/Mask.json" "DESTINATION" "share/yolo_msgs/msg")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/msg/Mask.json" "DESTINATION" "share/yolo_msgs/msg")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/msg/KeyPoint2D.json" "DESTINATION" "share/yolo_msgs/msg")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/msg/KeyPoint2D.json" "DESTINATION" "share/yolo_msgs/msg")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/msg/KeyPoint2D.json" "DESTINATION" "share/yolo_msgs/msg")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/msg/KeyPoint2D.json" "DESTINATION" "share/yolo_msgs/msg")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/msg/KeyPoint2DArray.json" "DESTINATION" "share/yolo_msgs/msg")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/msg/KeyPoint2DArray.json" "DESTINATION" "share/yolo_msgs/msg")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/msg/KeyPoint2DArray.json" "DESTINATION" "share/yolo_msgs/msg")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/msg/KeyPoint2DArray.json" "DESTINATION" "share/yolo_msgs/msg")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/msg/KeyPoint3D.json" "DESTINATION" "share/yolo_msgs/msg")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/msg/KeyPoint3D.json" "DESTINATION" "share/yolo_msgs/msg")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/msg/KeyPoint3D.json" "DESTINATION" "share/yolo_msgs/msg")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/msg/KeyPoint3D.json" "DESTINATION" "share/yolo_msgs/msg")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/msg/KeyPoint3DArray.json" "DESTINATION" "share/yolo_msgs/msg")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/msg/KeyPoint3DArray.json" "DESTINATION" "share/yolo_msgs/msg")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/msg/KeyPoint3DArray.json" "DESTINATION" "share/yolo_msgs/msg")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/msg/KeyPoint3DArray.json" "DESTINATION" "share/yolo_msgs/msg")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/msg/Detection.json" "DESTINATION" "share/yolo_msgs/msg")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/msg/Detection.json" "DESTINATION" "share/yolo_msgs/msg")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/msg/Detection.json" "DESTINATION" "share/yolo_msgs/msg")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/msg/Detection.json" "DESTINATION" "share/yolo_msgs/msg")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/msg/DetectionArray.json" "DESTINATION" "share/yolo_msgs/msg")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/msg/DetectionArray.json" "DESTINATION" "share/yolo_msgs/msg")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/msg/DetectionArray.json" "DESTINATION" "share/yolo_msgs/msg")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/msg/DetectionArray.json" "DESTINATION" "share/yolo_msgs/msg")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/srv/SetClasses.json" "DESTINATION" "share/yolo_msgs/srv")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/srv/SetClasses.json" "DESTINATION" "share/yolo_msgs/srv")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/srv/SetClasses.json" "DESTINATION" "share/yolo_msgs/srv")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_generator_type_description/yolo_msgs/srv/SetClasses.json" "DESTINATION" "share/yolo_msgs/srv")
 
-# install(DIRECTORY "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_generator_c/yolo_msgs/" "DESTINATION" "include/yolo_msgs/yolo_msgs" "PATTERN" "*.h")
-ament_cmake_symlink_install_directory("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" DIRECTORY "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_generator_c/yolo_msgs/" "DESTINATION" "include/yolo_msgs/yolo_msgs" "PATTERN" "*.h")
+# install(DIRECTORY "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_generator_c/yolo_msgs/" "DESTINATION" "include/yolo_msgs/yolo_msgs" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" DIRECTORY "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_generator_c/yolo_msgs/" "DESTINATION" "include/yolo_msgs/yolo_msgs" "PATTERN" "*.h")
 
 # install(FILES "/opt/ros/jazzy/lib/python3.12/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/yolo_msgs/environment")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/opt/ros/jazzy/lib/python3.12/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/yolo_msgs/environment")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/opt/ros/jazzy/lib/python3.12/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/yolo_msgs/environment")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/yolo_msgs/environment")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/yolo_msgs/environment")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/yolo_msgs/environment")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/yolo_msgs/environment")
 
-# install(DIRECTORY "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_typesupport_fastrtps_c/yolo_msgs/" "DESTINATION" "include/yolo_msgs/yolo_msgs" "PATTERN_EXCLUDE" "*.cpp")
-ament_cmake_symlink_install_directory("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" DIRECTORY "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_typesupport_fastrtps_c/yolo_msgs/" "DESTINATION" "include/yolo_msgs/yolo_msgs" "PATTERN_EXCLUDE" "*.cpp")
+# install(DIRECTORY "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_typesupport_fastrtps_c/yolo_msgs/" "DESTINATION" "include/yolo_msgs/yolo_msgs" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" DIRECTORY "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_typesupport_fastrtps_c/yolo_msgs/" "DESTINATION" "include/yolo_msgs/yolo_msgs" "PATTERN_EXCLUDE" "*.cpp")
 
-# install(DIRECTORY "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_typesupport_introspection_c/yolo_msgs/" "DESTINATION" "include/yolo_msgs/yolo_msgs" "PATTERN" "*.h")
-ament_cmake_symlink_install_directory("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" DIRECTORY "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_typesupport_introspection_c/yolo_msgs/" "DESTINATION" "include/yolo_msgs/yolo_msgs" "PATTERN" "*.h")
+# install(DIRECTORY "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_typesupport_introspection_c/yolo_msgs/" "DESTINATION" "include/yolo_msgs/yolo_msgs" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" DIRECTORY "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_typesupport_introspection_c/yolo_msgs/" "DESTINATION" "include/yolo_msgs/yolo_msgs" "PATTERN" "*.h")
 
-# install(DIRECTORY "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_generator_cpp/yolo_msgs/" "DESTINATION" "include/yolo_msgs/yolo_msgs" "PATTERN" "*.hpp")
-ament_cmake_symlink_install_directory("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" DIRECTORY "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_generator_cpp/yolo_msgs/" "DESTINATION" "include/yolo_msgs/yolo_msgs" "PATTERN" "*.hpp")
+# install(DIRECTORY "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_generator_cpp/yolo_msgs/" "DESTINATION" "include/yolo_msgs/yolo_msgs" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" DIRECTORY "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_generator_cpp/yolo_msgs/" "DESTINATION" "include/yolo_msgs/yolo_msgs" "PATTERN" "*.hpp")
 
-# install(DIRECTORY "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_typesupport_fastrtps_cpp/yolo_msgs/" "DESTINATION" "include/yolo_msgs/yolo_msgs" "PATTERN_EXCLUDE" "*.cpp")
-ament_cmake_symlink_install_directory("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" DIRECTORY "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_typesupport_fastrtps_cpp/yolo_msgs/" "DESTINATION" "include/yolo_msgs/yolo_msgs" "PATTERN_EXCLUDE" "*.cpp")
+# install(DIRECTORY "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_typesupport_fastrtps_cpp/yolo_msgs/" "DESTINATION" "include/yolo_msgs/yolo_msgs" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" DIRECTORY "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_typesupport_fastrtps_cpp/yolo_msgs/" "DESTINATION" "include/yolo_msgs/yolo_msgs" "PATTERN_EXCLUDE" "*.cpp")
 
-# install(DIRECTORY "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_typesupport_introspection_cpp/yolo_msgs/" "DESTINATION" "include/yolo_msgs/yolo_msgs" "PATTERN" "*.hpp")
-ament_cmake_symlink_install_directory("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" DIRECTORY "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_typesupport_introspection_cpp/yolo_msgs/" "DESTINATION" "include/yolo_msgs/yolo_msgs" "PATTERN" "*.hpp")
+# install(DIRECTORY "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_typesupport_introspection_cpp/yolo_msgs/" "DESTINATION" "include/yolo_msgs/yolo_msgs" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" DIRECTORY "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_typesupport_introspection_cpp/yolo_msgs/" "DESTINATION" "include/yolo_msgs/yolo_msgs" "PATTERN" "*.hpp")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/yolo_msgs/environment")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/yolo_msgs/environment")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/yolo_msgs/environment")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/yolo_msgs/environment")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/yolo_msgs/environment")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/yolo_msgs/environment")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/yolo_msgs/environment")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/yolo_msgs/environment")
 
-# install(DIRECTORY "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/ament_cmake_python/yolo_msgs/yolo_msgs.egg-info/" "DESTINATION" "lib/python3.12/site-packages/yolo_msgs-4.0.1-py3.12.egg-info")
-ament_cmake_symlink_install_directory("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" DIRECTORY "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/ament_cmake_python/yolo_msgs/yolo_msgs.egg-info/" "DESTINATION" "lib/python3.12/site-packages/yolo_msgs-4.0.1-py3.12.egg-info")
+# install(DIRECTORY "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/ament_cmake_python/yolo_msgs/yolo_msgs.egg-info/" "DESTINATION" "lib/python3.12/site-packages/yolo_msgs-4.0.1-py3.12.egg-info")
+ament_cmake_symlink_install_directory("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" DIRECTORY "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/ament_cmake_python/yolo_msgs/yolo_msgs.egg-info/" "DESTINATION" "lib/python3.12/site-packages/yolo_msgs-4.0.1-py3.12.egg-info")
 
-# install(DIRECTORY "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_generator_py/yolo_msgs/" "DESTINATION" "lib/python3.12/site-packages/yolo_msgs" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
-ament_cmake_symlink_install_directory("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" DIRECTORY "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_generator_py/yolo_msgs/" "DESTINATION" "lib/python3.12/site-packages/yolo_msgs" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+# install(DIRECTORY "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_generator_py/yolo_msgs/" "DESTINATION" "lib/python3.12/site-packages/yolo_msgs" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+ament_cmake_symlink_install_directory("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" DIRECTORY "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_generator_py/yolo_msgs/" "DESTINATION" "lib/python3.12/site-packages/yolo_msgs" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 
 # install("TARGETS" "yolo_msgs_s__rosidl_typesupport_fastrtps_c" "DESTINATION" "lib/python3.12/site-packages/yolo_msgs")
-include("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install("TARGETS" "yolo_msgs_s__rosidl_typesupport_introspection_c" "DESTINATION" "lib/python3.12/site-packages/yolo_msgs")
-include("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install("TARGETS" "yolo_msgs_s__rosidl_typesupport_c" "DESTINATION" "lib/python3.12/site-packages/yolo_msgs")
-include("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/msg/Point2D.idl" "DESTINATION" "share/yolo_msgs/msg")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/msg/Point2D.idl" "DESTINATION" "share/yolo_msgs/msg")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/msg/Point2D.idl" "DESTINATION" "share/yolo_msgs/msg")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/msg/Point2D.idl" "DESTINATION" "share/yolo_msgs/msg")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/msg/Vector2.idl" "DESTINATION" "share/yolo_msgs/msg")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/msg/Vector2.idl" "DESTINATION" "share/yolo_msgs/msg")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/msg/Vector2.idl" "DESTINATION" "share/yolo_msgs/msg")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/msg/Vector2.idl" "DESTINATION" "share/yolo_msgs/msg")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/msg/Pose2D.idl" "DESTINATION" "share/yolo_msgs/msg")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/msg/Pose2D.idl" "DESTINATION" "share/yolo_msgs/msg")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/msg/Pose2D.idl" "DESTINATION" "share/yolo_msgs/msg")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/msg/Pose2D.idl" "DESTINATION" "share/yolo_msgs/msg")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/msg/BoundingBox2D.idl" "DESTINATION" "share/yolo_msgs/msg")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/msg/BoundingBox2D.idl" "DESTINATION" "share/yolo_msgs/msg")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/msg/BoundingBox2D.idl" "DESTINATION" "share/yolo_msgs/msg")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/msg/BoundingBox2D.idl" "DESTINATION" "share/yolo_msgs/msg")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/msg/BoundingBox3D.idl" "DESTINATION" "share/yolo_msgs/msg")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/msg/BoundingBox3D.idl" "DESTINATION" "share/yolo_msgs/msg")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/msg/BoundingBox3D.idl" "DESTINATION" "share/yolo_msgs/msg")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/msg/BoundingBox3D.idl" "DESTINATION" "share/yolo_msgs/msg")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/msg/Mask.idl" "DESTINATION" "share/yolo_msgs/msg")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/msg/Mask.idl" "DESTINATION" "share/yolo_msgs/msg")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/msg/Mask.idl" "DESTINATION" "share/yolo_msgs/msg")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/msg/Mask.idl" "DESTINATION" "share/yolo_msgs/msg")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/msg/KeyPoint2D.idl" "DESTINATION" "share/yolo_msgs/msg")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/msg/KeyPoint2D.idl" "DESTINATION" "share/yolo_msgs/msg")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/msg/KeyPoint2D.idl" "DESTINATION" "share/yolo_msgs/msg")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/msg/KeyPoint2D.idl" "DESTINATION" "share/yolo_msgs/msg")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/msg/KeyPoint2DArray.idl" "DESTINATION" "share/yolo_msgs/msg")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/msg/KeyPoint2DArray.idl" "DESTINATION" "share/yolo_msgs/msg")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/msg/KeyPoint2DArray.idl" "DESTINATION" "share/yolo_msgs/msg")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/msg/KeyPoint2DArray.idl" "DESTINATION" "share/yolo_msgs/msg")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/msg/KeyPoint3D.idl" "DESTINATION" "share/yolo_msgs/msg")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/msg/KeyPoint3D.idl" "DESTINATION" "share/yolo_msgs/msg")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/msg/KeyPoint3D.idl" "DESTINATION" "share/yolo_msgs/msg")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/msg/KeyPoint3D.idl" "DESTINATION" "share/yolo_msgs/msg")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/msg/KeyPoint3DArray.idl" "DESTINATION" "share/yolo_msgs/msg")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/msg/KeyPoint3DArray.idl" "DESTINATION" "share/yolo_msgs/msg")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/msg/KeyPoint3DArray.idl" "DESTINATION" "share/yolo_msgs/msg")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/msg/KeyPoint3DArray.idl" "DESTINATION" "share/yolo_msgs/msg")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/msg/Detection.idl" "DESTINATION" "share/yolo_msgs/msg")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/msg/Detection.idl" "DESTINATION" "share/yolo_msgs/msg")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/msg/Detection.idl" "DESTINATION" "share/yolo_msgs/msg")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/msg/Detection.idl" "DESTINATION" "share/yolo_msgs/msg")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/msg/DetectionArray.idl" "DESTINATION" "share/yolo_msgs/msg")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/msg/DetectionArray.idl" "DESTINATION" "share/yolo_msgs/msg")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/msg/DetectionArray.idl" "DESTINATION" "share/yolo_msgs/msg")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/msg/DetectionArray.idl" "DESTINATION" "share/yolo_msgs/msg")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/srv/SetClasses.idl" "DESTINATION" "share/yolo_msgs/srv")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/srv/SetClasses.idl" "DESTINATION" "share/yolo_msgs/srv")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/srv/SetClasses.idl" "DESTINATION" "share/yolo_msgs/srv")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_adapter/yolo_msgs/srv/SetClasses.idl" "DESTINATION" "share/yolo_msgs/srv")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs/msg/Point2D.msg" "DESTINATION" "share/yolo_msgs/msg")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs/msg/Point2D.msg" "DESTINATION" "share/yolo_msgs/msg")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs/msg/Point2D.msg" "DESTINATION" "share/yolo_msgs/msg")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs/msg/Point2D.msg" "DESTINATION" "share/yolo_msgs/msg")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs/msg/Vector2.msg" "DESTINATION" "share/yolo_msgs/msg")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs/msg/Vector2.msg" "DESTINATION" "share/yolo_msgs/msg")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs/msg/Vector2.msg" "DESTINATION" "share/yolo_msgs/msg")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs/msg/Vector2.msg" "DESTINATION" "share/yolo_msgs/msg")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs/msg/Pose2D.msg" "DESTINATION" "share/yolo_msgs/msg")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs/msg/Pose2D.msg" "DESTINATION" "share/yolo_msgs/msg")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs/msg/Pose2D.msg" "DESTINATION" "share/yolo_msgs/msg")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs/msg/Pose2D.msg" "DESTINATION" "share/yolo_msgs/msg")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs/msg/BoundingBox2D.msg" "DESTINATION" "share/yolo_msgs/msg")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs/msg/BoundingBox2D.msg" "DESTINATION" "share/yolo_msgs/msg")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs/msg/BoundingBox2D.msg" "DESTINATION" "share/yolo_msgs/msg")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs/msg/BoundingBox2D.msg" "DESTINATION" "share/yolo_msgs/msg")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs/msg/BoundingBox3D.msg" "DESTINATION" "share/yolo_msgs/msg")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs/msg/BoundingBox3D.msg" "DESTINATION" "share/yolo_msgs/msg")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs/msg/BoundingBox3D.msg" "DESTINATION" "share/yolo_msgs/msg")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs/msg/BoundingBox3D.msg" "DESTINATION" "share/yolo_msgs/msg")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs/msg/Mask.msg" "DESTINATION" "share/yolo_msgs/msg")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs/msg/Mask.msg" "DESTINATION" "share/yolo_msgs/msg")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs/msg/Mask.msg" "DESTINATION" "share/yolo_msgs/msg")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs/msg/Mask.msg" "DESTINATION" "share/yolo_msgs/msg")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs/msg/KeyPoint2D.msg" "DESTINATION" "share/yolo_msgs/msg")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs/msg/KeyPoint2D.msg" "DESTINATION" "share/yolo_msgs/msg")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs/msg/KeyPoint2D.msg" "DESTINATION" "share/yolo_msgs/msg")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs/msg/KeyPoint2D.msg" "DESTINATION" "share/yolo_msgs/msg")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs/msg/KeyPoint2DArray.msg" "DESTINATION" "share/yolo_msgs/msg")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs/msg/KeyPoint2DArray.msg" "DESTINATION" "share/yolo_msgs/msg")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs/msg/KeyPoint2DArray.msg" "DESTINATION" "share/yolo_msgs/msg")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs/msg/KeyPoint2DArray.msg" "DESTINATION" "share/yolo_msgs/msg")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs/msg/KeyPoint3D.msg" "DESTINATION" "share/yolo_msgs/msg")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs/msg/KeyPoint3D.msg" "DESTINATION" "share/yolo_msgs/msg")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs/msg/KeyPoint3D.msg" "DESTINATION" "share/yolo_msgs/msg")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs/msg/KeyPoint3D.msg" "DESTINATION" "share/yolo_msgs/msg")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs/msg/KeyPoint3DArray.msg" "DESTINATION" "share/yolo_msgs/msg")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs/msg/KeyPoint3DArray.msg" "DESTINATION" "share/yolo_msgs/msg")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs/msg/KeyPoint3DArray.msg" "DESTINATION" "share/yolo_msgs/msg")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs/msg/KeyPoint3DArray.msg" "DESTINATION" "share/yolo_msgs/msg")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs/msg/Detection.msg" "DESTINATION" "share/yolo_msgs/msg")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs/msg/Detection.msg" "DESTINATION" "share/yolo_msgs/msg")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs/msg/Detection.msg" "DESTINATION" "share/yolo_msgs/msg")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs/msg/Detection.msg" "DESTINATION" "share/yolo_msgs/msg")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs/msg/DetectionArray.msg" "DESTINATION" "share/yolo_msgs/msg")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs/msg/DetectionArray.msg" "DESTINATION" "share/yolo_msgs/msg")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs/msg/DetectionArray.msg" "DESTINATION" "share/yolo_msgs/msg")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs/msg/DetectionArray.msg" "DESTINATION" "share/yolo_msgs/msg")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs/srv/SetClasses.srv" "DESTINATION" "share/yolo_msgs/srv")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs/srv/SetClasses.srv" "DESTINATION" "share/yolo_msgs/srv")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs/srv/SetClasses.srv" "DESTINATION" "share/yolo_msgs/srv")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs/srv/SetClasses.srv" "DESTINATION" "share/yolo_msgs/srv")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/yolo_msgs" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/yolo_msgs" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/yolo_msgs" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/yolo_msgs" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/yolo_msgs" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/yolo_msgs" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/yolo_msgs" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/yolo_msgs" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/yolo_msgs/environment")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/yolo_msgs/environment")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/yolo_msgs/environment")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/yolo_msgs/environment")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/yolo_msgs/environment")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/yolo_msgs/environment")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/yolo_msgs/environment")
 
 # install(FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/yolo_msgs/environment")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/yolo_msgs/environment")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/yolo_msgs/environment")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/yolo_msgs/environment")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/yolo_msgs/environment")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/yolo_msgs/environment")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/yolo_msgs/environment")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/yolo_msgs")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/yolo_msgs")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/yolo_msgs")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/yolo_msgs")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/yolo_msgs")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/yolo_msgs")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/yolo_msgs")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/yolo_msgs")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/yolo_msgs")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/yolo_msgs")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/yolo_msgs")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/yolo_msgs")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/yolo_msgs")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/yolo_msgs")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/yolo_msgs")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/yolo_msgs")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/yolo_msgs")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/yolo_msgs")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/yolo_msgs")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/yolo_msgs")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/ament_cmake_index/share/ament_index/resource_index/packages/yolo_msgs" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/ament_cmake_index/share/ament_index/resource_index/packages/yolo_msgs" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/ament_cmake_index/share/ament_index/resource_index/packages/yolo_msgs" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/ament_cmake_index/share/ament_index/resource_index/packages/yolo_msgs" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/yolo_msgs/cmake")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/yolo_msgs/cmake")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/yolo_msgs/cmake")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/yolo_msgs/cmake")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/yolo_msgs/cmake")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/yolo_msgs/cmake")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/yolo_msgs/cmake")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/yolo_msgs/cmake")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/yolo_msgs/cmake")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/yolo_msgs/cmake")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/yolo_msgs/cmake")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/yolo_msgs/cmake")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/yolo_msgs/cmake")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/yolo_msgs/cmake")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/yolo_msgs/cmake")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/yolo_msgs/cmake")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/yolo_msgs/cmake")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/yolo_msgs/cmake")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/yolo_msgs/cmake")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/yolo_msgs/cmake")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/yolo_msgs/cmake")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/yolo_msgs/cmake")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/yolo_msgs/cmake")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/yolo_msgs/cmake")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/yolo_msgs/cmake")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/yolo_msgs/cmake")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/yolo_msgs/cmake")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/yolo_msgs/cmake")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/ament_cmake_core/yolo_msgsConfig.cmake" "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/ament_cmake_core/yolo_msgsConfig-version.cmake" "DESTINATION" "share/yolo_msgs/cmake")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/ament_cmake_core/yolo_msgsConfig.cmake" "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/ament_cmake_core/yolo_msgsConfig-version.cmake" "DESTINATION" "share/yolo_msgs/cmake")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/ament_cmake_core/yolo_msgsConfig.cmake" "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/ament_cmake_core/yolo_msgsConfig-version.cmake" "DESTINATION" "share/yolo_msgs/cmake")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/ament_cmake_core/yolo_msgsConfig.cmake" "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/ament_cmake_core/yolo_msgsConfig-version.cmake" "DESTINATION" "share/yolo_msgs/cmake")
 
-# install(FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs/package.xml" "DESTINATION" "share/yolo_msgs")
-ament_cmake_symlink_install_files("/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs/package.xml" "DESTINATION" "share/yolo_msgs")
+# install(FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs/package.xml" "DESTINATION" "share/yolo_msgs")
+ament_cmake_symlink_install_files("/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs" FILES "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs/package.xml" "DESTINATION" "share/yolo_msgs")

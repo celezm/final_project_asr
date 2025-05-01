@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs
+CMAKE_SOURCE_DIR = /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs
+CMAKE_BINARY_DIR = /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs
 
 # Utility rule file for yolo_msgs__cpp.
 
@@ -230,8 +230,8 @@ rosidl_generator_cpp/yolo_msgs/msg/point2_d.hpp: /opt/ros/jazzy/share/geometry_m
 rosidl_generator_cpp/yolo_msgs/msg/point2_d.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/Wrench.idl
 rosidl_generator_cpp/yolo_msgs/msg/point2_d.hpp: /opt/ros/jazzy/share/geometry_msgs/msg/WrenchStamped.idl
 rosidl_generator_cpp/yolo_msgs/msg/point2_d.hpp: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_generator_cpp__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/yolo_msgs/msg/detail/point2_d__builder.hpp: rosidl_generator_cpp/yolo_msgs/msg/point2_d.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/yolo_msgs/msg/detail/point2_d__builder.hpp
@@ -507,6 +507,6 @@ CMakeFiles/yolo_msgs__cpp.dir/clean:
 .PHONY : CMakeFiles/yolo_msgs__cpp.dir/clean
 
 CMakeFiles/yolo_msgs__cpp.dir/depend:
-	cd /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/CMakeFiles/yolo_msgs__cpp.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/CMakeFiles/yolo_msgs__cpp.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/yolo_msgs__cpp.dir/depend
 

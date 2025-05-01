@@ -53,50 +53,50 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs
+CMAKE_SOURCE_DIR = /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs
+CMAKE_BINARY_DIR = /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs
 
 # Utility rule file for yolo_msgs__py.
 
 # Include any custom commands dependencies for this target.
-include /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py.dir/compiler_depend.make
+include /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py.dir/compiler_depend.make
 
 # Include the progress variables for this target.
-include /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py.dir/progress.make
+include /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py.dir/progress.make
 
-/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/_yolo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
-/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/_yolo_msgs_s.ep.rosidl_typesupport_introspection_c.c
-/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/_yolo_msgs_s.ep.rosidl_typesupport_c.c
-/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/msg/_point2_d.py
-/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/msg/_vector2.py
-/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/msg/_pose2_d.py
-/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/msg/_bounding_box2_d.py
-/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/msg/_bounding_box3_d.py
-/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/msg/_mask.py
-/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/msg/_key_point2_d.py
-/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/msg/_key_point2_d_array.py
-/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/msg/_key_point3_d.py
-/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/msg/_key_point3_d_array.py
-/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/msg/_detection.py
-/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/msg/_detection_array.py
-/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/srv/_set_classes.py
-/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/msg/__init__.py
-/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/srv/__init__.py
-/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/msg/_point2_d_s.c
-/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/msg/_vector2_s.c
-/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/msg/_pose2_d_s.c
-/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/msg/_bounding_box2_d_s.c
-/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/msg/_bounding_box3_d_s.c
-/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/msg/_mask_s.c
-/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/msg/_key_point2_d_s.c
-/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/msg/_key_point2_d_array_s.c
-/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/msg/_key_point3_d_s.c
-/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/msg/_key_point3_d_array_s.c
-/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/msg/_detection_s.c
-/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/msg/_detection_array_s.c
-/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/srv/_set_classes_s.c
+/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/_yolo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/_yolo_msgs_s.ep.rosidl_typesupport_introspection_c.c
+/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/_yolo_msgs_s.ep.rosidl_typesupport_c.c
+/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/msg/_point2_d.py
+/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/msg/_vector2.py
+/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/msg/_pose2_d.py
+/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/msg/_bounding_box2_d.py
+/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/msg/_bounding_box3_d.py
+/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/msg/_mask.py
+/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/msg/_key_point2_d.py
+/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/msg/_key_point2_d_array.py
+/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/msg/_key_point3_d.py
+/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/msg/_key_point3_d_array.py
+/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/msg/_detection.py
+/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/msg/_detection_array.py
+/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/srv/_set_classes.py
+/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/msg/__init__.py
+/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/srv/__init__.py
+/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/msg/_point2_d_s.c
+/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/msg/_vector2_s.c
+/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/msg/_pose2_d_s.c
+/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/msg/_bounding_box2_d_s.c
+/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/msg/_bounding_box3_d_s.c
+/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/msg/_mask_s.c
+/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/msg/_key_point2_d_s.c
+/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/msg/_key_point2_d_array_s.c
+/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/msg/_key_point3_d_s.c
+/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/msg/_key_point3_d_array_s.c
+/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/msg/_detection_s.c
+/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/msg/_detection_array_s.c
+/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py: rosidl_generator_py/yolo_msgs/srv/_set_classes_s.c
 
 rosidl_generator_py/yolo_msgs/_yolo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/yolo_msgs/_yolo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_py/__init__.py
@@ -189,8 +189,8 @@ rosidl_generator_py/yolo_msgs/_yolo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /
 rosidl_generator_py/yolo_msgs/_yolo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/Wrench.idl
 rosidl_generator_py/yolo_msgs/_yolo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/WrenchStamped.idl
 rosidl_generator_py/yolo_msgs/_yolo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
-	cd /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py && /usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
+	cd /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py && /usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
 rosidl_generator_py/yolo_msgs/_yolo_msgs_s.ep.rosidl_typesupport_introspection_c.c: rosidl_generator_py/yolo_msgs/_yolo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/yolo_msgs/_yolo_msgs_s.ep.rosidl_typesupport_introspection_c.c
@@ -313,19 +313,19 @@ yolo_msgs__py: rosidl_generator_py/yolo_msgs/msg/_vector2_s.c
 yolo_msgs__py: rosidl_generator_py/yolo_msgs/srv/__init__.py
 yolo_msgs__py: rosidl_generator_py/yolo_msgs/srv/_set_classes.py
 yolo_msgs__py: rosidl_generator_py/yolo_msgs/srv/_set_classes_s.c
-yolo_msgs__py: /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py
-yolo_msgs__py: /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py.dir/build.make
+yolo_msgs__py: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py
+yolo_msgs__py: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py.dir/build.make
 .PHONY : yolo_msgs__py
 
 # Rule to build all files generated by this target.
-/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py.dir/build: yolo_msgs__py
-.PHONY : /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py.dir/build
+/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py.dir/build: yolo_msgs__py
+.PHONY : /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py.dir/build
 
-/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py.dir/clean:
-	cd /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py && $(CMAKE_COMMAND) -P CMakeFiles/yolo_msgs__py.dir/cmake_clean.cmake
-.PHONY : /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py.dir/clean
+/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py.dir/clean:
+	cd /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py && $(CMAKE_COMMAND) -P CMakeFiles/yolo_msgs__py.dir/cmake_clean.cmake
+.PHONY : /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py.dir/clean
 
-/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py.dir/depend:
-	cd /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py.dir/DependInfo.cmake "--color=$(COLOR)"
-.PHONY : /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py.dir/depend
+/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py.dir/depend:
+	cd /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py.dir/DependInfo.cmake "--color=$(COLOR)"
+.PHONY : /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/yolo_msgs__py/CMakeFiles/yolo_msgs__py.dir/depend
 

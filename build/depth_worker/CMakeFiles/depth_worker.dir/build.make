@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker
+CMAKE_SOURCE_DIR = /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker
+CMAKE_BINARY_DIR = /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker
 
 # Include any dependencies generated for this target.
 include CMakeFiles/depth_worker.dir/depend.make
@@ -70,46 +70,46 @@ include CMakeFiles/depth_worker.dir/progress.make
 include CMakeFiles/depth_worker.dir/flags.make
 
 CMakeFiles/depth_worker.dir/src/depth_worker/YoloDetectionNode.cpp.o: CMakeFiles/depth_worker.dir/flags.make
-CMakeFiles/depth_worker.dir/src/depth_worker/YoloDetectionNode.cpp.o: /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker/src/depth_worker/YoloDetectionNode.cpp
+CMakeFiles/depth_worker.dir/src/depth_worker/YoloDetectionNode.cpp.o: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker/src/depth_worker/YoloDetectionNode.cpp
 CMakeFiles/depth_worker.dir/src/depth_worker/YoloDetectionNode.cpp.o: CMakeFiles/depth_worker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/depth_worker.dir/src/depth_worker/YoloDetectionNode.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/depth_worker.dir/src/depth_worker/YoloDetectionNode.cpp.o -MF CMakeFiles/depth_worker.dir/src/depth_worker/YoloDetectionNode.cpp.o.d -o CMakeFiles/depth_worker.dir/src/depth_worker/YoloDetectionNode.cpp.o -c /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker/src/depth_worker/YoloDetectionNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/depth_worker.dir/src/depth_worker/YoloDetectionNode.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/depth_worker.dir/src/depth_worker/YoloDetectionNode.cpp.o -MF CMakeFiles/depth_worker.dir/src/depth_worker/YoloDetectionNode.cpp.o.d -o CMakeFiles/depth_worker.dir/src/depth_worker/YoloDetectionNode.cpp.o -c /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker/src/depth_worker/YoloDetectionNode.cpp
 
 CMakeFiles/depth_worker.dir/src/depth_worker/YoloDetectionNode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/depth_worker.dir/src/depth_worker/YoloDetectionNode.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker/src/depth_worker/YoloDetectionNode.cpp > CMakeFiles/depth_worker.dir/src/depth_worker/YoloDetectionNode.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker/src/depth_worker/YoloDetectionNode.cpp > CMakeFiles/depth_worker.dir/src/depth_worker/YoloDetectionNode.cpp.i
 
 CMakeFiles/depth_worker.dir/src/depth_worker/YoloDetectionNode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/depth_worker.dir/src/depth_worker/YoloDetectionNode.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker/src/depth_worker/YoloDetectionNode.cpp -o CMakeFiles/depth_worker.dir/src/depth_worker/YoloDetectionNode.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker/src/depth_worker/YoloDetectionNode.cpp -o CMakeFiles/depth_worker.dir/src/depth_worker/YoloDetectionNode.cpp.s
 
 CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: CMakeFiles/depth_worker.dir/flags.make
-CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker/src/depth_worker/YoloParserNode.cpp
+CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker/src/depth_worker/YoloParserNode.cpp
 CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o: CMakeFiles/depth_worker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o -MF CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o.d -o CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o -c /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker/src/depth_worker/YoloParserNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o -MF CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o.d -o CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o -c /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker/src/depth_worker/YoloParserNode.cpp
 
 CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker/src/depth_worker/YoloParserNode.cpp > CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker/src/depth_worker/YoloParserNode.cpp > CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.i
 
 CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker/src/depth_worker/YoloParserNode.cpp -o CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker/src/depth_worker/YoloParserNode.cpp -o CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.s
 
 CMakeFiles/depth_worker.dir/src/depth_worker/DetectionTo3DfromPCNode.cpp.o: CMakeFiles/depth_worker.dir/flags.make
-CMakeFiles/depth_worker.dir/src/depth_worker/DetectionTo3DfromPCNode.cpp.o: /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker/src/depth_worker/DetectionTo3DfromPCNode.cpp
+CMakeFiles/depth_worker.dir/src/depth_worker/DetectionTo3DfromPCNode.cpp.o: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker/src/depth_worker/DetectionTo3DfromPCNode.cpp
 CMakeFiles/depth_worker.dir/src/depth_worker/DetectionTo3DfromPCNode.cpp.o: CMakeFiles/depth_worker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/depth_worker.dir/src/depth_worker/DetectionTo3DfromPCNode.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/depth_worker.dir/src/depth_worker/DetectionTo3DfromPCNode.cpp.o -MF CMakeFiles/depth_worker.dir/src/depth_worker/DetectionTo3DfromPCNode.cpp.o.d -o CMakeFiles/depth_worker.dir/src/depth_worker/DetectionTo3DfromPCNode.cpp.o -c /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker/src/depth_worker/DetectionTo3DfromPCNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/depth_worker.dir/src/depth_worker/DetectionTo3DfromPCNode.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/depth_worker.dir/src/depth_worker/DetectionTo3DfromPCNode.cpp.o -MF CMakeFiles/depth_worker.dir/src/depth_worker/DetectionTo3DfromPCNode.cpp.o.d -o CMakeFiles/depth_worker.dir/src/depth_worker/DetectionTo3DfromPCNode.cpp.o -c /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker/src/depth_worker/DetectionTo3DfromPCNode.cpp
 
 CMakeFiles/depth_worker.dir/src/depth_worker/DetectionTo3DfromPCNode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/depth_worker.dir/src/depth_worker/DetectionTo3DfromPCNode.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker/src/depth_worker/DetectionTo3DfromPCNode.cpp > CMakeFiles/depth_worker.dir/src/depth_worker/DetectionTo3DfromPCNode.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker/src/depth_worker/DetectionTo3DfromPCNode.cpp > CMakeFiles/depth_worker.dir/src/depth_worker/DetectionTo3DfromPCNode.cpp.i
 
 CMakeFiles/depth_worker.dir/src/depth_worker/DetectionTo3DfromPCNode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/depth_worker.dir/src/depth_worker/DetectionTo3DfromPCNode.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker/src/depth_worker/DetectionTo3DfromPCNode.cpp -o CMakeFiles/depth_worker.dir/src/depth_worker/DetectionTo3DfromPCNode.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker/src/depth_worker/DetectionTo3DfromPCNode.cpp -o CMakeFiles/depth_worker.dir/src/depth_worker/DetectionTo3DfromPCNode.cpp.s
 
 # Object files for target depth_worker
 depth_worker_OBJECTS = \
@@ -137,12 +137,12 @@ libdepth_worker.so: /opt/ros/jazzy/lib/libpcd_to_pointcloud_lib.so
 libdepth_worker.so: /opt/ros/jazzy/lib/libpcl_ros_filters.so
 libdepth_worker.so: /opt/ros/jazzy/lib/libpointcloud_to_pcd_lib.so
 libdepth_worker.so: /opt/ros/jazzy/lib/libimage_geometry.so
-libdepth_worker.so: /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_fastrtps_c.so
-libdepth_worker.so: /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_introspection_c.so
-libdepth_worker.so: /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_fastrtps_cpp.so
-libdepth_worker.so: /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_introspection_cpp.so
-libdepth_worker.so: /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_cpp.so
-libdepth_worker.so: /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/lib/libyolo_msgs__rosidl_generator_py.so
+libdepth_worker.so: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_fastrtps_c.so
+libdepth_worker.so: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_introspection_c.so
+libdepth_worker.so: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_fastrtps_cpp.so
+libdepth_worker.so: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_introspection_cpp.so
+libdepth_worker.so: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_cpp.so
+libdepth_worker.so: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/lib/libyolo_msgs__rosidl_generator_py.so
 libdepth_worker.so: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.6.0
 libdepth_worker.so: /usr/lib/x86_64-linux-gnu/libopencv_alphamat.so.4.6.0
 libdepth_worker.so: /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.4.6.0
@@ -199,7 +199,7 @@ libdepth_worker.so: /usr/lib/x86_64-linux-gnu/libpcl_apps.so
 libdepth_worker.so: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so
 libdepth_worker.so: /usr/lib/x86_64-linux-gnu/libpcl_people.so
 libdepth_worker.so: /usr/lib/libOpenNI.so
-libdepth_worker.so: /home/claudia-elez/Desktop/asoftwarer/asr_ws/install/astra_camera/lib/libOpenNI2.so
+libdepth_worker.so: /home/manza/Desktop/arquitectura/asr_ws/install/astra_camera/lib/libOpenNI2.so
 libdepth_worker.so: /usr/lib/x86_64-linux-gnu/libusb-1.0.so
 libdepth_worker.so: /opt/ros/jazzy/lib/libcamera_calibration_parsers.so
 libdepth_worker.so: /opt/ros/jazzy/lib/libcv_bridge.so
@@ -395,8 +395,8 @@ libdepth_worker.so: /opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_intros
 libdepth_worker.so: /opt/ros/jazzy/lib/libsensor_msgs__rosidl_generator_py.so
 libdepth_worker.so: /opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_c.so
 libdepth_worker.so: /opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_cpp.so
-libdepth_worker.so: /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_c.so
-libdepth_worker.so: /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/install/yolo_msgs/lib/libyolo_msgs__rosidl_generator_c.so
+libdepth_worker.so: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/lib/libyolo_msgs__rosidl_typesupport_c.so
+libdepth_worker.so: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/install/yolo_msgs/lib/libyolo_msgs__rosidl_generator_c.so
 libdepth_worker.so: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
 libdepth_worker.so: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
 libdepth_worker.so: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -473,7 +473,7 @@ libdepth_worker.so: /usr/lib/x86_64-linux-gnu/libpthread.a
 libdepth_worker.so: /usr/lib/x86_64-linux-gnu/libpng.so
 libdepth_worker.so: /usr/lib/x86_64-linux-gnu/libz.so
 libdepth_worker.so: /usr/lib/libOpenNI.so
-libdepth_worker.so: /home/claudia-elez/Desktop/asoftwarer/asr_ws/install/astra_camera/lib/libOpenNI2.so
+libdepth_worker.so: /home/manza/Desktop/arquitectura/asr_ws/install/astra_camera/lib/libOpenNI2.so
 libdepth_worker.so: /usr/lib/x86_64-linux-gnu/libusb-1.0.so
 libdepth_worker.so: /usr/lib/x86_64-linux-gnu/libvtkChartsCore-9.1.so.9.1.0
 libdepth_worker.so: /usr/lib/x86_64-linux-gnu/libvtkInteractionImage-9.1.so.9.1.0
@@ -572,7 +572,7 @@ libdepth_worker.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_c
 libdepth_worker.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 libdepth_worker.so: /opt/ros/jazzy/lib/librcutils.so
 libdepth_worker.so: CMakeFiles/depth_worker.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libdepth_worker.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libdepth_worker.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/depth_worker.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -584,6 +584,6 @@ CMakeFiles/depth_worker.dir/clean:
 .PHONY : CMakeFiles/depth_worker.dir/clean
 
 CMakeFiles/depth_worker.dir/depend:
-	cd /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/CMakeFiles/depth_worker.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/depth_worker.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/depth_worker.dir/depend
 

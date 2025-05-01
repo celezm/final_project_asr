@@ -5,9 +5,9 @@
 #include <string.h>
 
 #include "yolo_msgs/msg/detail/key_point3_d__functions.h"
+#include "rosidl_typesupport_interface/macros.h"
 #include "yolo_msgs/msg/detail/key_point3_d__struct.h"
 #include "yolo_msgs/msg/detail/key_point3_d__type_support.h"
-#include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus
 extern "C"

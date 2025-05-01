@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "yolo_msgs/msg/detail/bounding_box3_d__struct.h"
+#include "rosidl_typesupport_interface/macros.h"
 #include "yolo_msgs/msg/detail/bounding_box3_d__functions.h"
 #include "yolo_msgs/msg/detail/bounding_box3_d__type_support.h"
-#include "rosidl_typesupport_interface/macros.h"
+#include "yolo_msgs/msg/detail/bounding_box3_d__struct.h"
 
 #ifdef __cplusplus
 extern "C"

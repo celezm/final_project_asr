@@ -20,11 +20,15 @@ find_package(behaviortree_cpp_v3 REQUIRED)
 include_directories(
   include
   ${PCL_INCLUDE_DIRS}
+  include/pfinal_pc
 )
 
 # Crear la librería compartida del proyecto
 add_library(${PROJECT_NAME} SHARED
   src/pfinal_pc/CheckPerson.cpp
+  src/pfinal_pc/AskForDestinationNode.cpp
+  src/pfinal_pc/WaitForRobotNode.cpp
+
 )
 
 # Vincular las dependencias necesarias para la librería

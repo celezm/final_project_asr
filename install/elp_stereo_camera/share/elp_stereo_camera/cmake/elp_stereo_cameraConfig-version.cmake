@@ -1,1 +1,1 @@
-/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/elp_stereo_camera/ament_cmake_core/elp_stereo_cameraConfig-version.cmake
+/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera/ament_cmake_core/elp_stereo_cameraConfig-version.cmake

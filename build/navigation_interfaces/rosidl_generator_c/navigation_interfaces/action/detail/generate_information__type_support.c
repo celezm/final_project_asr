@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
 #include "navigation_interfaces/action/detail/generate_information__struct.h"
-#include "navigation_interfaces/action/detail/generate_information__type_support.h"
 #include "navigation_interfaces/action/detail/generate_information__functions.h"
+#include "navigation_interfaces/action/detail/generate_information__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus
 extern "C"

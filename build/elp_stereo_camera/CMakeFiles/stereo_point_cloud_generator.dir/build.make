@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/elp_stereo_camera
+CMAKE_SOURCE_DIR = /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/elp_stereo_camera
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/elp_stereo_camera
+CMAKE_BINARY_DIR = /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera
 
 # Include any dependencies generated for this target.
 include CMakeFiles/stereo_point_cloud_generator.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/stereo_point_cloud_generator.dir/progress.make
 include CMakeFiles/stereo_point_cloud_generator.dir/flags.make
 
 CMakeFiles/stereo_point_cloud_generator.dir/src/stereo_point_cloud_generator.cpp.o: CMakeFiles/stereo_point_cloud_generator.dir/flags.make
-CMakeFiles/stereo_point_cloud_generator.dir/src/stereo_point_cloud_generator.cpp.o: /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/elp_stereo_camera/src/stereo_point_cloud_generator.cpp
+CMakeFiles/stereo_point_cloud_generator.dir/src/stereo_point_cloud_generator.cpp.o: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/elp_stereo_camera/src/stereo_point_cloud_generator.cpp
 CMakeFiles/stereo_point_cloud_generator.dir/src/stereo_point_cloud_generator.cpp.o: CMakeFiles/stereo_point_cloud_generator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/elp_stereo_camera/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/stereo_point_cloud_generator.dir/src/stereo_point_cloud_generator.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/stereo_point_cloud_generator.dir/src/stereo_point_cloud_generator.cpp.o -MF CMakeFiles/stereo_point_cloud_generator.dir/src/stereo_point_cloud_generator.cpp.o.d -o CMakeFiles/stereo_point_cloud_generator.dir/src/stereo_point_cloud_generator.cpp.o -c /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/elp_stereo_camera/src/stereo_point_cloud_generator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/stereo_point_cloud_generator.dir/src/stereo_point_cloud_generator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/stereo_point_cloud_generator.dir/src/stereo_point_cloud_generator.cpp.o -MF CMakeFiles/stereo_point_cloud_generator.dir/src/stereo_point_cloud_generator.cpp.o.d -o CMakeFiles/stereo_point_cloud_generator.dir/src/stereo_point_cloud_generator.cpp.o -c /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/elp_stereo_camera/src/stereo_point_cloud_generator.cpp
 
 CMakeFiles/stereo_point_cloud_generator.dir/src/stereo_point_cloud_generator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/stereo_point_cloud_generator.dir/src/stereo_point_cloud_generator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/elp_stereo_camera/src/stereo_point_cloud_generator.cpp > CMakeFiles/stereo_point_cloud_generator.dir/src/stereo_point_cloud_generator.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/elp_stereo_camera/src/stereo_point_cloud_generator.cpp > CMakeFiles/stereo_point_cloud_generator.dir/src/stereo_point_cloud_generator.cpp.i
 
 CMakeFiles/stereo_point_cloud_generator.dir/src/stereo_point_cloud_generator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/stereo_point_cloud_generator.dir/src/stereo_point_cloud_generator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/elp_stereo_camera/src/stereo_point_cloud_generator.cpp -o CMakeFiles/stereo_point_cloud_generator.dir/src/stereo_point_cloud_generator.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/elp_stereo_camera/src/stereo_point_cloud_generator.cpp -o CMakeFiles/stereo_point_cloud_generator.dir/src/stereo_point_cloud_generator.cpp.s
 
 # Object files for target stereo_point_cloud_generator
 stereo_point_cloud_generator_OBJECTS = \
@@ -199,7 +199,7 @@ stereo_point_cloud_generator: /usr/lib/x86_64-linux-gnu/libpcl_apps.so
 stereo_point_cloud_generator: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so
 stereo_point_cloud_generator: /usr/lib/x86_64-linux-gnu/libpcl_people.so
 stereo_point_cloud_generator: /usr/lib/libOpenNI.so
-stereo_point_cloud_generator: /home/claudia-elez/Desktop/asoftwarer/asr_ws/install/astra_camera/lib/libOpenNI2.so
+stereo_point_cloud_generator: /home/manza/Desktop/arquitectura/asr_ws/install/astra_camera/lib/libOpenNI2.so
 stereo_point_cloud_generator: /usr/lib/x86_64-linux-gnu/libusb-1.0.so
 stereo_point_cloud_generator: /usr/lib/x86_64-linux-gnu/libflann_cpp.so.1.9.2
 stereo_point_cloud_generator: /opt/ros/jazzy/lib/librclcpp_lifecycle.so
@@ -341,7 +341,7 @@ stereo_point_cloud_generator: /usr/lib/x86_64-linux-gnu/libpthread.a
 stereo_point_cloud_generator: /usr/lib/x86_64-linux-gnu/libpng.so
 stereo_point_cloud_generator: /usr/lib/x86_64-linux-gnu/libz.so
 stereo_point_cloud_generator: /usr/lib/libOpenNI.so
-stereo_point_cloud_generator: /home/claudia-elez/Desktop/asoftwarer/asr_ws/install/astra_camera/lib/libOpenNI2.so
+stereo_point_cloud_generator: /home/manza/Desktop/arquitectura/asr_ws/install/astra_camera/lib/libOpenNI2.so
 stereo_point_cloud_generator: /usr/lib/x86_64-linux-gnu/libusb-1.0.so
 stereo_point_cloud_generator: /usr/lib/x86_64-linux-gnu/libvtkChartsCore-9.1.so.9.1.0
 stereo_point_cloud_generator: /usr/lib/x86_64-linux-gnu/libvtkInteractionImage-9.1.so.9.1.0
@@ -400,7 +400,7 @@ stereo_point_cloud_generator: /usr/lib/x86_64-linux-gnu/libflann_cpp_s.a
 stereo_point_cloud_generator: /usr/lib/x86_64-linux-gnu/liblz4.so
 stereo_point_cloud_generator: /usr/lib/x86_64-linux-gnu/libqhull_r.so.8.0.2
 stereo_point_cloud_generator: CMakeFiles/stereo_point_cloud_generator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/elp_stereo_camera/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable stereo_point_cloud_generator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable stereo_point_cloud_generator"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/stereo_point_cloud_generator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -412,6 +412,6 @@ CMakeFiles/stereo_point_cloud_generator.dir/clean:
 .PHONY : CMakeFiles/stereo_point_cloud_generator.dir/clean
 
 CMakeFiles/stereo_point_cloud_generator.dir/depend:
-	cd /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/elp_stereo_camera && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/elp_stereo_camera /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/elp_stereo_camera /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/elp_stereo_camera /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/elp_stereo_camera /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/elp_stereo_camera/CMakeFiles/stereo_point_cloud_generator.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/elp_stereo_camera /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/elp_stereo_camera /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera/CMakeFiles/stereo_point_cloud_generator.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/stereo_point_cloud_generator.dir/depend
 

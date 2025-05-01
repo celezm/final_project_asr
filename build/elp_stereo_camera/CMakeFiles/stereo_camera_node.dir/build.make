@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/elp_stereo_camera
+CMAKE_SOURCE_DIR = /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/elp_stereo_camera
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/elp_stereo_camera
+CMAKE_BINARY_DIR = /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera
 
 # Include any dependencies generated for this target.
 include CMakeFiles/stereo_camera_node.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/stereo_camera_node.dir/progress.make
 include CMakeFiles/stereo_camera_node.dir/flags.make
 
 CMakeFiles/stereo_camera_node.dir/src/stereo_camera_node.cpp.o: CMakeFiles/stereo_camera_node.dir/flags.make
-CMakeFiles/stereo_camera_node.dir/src/stereo_camera_node.cpp.o: /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/elp_stereo_camera/src/stereo_camera_node.cpp
+CMakeFiles/stereo_camera_node.dir/src/stereo_camera_node.cpp.o: /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/elp_stereo_camera/src/stereo_camera_node.cpp
 CMakeFiles/stereo_camera_node.dir/src/stereo_camera_node.cpp.o: CMakeFiles/stereo_camera_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/elp_stereo_camera/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/stereo_camera_node.dir/src/stereo_camera_node.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/stereo_camera_node.dir/src/stereo_camera_node.cpp.o -MF CMakeFiles/stereo_camera_node.dir/src/stereo_camera_node.cpp.o.d -o CMakeFiles/stereo_camera_node.dir/src/stereo_camera_node.cpp.o -c /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/elp_stereo_camera/src/stereo_camera_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/stereo_camera_node.dir/src/stereo_camera_node.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/stereo_camera_node.dir/src/stereo_camera_node.cpp.o -MF CMakeFiles/stereo_camera_node.dir/src/stereo_camera_node.cpp.o.d -o CMakeFiles/stereo_camera_node.dir/src/stereo_camera_node.cpp.o -c /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/elp_stereo_camera/src/stereo_camera_node.cpp
 
 CMakeFiles/stereo_camera_node.dir/src/stereo_camera_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/stereo_camera_node.dir/src/stereo_camera_node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/elp_stereo_camera/src/stereo_camera_node.cpp > CMakeFiles/stereo_camera_node.dir/src/stereo_camera_node.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/elp_stereo_camera/src/stereo_camera_node.cpp > CMakeFiles/stereo_camera_node.dir/src/stereo_camera_node.cpp.i
 
 CMakeFiles/stereo_camera_node.dir/src/stereo_camera_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/stereo_camera_node.dir/src/stereo_camera_node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/elp_stereo_camera/src/stereo_camera_node.cpp -o CMakeFiles/stereo_camera_node.dir/src/stereo_camera_node.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/elp_stereo_camera/src/stereo_camera_node.cpp -o CMakeFiles/stereo_camera_node.dir/src/stereo_camera_node.cpp.s
 
 # Object files for target stereo_camera_node
 stereo_camera_node_OBJECTS = \
@@ -248,7 +248,7 @@ stereo_camera_node: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.6.0
 stereo_camera_node: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.6.0
 stereo_camera_node: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.6.0
 stereo_camera_node: CMakeFiles/stereo_camera_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/elp_stereo_camera/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable stereo_camera_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable stereo_camera_node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/stereo_camera_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -260,6 +260,6 @@ CMakeFiles/stereo_camera_node.dir/clean:
 .PHONY : CMakeFiles/stereo_camera_node.dir/clean
 
 CMakeFiles/stereo_camera_node.dir/depend:
-	cd /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/elp_stereo_camera && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/elp_stereo_camera /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/elp_stereo_camera /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/elp_stereo_camera /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/elp_stereo_camera /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/elp_stereo_camera/CMakeFiles/stereo_camera_node.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/elp_stereo_camera /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/elp_stereo_camera /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera/CMakeFiles/stereo_camera_node.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/stereo_camera_node.dir/depend
 

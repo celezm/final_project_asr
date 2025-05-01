@@ -20,9 +20,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "rosidl_cmake/rosidl_cmake-extras.cmake"
   "rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake"
   "rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake"
-  "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/navigation/navigation_interfaces/CMakeLists.txt"
-  "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/navigation/navigation_interfaces/action/GenerateInformation.action"
-  "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/navigation/navigation_interfaces/package.xml"
+  "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/navigation/navigation_interfaces/CMakeLists.txt"
+  "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/navigation/navigation_interfaces/action/GenerateInformation.action"
+  "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/navigation/navigation_interfaces/package.xml"
   "/opt/ros/jazzy/lib/cmake/fastcdr/fastcdr-config-version.cmake"
   "/opt/ros/jazzy/lib/cmake/fastcdr/fastcdr-config.cmake"
   "/opt/ros/jazzy/lib/cmake/fastcdr/fastcdr-shared-targets-none.cmake"
@@ -664,7 +664,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "ament_cmake_environment_hooks/package.dsv"
   "ament_cmake_index/share/ament_index/resource_index/packages/navigation_interfaces"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation_interfaces/navigation_interfaces__py/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation_interfaces/navigation_interfaces__py/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -687,5 +687,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/navigation_interfaces_s__rosidl_typesupport_fastrtps_c.dir/DependInfo.cmake"
   "CMakeFiles/navigation_interfaces_s__rosidl_typesupport_introspection_c.dir/DependInfo.cmake"
   "CMakeFiles/navigation_interfaces_s__rosidl_typesupport_c.dir/DependInfo.cmake"
-  "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation_interfaces/navigation_interfaces__py/CMakeFiles/navigation_interfaces__py.dir/DependInfo.cmake"
+  "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation_interfaces/navigation_interfaces__py/CMakeFiles/navigation_interfaces__py.dir/DependInfo.cmake"
   )

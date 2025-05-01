@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/navigation/navigation/src/navigation/ActionClient.cpp" "CMakeFiles/navigation.dir/src/navigation/ActionClient.cpp.o" "gcc" "CMakeFiles/navigation.dir/src/navigation/ActionClient.cpp.o.d"
-  "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/navigation/navigation/src/navigation/ActionServer.cpp" "CMakeFiles/navigation.dir/src/navigation/ActionServer.cpp.o" "gcc" "CMakeFiles/navigation.dir/src/navigation/ActionServer.cpp.o.d"
+  "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/navigation/navigation/src/navigation/ActionClient.cpp" "CMakeFiles/navigation.dir/src/navigation/ActionClient.cpp.o" "gcc" "CMakeFiles/navigation.dir/src/navigation/ActionClient.cpp.o.d"
+  "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/navigation/navigation/src/navigation/ActionServer.cpp" "CMakeFiles/navigation.dir/src/navigation/ActionServer.cpp.o" "gcc" "CMakeFiles/navigation.dir/src/navigation/ActionServer.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

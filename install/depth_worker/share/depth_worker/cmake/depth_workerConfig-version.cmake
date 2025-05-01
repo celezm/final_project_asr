@@ -1,1 +1,1 @@
-/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/ament_cmake_core/depth_workerConfig-version.cmake
+/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/ament_cmake_core/depth_workerConfig-version.cmake

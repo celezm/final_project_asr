@@ -1,5 +1,5 @@
 CMakeFiles/depth_worker.dir/src/depth_worker/DetectionTo3DfromPCNode.cpp.o: \
- /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker/src/depth_worker/DetectionTo3DfromPCNode.cpp \
+ /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker/src/depth_worker/DetectionTo3DfromPCNode.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/13/memory \
  /usr/include/c++/13/bits/memoryfwd.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -115,7 +115,7 @@ CMakeFiles/depth_worker.dir/src/depth_worker/DetectionTo3DfromPCNode.cpp.o: \
  /usr/include/c++/13/backward/auto_ptr.h \
  /usr/include/c++/13/pstl/glue_memory_defs.h \
  /usr/include/c++/13/pstl/execution_defs.h \
- /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker/include/depth_worker/DetectionTo3DfromPCNode.hpp \
+ /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker/include/depth_worker/DetectionTo3DfromPCNode.hpp \
  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp \
  /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp \
  /usr/include/c++/13/algorithm /usr/include/c++/13/bits/stl_algo.h \

@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker/src/depth_worker/DetectionTo3DfromPCNode.cpp" "CMakeFiles/depth_worker.dir/src/depth_worker/DetectionTo3DfromPCNode.cpp.o" "gcc" "CMakeFiles/depth_worker.dir/src/depth_worker/DetectionTo3DfromPCNode.cpp.o.d"
-  "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker/src/depth_worker/YoloDetectionNode.cpp" "CMakeFiles/depth_worker.dir/src/depth_worker/YoloDetectionNode.cpp.o" "gcc" "CMakeFiles/depth_worker.dir/src/depth_worker/YoloDetectionNode.cpp.o.d"
-  "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker/src/depth_worker/YoloParserNode.cpp" "CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o" "gcc" "CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o.d"
+  "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker/src/depth_worker/DetectionTo3DfromPCNode.cpp" "CMakeFiles/depth_worker.dir/src/depth_worker/DetectionTo3DfromPCNode.cpp.o" "gcc" "CMakeFiles/depth_worker.dir/src/depth_worker/DetectionTo3DfromPCNode.cpp.o.d"
+  "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker/src/depth_worker/YoloDetectionNode.cpp" "CMakeFiles/depth_worker.dir/src/depth_worker/YoloDetectionNode.cpp.o" "gcc" "CMakeFiles/depth_worker.dir/src/depth_worker/YoloDetectionNode.cpp.o.d"
+  "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker/src/depth_worker/YoloParserNode.cpp" "CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o" "gcc" "CMakeFiles/depth_worker.dir/src/depth_worker/YoloParserNode.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

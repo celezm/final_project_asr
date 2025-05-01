@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker/src/detection_2d_to_3d_pc2_main.cpp" "CMakeFiles/detection_2d_to_3d_pc2.dir/src/detection_2d_to_3d_pc2_main.cpp.o" "gcc" "CMakeFiles/detection_2d_to_3d_pc2.dir/src/detection_2d_to_3d_pc2_main.cpp.o.d"
+  "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker/src/detection_2d_to_3d_pc2_main.cpp" "CMakeFiles/detection_2d_to_3d_pc2.dir/src/detection_2d_to_3d_pc2_main.cpp.o" "gcc" "CMakeFiles/detection_2d_to_3d_pc2.dir/src/detection_2d_to_3d_pc2_main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

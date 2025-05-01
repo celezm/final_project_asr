@@ -1,1 +1,1 @@
-/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake
+/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake

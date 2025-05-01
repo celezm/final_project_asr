@@ -1,1 +1,1 @@
-/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_typesupport_fastrtps_cpp/yolo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h

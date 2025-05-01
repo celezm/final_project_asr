@@ -9,6 +9,9 @@
 #include "ament_index_cpp/get_package_share_directory.hpp"
 
 #include "rclcpp/rclcpp.hpp"
+#include "pfinal_pc/AskForDestinationNode.hpp"
+
+#include "pfinal_pc/WaitForRobotNode.hpp"
 
 
 int main(int argc, char * argv[])
@@ -20,7 +23,14 @@ int main(int argc, char * argv[])
   BT::BehaviorTreeFactory factory;
   BT::SharedLibrary loader;
 
+  factory.registerNodeType<pfinal_pc::AskForDestinationNode>("AskForDestinationNode");
+  factory.registerNodeType<pfinal_pc::WaitForRobotNode>("WaitForRobotNode");
+
+
+
   factory.registerFromPlugin(loader.getOSName("pfinal_pc"));
+
+
 
   std::string pkgpath = ament_index_cpp::get_package_share_directory("pfinal_pc");
   std::string xml_file = pkgpath + "/bt_xml/btree.xml";

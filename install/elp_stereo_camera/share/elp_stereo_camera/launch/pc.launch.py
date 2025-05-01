@@ -1,1 +1,1 @@
-/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/elp_stereo_camera/launch/pc.launch.py
+/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/elp_stereo_camera/launch/pc.launch.py

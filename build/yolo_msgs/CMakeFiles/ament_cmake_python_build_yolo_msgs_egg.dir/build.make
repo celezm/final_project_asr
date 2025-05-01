@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs
+CMAKE_SOURCE_DIR = /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs
+CMAKE_BINARY_DIR = /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs
 
 # Utility rule file for ament_cmake_python_build_yolo_msgs_egg.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_yolo_msgs_egg.dir/compiler_depend.ma
 include CMakeFiles/ament_cmake_python_build_yolo_msgs_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_yolo_msgs_egg:
-	cd /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/ament_cmake_python/yolo_msgs && /usr/bin/python3 setup.py egg_info
+	cd /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/ament_cmake_python/yolo_msgs && /usr/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_yolo_msgs_egg: CMakeFiles/ament_cmake_python_build_yolo_msgs_egg
 ament_cmake_python_build_yolo_msgs_egg: CMakeFiles/ament_cmake_python_build_yolo_msgs_egg.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_build_yolo_msgs_egg.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_build_yolo_msgs_egg.dir/clean
 
 CMakeFiles/ament_cmake_python_build_yolo_msgs_egg.dir/depend:
-	cd /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/yolov8_ros/yolo_msgs /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/yolo_msgs/CMakeFiles/ament_cmake_python_build_yolo_msgs_egg.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/yolov8_ros/yolo_msgs /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/CMakeFiles/ament_cmake_python_build_yolo_msgs_egg.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ament_cmake_python_build_yolo_msgs_egg.dir/depend
 

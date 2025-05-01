@@ -1,5 +1,5 @@
 CMakeFiles/navigation.dir/src/navigation/ActionServer.cpp.o: \
- /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/navigation/navigation/src/navigation/ActionServer.cpp \
+ /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/navigation/navigation/src/navigation/ActionServer.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/action/navigate_to_pose.hpp \
  /opt/ros/jazzy/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__struct.hpp \
@@ -824,7 +824,7 @@ CMakeFiles/navigation.dir/src/navigation/ActionServer.cpp.o: \
  /opt/ros/jazzy/include/rclcpp/rclcpp/parameter_map.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/parameter_event_handler.hpp \
  /opt/ros/jazzy/include/rclcpp/rclcpp/parameter_service.hpp \
- /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/navigation/navigation/include/navigation/ActionServer.hpp \
+ /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/navigation/navigation/include/navigation/ActionServer.hpp \
  /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp \
  /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/client.hpp \
  /opt/ros/jazzy/include/rclcpp_action/rclcpp_action/client_goal_handle.hpp \

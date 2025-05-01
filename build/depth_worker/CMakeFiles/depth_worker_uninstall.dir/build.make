@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker
+CMAKE_SOURCE_DIR = /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker
+CMAKE_BINARY_DIR = /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker
 
 # Utility rule file for depth_worker_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/depth_worker_uninstall.dir/compiler_depend.make
 include CMakeFiles/depth_worker_uninstall.dir/progress.make
 
 CMakeFiles/depth_worker_uninstall:
-	/usr/bin/cmake -P /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 depth_worker_uninstall: CMakeFiles/depth_worker_uninstall
 depth_worker_uninstall: CMakeFiles/depth_worker_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/depth_worker_uninstall.dir/clean:
 .PHONY : CMakeFiles/depth_worker_uninstall.dir/clean
 
 CMakeFiles/depth_worker_uninstall.dir/depend:
-	cd /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/src/depth_worker /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker /home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/CMakeFiles/depth_worker_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker /home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/depth_worker /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker /home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/CMakeFiles/depth_worker_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/depth_worker_uninstall.dir/depend
 

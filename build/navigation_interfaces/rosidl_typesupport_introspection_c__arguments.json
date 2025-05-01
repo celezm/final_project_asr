@@ -1,9 +1,9 @@
 {
   "package_name": "navigation_interfaces",
-  "output_dir": "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation_interfaces/rosidl_typesupport_introspection_c/navigation_interfaces",
+  "output_dir": "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation_interfaces/rosidl_typesupport_introspection_c/navigation_interfaces",
   "template_dir": "/opt/ros/jazzy/share/rosidl_typesupport_introspection_c/resource",
   "idl_tuples": [
-    "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation_interfaces/rosidl_adapter/navigation_interfaces:action/GenerateInformation.idl"
+    "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation_interfaces/rosidl_adapter/navigation_interfaces:action/GenerateInformation.idl"
   ],
   "ros_interface_dependencies": [
     "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
@@ -54,7 +54,7 @@
     "/opt/ros/jazzy/share/rosidl_typesupport_introspection_c/resource/msg__type_support.c.em",
     "/opt/ros/jazzy/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em",
     "/opt/ros/jazzy/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em",
-    "/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/navigation_interfaces/rosidl_adapter/navigation_interfaces/action/GenerateInformation.idl",
+    "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/navigation_interfaces/rosidl_adapter/navigation_interfaces/action/GenerateInformation.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl",
     "/opt/ros/jazzy/share/std_msgs/msg/Bool.idl",

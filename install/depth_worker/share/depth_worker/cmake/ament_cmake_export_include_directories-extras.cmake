@@ -1,1 +1,1 @@
-/home/claudia-elez/Desktop/asoftwarer/pfinal/final_project_arquitectura/build/depth_worker/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake
+/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake
