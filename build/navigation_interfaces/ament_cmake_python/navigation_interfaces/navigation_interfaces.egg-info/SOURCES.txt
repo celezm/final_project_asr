@@ -4,3 +4,5 @@ navigation_interfaces.egg-info/PKG-INFO
 navigation_interfaces.egg-info/SOURCES.txt
 navigation_interfaces.egg-info/dependency_links.txt
 navigation_interfaces.egg-info/top_level.txt
+navigation_interfaces/action/__init__.py
+navigation_interfaces/action/_generate_information.py
