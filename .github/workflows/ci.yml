@@ -30,6 +30,8 @@ jobs:
             ros-jazzy-nav2-bringup \
             ros-jazzy-pcl-conversions \
             ros-jazzy-sensor-msgs
+            ros-jazzy-camera-info-manager  # ← AÑADE ESTA LÍNEA
+
 
       - name: Build with colcon
         run: |
