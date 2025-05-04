@@ -2,17 +2,14 @@ name: jazzy-ci
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
   pull_request:
-    branches:
-      - main
-  schedule:
-    - cron: '0 0 * * 6'  # Runs every Saturday
+    branches: [ main ]
 
 jobs:
-  build-and-test:
-    runs-on: ubuntu-24.04
+  build:
+    runs-on: ubuntu-24.04  # NO hay ubuntu-24.04 en GitHub Actions todavía
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -22,7 +19,7 @@ jobs:
         with:
           required-ros-distributions: jazzy
 
-      - name: Install system dependencies
+      - name: Install dependencies
         run: |
           sudo apt-get update
           sudo apt-get install --no-install-recommends -y \
@@ -34,10 +31,7 @@ jobs:
             ros-jazzy-pcl-conversions \
             ros-jazzy-sensor-msgs
 
-    - name: Build workspace
-      run: |
-        source /opt/ros/jazzy/setup.bash
-        colcon build --event-handlers console_cohesion+
-
-
-
+      - name: Build with colcon
+        run: |
+          source /opt/ros/jazzy/setup.bash
+          colcon build --event-handlers console_cohesion+
