@@ -1,0 +1,60 @@
+name: jazzy-tests
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  schedule:
+    - cron: '0 3 * * 6'
+
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up ROS 2 Jazzy
+        uses: ros-tooling/setup-ros@v0.7
+        with:
+          required-ros-distributions: jazzy
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install --no-install-recommends -y \
+            libopencv-dev \
+            libpcl-dev \
+            python3-colcon-common-extensions \
+            ros-jazzy-rclcpp \
+            ros-jazzy-sensor-msgs \
+            ros-jazzy-vision-msgs \
+            ros-jazzy-image-transport \
+            ros-jazzy-tf2-sensor-msgs \
+            ros-jazzy-cv-bridge \
+            ros-jazzy-message-filters \
+            ros-jazzy-pcl-conversions \
+            ros-jazzy-pcl-ros \
+            ros-jazzy-image-geometry \
+            ros-jazzy-depth-image-proc \
+            ros-jazzy-geometry-msgs \
+            ros-jazzy-camera-info-manager \
+            ros-jazzy-tf2 \
+            ros-jazzy-tf2-ros \
+            ros-jazzy-tf2-geometry-msgs \
+            ros-jazzy-behaviortree-cpp-v3 \
+            ros-jazzy-ament-index-cpp \
+            ros-jazzy-nav2-bringup
+
+      - name: Build workspace
+        run: |
+          source /opt/ros/jazzy/setup.bash
+          colcon build --event-handlers console_cohesion+
+
+      - name: Run tests
+        run: |
+          source install/setup.bash
+          colcon test --event-handlers console_cohesion+
+          colcon test-result --verbose
