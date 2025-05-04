@@ -14,15 +14,20 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Set up ROS 2 Jazzy
+      - name: Set up ROS 2 Humble
         uses: ros-tooling/setup-ros@v0.7
         with:
-          required-ros-distributions: jazzy
+          required-ros-distributions: humble
 
-      - name: Install dependencies
-        run: sudo apt-get update && sudo apt-get install -y python3-colcon-common-extensions
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install --no-install-recommends -y \
+            python3-colcon-common-extensions \
+            libopencv-dev \
+            libpcl-dev
 
       - name: Build workspace
         run: |
-          source /opt/ros/jazzy/setup.bash
+          source /opt/ros/humble/setup.bash
           colcon build --event-handlers console_cohesion+
