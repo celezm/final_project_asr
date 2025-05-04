@@ -10,7 +10,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-24.04  # GitHub Actions does not support 24.04 yet
+    runs-on: ubuntu-24.04  # Jazzy solo funciona si setup-ros lo instala explícitamente
 
     steps:
       - name: Checkout code
@@ -21,18 +21,32 @@ jobs:
         with:
           required-ros-distributions: jazzy
 
-      - name: Install system dependencies
+      - name: Install ROS and system dependencies
         run: |
           sudo apt-get update
           sudo apt-get install --no-install-recommends -y \
             libopencv-dev \
             libpcl-dev \
             python3-colcon-common-extensions \
-            ros-jazzy-behaviortree-cpp \
-            ros-jazzy-nav2-bringup \
-            ros-jazzy-pcl-conversions \
+            ros-jazzy-rclcpp \
             ros-jazzy-sensor-msgs \
-            ros-jazzy-camera-info-manager
+            ros-jazzy-vision-msgs \
+            ros-jazzy-image-transport \
+            ros-jazzy-tf2-sensor-msgs \
+            ros-jazzy-cv-bridge \
+            ros-jazzy-message-filters \
+            ros-jazzy-pcl-conversions \
+            ros-jazzy-pcl-ros \
+            ros-jazzy-image-geometry \
+            ros-jazzy-depth-image-proc \
+            ros-jazzy-geometry-msgs \
+            ros-jazzy-camera-info-manager \
+            ros-jazzy-tf2 \
+            ros-jazzy-tf2-ros \
+            ros-jazzy-tf2-geometry-msgs \
+            ros-jazzy-behaviortree-cpp-v3 \
+            ros-jazzy-ament-index-cpp \
+            ros-jazzy-nav2-bringup
 
       - name: Build workspace
         run: |
