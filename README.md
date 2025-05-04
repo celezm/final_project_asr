@@ -1,6 +1,10 @@
 # 🤖 final_project_arquitectura
 
-![CI](https://github.com/amanza17/final_project_arquitectura/actions/workflows/ci.yml/badge.svg)
+![Build](https://github.com/amanza17/final_project_arquitectura/actions/workflows/ci.yml/badge.svg?branch=main)
+![Tests](https://github.com/amanza17/final_project_arquitectura/actions/workflows/tests.yml/badge.svg?branch=main)
+![Ubuntu 24.04](https://img.shields.io/badge/OS-Ubuntu%2024.04-purple)
+![ROS 2 Jazzy](https://img.shields.io/badge/ROS%202-Jazzy-blue)
+
 
 Final project for the 'Arquitectura Software para Robots' subject (2024–2025).  
 Built on **ROS 2 Jazzy**, this system allows a robot to detect a nearby person, initiate a dialogue, and autonomously guide them to the position where their chosen degree is taught using navigation and behavior trees.
