@@ -2,19 +2,20 @@
 
 ![CI](https://github.com/amanza17/final_project_arquitectura/actions/workflows/ci.yml/badge.svg)
 
-Final project for the **Computer Architecture** course (2024–2025).  
-Built on **ROS 2 Jazzy**, this system allows a robot to detect a nearby person, initiate a dialogue, and autonomously guide them to the classroom where their chosen degree is taught using navigation and behavior trees.
+Final project for the 'Arquitectura Software para Robots' subject (2024–2025).  
+Built on **ROS 2 Jazzy**, this system allows a robot to detect a nearby person, initiate a dialogue, and autonomously guide them to the position where their chosen degree is taught using navigation and behavior trees.
 
 ---
 
 ## 🧠 What does this project do?
 
-- 📷 Detects people nearby using an **ELP stereo camera** and 3D point cloud processing.
-- 🧍‍♂️ Uses **YOLO** to detect people in the image.
-- 🌐 Projects the 2D detection into a **3D point cloud** to estimate real-world distance.
-- 💬 When a person approaches the "base", the robot **starts a dialogue** to ask which degree program they are interested in.
-- 🧭 A **Kobuki robot** with **Nav2** autonomously navigates to the corresponding classroom.
-- 🌳 A **Behavior Tree** orchestrates the whole flow: perception, dialogue, and navigation.
+- Detects people nearby using an **ELP stereo camera** and 3D point cloud processing.
+- Uses **YOLO (v8)** to detect people in the image.
+- Projects the 2D detection into a **3D point cloud** to estimate real-world distance.
+- When a person approaches the "base" (less than 1 meter to the camera), the robot **starts a dialogue** to ask which degree program they are interested in.
+- A **Kobuki robot** with **Nav2** autonomously navigates to the corresponding classroom or position, wait a few seconds, and returns to the base.
+- A **Behavior Tree** orchestrates the flow of the main computer (the one with the camera): Detection, dialogue and communication.
+- A **FSM** orchestrates the behaviour of the Kobuki Robot: Communication and autonomous navigation.
 
 ---
 
@@ -38,3 +39,6 @@ bt_nodes/
 
 navigation/
   └── nav_goal_node              # Sends goals to Nav2 based on user input
+```
+
+## Group Members
