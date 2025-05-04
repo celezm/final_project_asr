@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera/stereo_camera_node" "TARGETS" "stereo_camera_node" "DESTINATION" "lib/elp_stereo_camera")

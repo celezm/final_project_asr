@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/elp_stereo_camera/stereo_point_cloud_generator" "TARGETS" "stereo_point_cloud_generator" "DESTINATION" "lib/elp_stereo_camera")
