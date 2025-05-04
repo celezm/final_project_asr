@@ -34,17 +34,10 @@ jobs:
             ros-jazzy-pcl-conversions \
             ros-jazzy-sensor-msgs
 
-      - name: Build and test workspace
-        uses: ros-tooling/action-ros-ci@0.3.3
-        with:
-          target-ros2-distro: jazzy
-          package-name: ""  # Empty means all packages in the workspace
-          colcon-defaults: |
-            {
-              "build": {
-                "symlink-install": true
-              },
+    - name: Build workspace
+      run: |
+        source /opt/ros/jazzy/setup.bash
+        colcon build --event-handlers console_cohesion+
 
-            }
 
 
