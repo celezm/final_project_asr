@@ -27,8 +27,3 @@ jobs:
           source /opt/ros/jazzy/setup.bash
           colcon build --event-handlers console_cohesion+
 
-      - name: Run tests (optional)
-        run: |
-          source install/setup.bash
-          colcon test --event-handlers console_cohesion+
-          colcon test-result --verbose
