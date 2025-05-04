@@ -29,20 +29,20 @@ def generate_launch_description():
                         output='screen',
                         parameters=[param_file],
                         remappings=[
-                          ('input_detection', '/yolo/detections'),
-                          ('output_detection_2d', '/detections_2d')
+                            ('input_detection', '/yolo/detections'),
+                            ('output_detection_2d', '/detections_2d')
                         ])
 
     convert_2d_3d = Node(package='depth_worker',
-                        executable='detection_2d_to_3d_pc2',
-                        output='screen',
-                        parameters=[param_file],
-                        remappings=[
-                          ('input_pointcloud', "/stereo/point_cloud_color"),
-                          ('input_detection_2d', '/detections_2d'),
-                          ('camera_info', '/stereo/right/camera_info'),
-                          ('output_detection_3d', '/detections_3d'),
-                        ])
+                         executable='detection_2d_to_3d_pc2',
+                         output='screen',
+                         parameters=[param_file],
+                         remappings=[
+                             ('input_pointcloud', '/stereo/point_cloud_color'),
+                             ('input_detection_2d', '/detections_2d'),
+                             ('camera_info', '/stereo/right/camera_info'),
+                             ('output_detection_3d', '/detections_3d'),
+                         ])
 
     ld = LaunchDescription()
     ld.add_action(detector_cmd)

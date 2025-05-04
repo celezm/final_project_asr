@@ -57,36 +57,36 @@ DetectionTo3DfromPCNode::callback_sync(
   const sensor_msgs::msg::PointCloud2::ConstSharedPtr & pc_msg,
   const vision_msgs::msg::Detection2DArray::ConstSharedPtr & detection_msg)
 {
-  
-    pcl::PointCloud<pcl::PointXYZ>::Ptr pc(new pcl::PointCloud<pcl::PointXYZ>);
-    pcl::fromROSMsg(*pc_msg, *pc);
 
-    vision_msgs::msg::Detection3DArray detections_3d_msg;
-    detections_3d_msg.header = detection_msg->header;
+  pcl::PointCloud<pcl::PointXYZ>::Ptr pc(new pcl::PointCloud<pcl::PointXYZ>);
+  pcl::fromROSMsg(*pc_msg, *pc);
 
-    for (const auto & detection : detection_msg->detections) {
-      vision_msgs::msg::Detection3D detection_3d_msg;
-      detection_3d_msg.header = detection_msg->header;
-      detection_3d_msg.results = detection.results;
+  vision_msgs::msg::Detection3DArray detections_3d_msg;
+  detections_3d_msg.header = detection_msg->header;
 
-      pcl::PointXYZ & center = pc->at(
+  for (const auto & detection : detection_msg->detections) {
+    vision_msgs::msg::Detection3D detection_3d_msg;
+    detection_3d_msg.header = detection_msg->header;
+    detection_3d_msg.results = detection.results;
+
+    pcl::PointXYZ & center = pc->at(
         detection.bbox.center.position.x,
         detection.bbox.center.position.y);
 
-      detection_3d_msg.bbox.center.position.x = center.x;
-      detection_3d_msg.bbox.center.position.y = center.y;
-      detection_3d_msg.bbox.center.position.z = center.z;
-      RCLCPP_INFO(get_logger(), "Detection at (%f, %f, %f)", center.x, center.y, center.z);
+    detection_3d_msg.bbox.center.position.x = center.x;
+    detection_3d_msg.bbox.center.position.y = center.y;
+    detection_3d_msg.bbox.center.position.z = center.z;
+    RCLCPP_INFO(get_logger(), "Detection at (%f, %f, %f)", center.x, center.y, center.z);
 
-      if (!std::isnan(center.x) && !std::isinf(center.x)) {
-        detections_3d_msg.detections.push_back(detection_3d_msg);
-      }
+    if (!std::isnan(center.x) && !std::isinf(center.x)) {
+      detections_3d_msg.detections.push_back(detection_3d_msg);
     }
+  }
 
-    if (!detections_3d_msg.detections.empty()) {
-      detection_pub_->publish(detections_3d_msg);
-    }
-  
+  if (!detections_3d_msg.detections.empty()) {
+    detection_pub_->publish(detections_3d_msg);
+  }
+
 }
 
 }  // namespace depth_worker

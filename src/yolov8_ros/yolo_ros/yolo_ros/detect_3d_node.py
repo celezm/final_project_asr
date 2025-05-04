@@ -54,7 +54,9 @@ class Detect3DNode(LifecycleNode):
         self.declare_parameter(
             "depth_image_reliability", QoSReliabilityPolicy.BEST_EFFORT
         )
-        self.declare_parameter("depth_info_reliability", QoSReliabilityPolicy.BEST_EFFORT)
+        self.declare_parameter(
+            "depth_info_reliability",
+            QoSReliabilityPolicy.BEST_EFFORT)
 
         # aux
         self.tf_buffer = Buffer()
@@ -63,9 +65,8 @@ class Detect3DNode(LifecycleNode):
     def on_configure(self, state: LifecycleState) -> TransitionCallbackReturn:
         self.get_logger().info(f"[{self.get_name()}] Configuring...")
 
-        self.target_frame = (
-            self.get_parameter("target_frame").get_parameter_value().string_value
-        )
+        self.target_frame = (self.get_parameter(
+            "target_frame").get_parameter_value().string_value)
         self.maximum_detection_threshold = (
             self.get_parameter("maximum_detection_threshold")
             .get_parameter_value()
@@ -116,11 +117,9 @@ class Detect3DNode(LifecycleNode):
 
         # subs
         self.depth_sub = message_filters.Subscriber(
-            self, Image, "depth_image", qos_profile=self.depth_image_qos_profile
-        )
+            self, Image, "depth_image", qos_profile=self.depth_image_qos_profile)
         self.depth_info_sub = message_filters.Subscriber(
-            self, CameraInfo, "depth_info", qos_profile=self.depth_info_qos_profile
-        )
+            self, CameraInfo, "depth_info", qos_profile=self.depth_info_qos_profile)
         self.detections_sub = message_filters.Subscriber(
             self, DetectionArray, "detections"
         )
@@ -199,12 +198,14 @@ class Detect3DNode(LifecycleNode):
         depth_image = self.cv_bridge.imgmsg_to_cv2(depth_msg)
 
         for detection in detections_msg.detections:
-            bbox3d = self.convert_bb_to_3d(depth_image, depth_info_msg, detection)
+            bbox3d = self.convert_bb_to_3d(
+                depth_image, depth_info_msg, detection)
 
             if bbox3d is not None:
                 new_detections.append(detection)
 
-                bbox3d = Detect3DNode.transform_3d_box(bbox3d, transform[0], transform[1])
+                bbox3d = Detect3DNode.transform_3d_box(
+                    bbox3d, transform[0], transform[1])
                 bbox3d.frame_id = self.target_frame
                 new_detections[-1].bbox3d = bbox3d
 
@@ -221,8 +222,10 @@ class Detect3DNode(LifecycleNode):
         return new_detections
 
     def convert_bb_to_3d(
-        self, depth_image: np.ndarray, depth_info: CameraInfo, detection: Detection
-    ) -> BoundingBox3D:
+            self,
+            depth_image: np.ndarray,
+            depth_info: CameraInfo,
+            detection: Detection) -> BoundingBox3D:
 
         center_x = int(detection.bbox.center.position.x)
         center_y = int(detection.bbox.center.position.y)
@@ -257,9 +260,8 @@ class Detect3DNode(LifecycleNode):
             bb_center_z_coord = np.median(roi)
 
         else:
-            bb_center_z_coord = (
-                depth_image[int(center_y)][int(center_x)] / self.depth_image_units_divisor
-            )
+            bb_center_z_coord = (depth_image[int(center_y)][int(
+                center_x)] / self.depth_image_units_divisor)
 
         z_diff = np.abs(roi - bb_center_z_coord)
         mask_z = z_diff <= self.maximum_detection_threshold
@@ -293,13 +295,14 @@ class Detect3DNode(LifecycleNode):
         return msg
 
     def convert_keypoints_to_3d(
-        self, depth_image: np.ndarray, depth_info: CameraInfo, detection: Detection
-    ) -> KeyPoint3DArray:
+            self,
+            depth_image: np.ndarray,
+            depth_info: CameraInfo,
+            detection: Detection) -> KeyPoint3DArray:
 
         # build an array of 2d keypoints
-        keypoints_2d = np.array(
-            [[p.point.x, p.point.y] for p in detection.keypoints.data], dtype=np.int16
-        )
+        keypoints_2d = np.array([[p.point.x, p.point.y]
+                                 for p in detection.keypoints.data], dtype=np.int16)
         u = np.array(keypoints_2d[:, 1]).clip(0, depth_info.height - 1)
         v = np.array(keypoints_2d[:, 0]).clip(0, depth_info.width - 1)
 
@@ -397,16 +400,13 @@ class Detect3DNode(LifecycleNode):
 
     @staticmethod
     def transform_3d_keypoints(
-        keypoints: KeyPoint3DArray, translation: np.ndarray, rotation: np.ndarray
-    ) -> KeyPoint3DArray:
+            keypoints: KeyPoint3DArray,
+            translation: np.ndarray,
+            rotation: np.ndarray) -> KeyPoint3DArray:
 
         for point in keypoints.data:
-            position = (
-                Detect3DNode.qv_mult(
-                    rotation, np.array([point.point.x, point.point.y, point.point.z])
-                )
-                + translation
-            )
+            position = (Detect3DNode.qv_mult(rotation, np.array(
+                [point.point.x, point.point.y, point.point.z])) + translation)
 
             point.point.x = position[0]
             point.point.y = position[1]

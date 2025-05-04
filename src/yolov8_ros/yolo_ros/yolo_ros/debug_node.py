@@ -52,7 +52,9 @@ class DebugNode(LifecycleNode):
         self.cv_bridge = CvBridge()
 
         # params
-        self.declare_parameter("image_reliability", QoSReliabilityPolicy.BEST_EFFORT)
+        self.declare_parameter(
+            "image_reliability",
+            QoSReliabilityPolicy.BEST_EFFORT)
 
     def on_configure(self, state: LifecycleState) -> TransitionCallbackReturn:
         self.get_logger().info(f"[{self.get_name()}] Configuring...")
@@ -68,8 +70,10 @@ class DebugNode(LifecycleNode):
 
         # pubs
         self._dbg_pub = self.create_publisher(Image, "dbg_image", 10)
-        self._bb_markers_pub = self.create_publisher(MarkerArray, "dgb_bb_markers", 10)
-        self._kp_markers_pub = self.create_publisher(MarkerArray, "dgb_kp_markers", 10)
+        self._bb_markers_pub = self.create_publisher(
+            MarkerArray, "dgb_bb_markers", 10)
+        self._kp_markers_pub = self.create_publisher(
+            MarkerArray, "dgb_kp_markers", 10)
 
         super().on_configure(state)
         self.get_logger().info(f"[{self.get_name()}] Configured")
@@ -165,7 +169,11 @@ class DebugNode(LifecycleNode):
         )
 
         # rotate the corners of the rectangle
-        rect_pts = np.int0(cv2.transform(np.array([rect_pts]), rotation_matrix)[0])
+        rect_pts = np.int0(
+            cv2.transform(
+                np.array(
+                    [rect_pts]),
+                rotation_matrix)[0])
 
         # Draw the rotated rectangle
         for i in range(4):
@@ -188,7 +196,8 @@ class DebugNode(LifecycleNode):
     ) -> np.ndarray:
 
         mask_msg = detection.mask
-        mask_array = np.array([[int(ele.x), int(ele.y)] for ele in mask_msg.data])
+        mask_array = np.array([[int(ele.x), int(ele.y)]
+                              for ele in mask_msg.data])
 
         if mask_msg.data:
             layer = cv_image.copy()
@@ -204,7 +213,10 @@ class DebugNode(LifecycleNode):
             )
         return cv_image
 
-    def draw_keypoints(self, cv_image: np.ndarray, detection: Detection) -> np.ndarray:
+    def draw_keypoints(
+            self,
+            cv_image: np.ndarray,
+            detection: Detection) -> np.ndarray:
 
         keypoints_msg = detection.keypoints
 
@@ -259,7 +271,10 @@ class DebugNode(LifecycleNode):
 
         return cv_image
 
-    def create_bb_marker(self, detection: Detection, color: Tuple[int]) -> Marker:
+    def create_bb_marker(
+            self,
+            detection: Detection,
+            color: Tuple[int]) -> Marker:
 
         bbox3d = detection.bbox3d
 
@@ -324,7 +339,10 @@ class DebugNode(LifecycleNode):
 
         return marker
 
-    def detections_cb(self, img_msg: Image, detection_msg: DetectionArray) -> None:
+    def detections_cb(
+            self,
+            img_msg: Image,
+            detection_msg: DetectionArray) -> None:
 
         cv_image = self.cv_bridge.imgmsg_to_cv2(img_msg)
         bb_marker_array = MarkerArray()

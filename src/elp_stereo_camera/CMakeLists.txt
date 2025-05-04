@@ -24,28 +24,28 @@ find_package(geometry_msgs REQUIRED)
 
 
 add_executable(stereo_camera_node src/stereo_camera_node.cpp)
-ament_target_dependencies(stereo_camera_node 
-  rclcpp 
-  sensor_msgs 
-  cv_bridge 
+ament_target_dependencies(stereo_camera_node
+  rclcpp
+  sensor_msgs
+  cv_bridge
   OpenCV
   camera_info_manager)
 
 add_executable(stereo_point_cloud_generator src/stereo_point_cloud_generator.cpp)
-ament_target_dependencies(stereo_point_cloud_generator 
-  rclcpp 
-  sensor_msgs 
-  cv_bridge 
+ament_target_dependencies(stereo_point_cloud_generator
+  rclcpp
+  sensor_msgs
+  cv_bridge
   OpenCV
   PCL
   pcl_conversions
   camera_info_manager)
 
   add_executable(tf src/tf.cpp)
-  ament_target_dependencies(tf 
-    rclcpp 
-    sensor_msgs 
-    cv_bridge 
+  ament_target_dependencies(tf
+    rclcpp
+    sensor_msgs
+    cv_bridge
     OpenCV
     PCL
     tf2_ros

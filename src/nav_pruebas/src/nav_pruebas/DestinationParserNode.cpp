@@ -1,4 +1,3 @@
-
 #include <memory>
 
 #include "nav_pruebas/DestinationParserNode.hpp"
@@ -16,10 +15,10 @@ DestinationParserNode::DestinationParserNode()
   destination_sub_ = create_subscription<std_msgs::msg::Int32>(
     "/destination_topic", rclcpp::QoS(10),
     std::bind(&DestinationParserNode::detection_callback, this, std::placeholders::_1));
-  
+
   destination_pub_ = create_publisher<std_msgs::msg::Int32>(
     "/real_destination", rclcpp::QoS(10));
-  
+
 }
 
 void
@@ -33,16 +32,16 @@ DestinationParserNode::detection_callback(
   } else if (msg->data == 0) {
     start_receiving_ = false;
     end_receiving_ = true;
-  } 
-  
+  }
+
   if (start_receiving_ && !end_receiving_) {
-    
-    if (msg->data != dest_id_){
+
+    if (msg->data != dest_id_) {
       dest_id_ = msg->data;
     }
-    
-  } 
-  
+
+  }
+
   if (end_receiving_) {
     std_msgs::msg::Int32 destination_msg;
     destination_msg.data = dest_id_;
@@ -52,10 +51,9 @@ DestinationParserNode::detection_callback(
     dest_id_ = -1;
     start_receiving_ = false;
     end_receiving_ = false;
-  }  
+  }
 
 
-
-}  
+}
 
 }// namespace nav_pruebas

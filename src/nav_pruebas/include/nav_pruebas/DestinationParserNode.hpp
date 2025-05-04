@@ -1,10 +1,9 @@
-
 #ifndef DESTINATION_PARSER_NODE__YOLODETECTIONNODE_HPP_
 #define DESTINATION_PARSER_NODE__YOLODETECTIONNODE_HPP_
 
 #include <memory>
 
-#include "std_msgs/msg/int32.hpp" 
+#include "std_msgs/msg/int32.hpp"
 
 #include "rclcpp/rclcpp.hpp"
 
@@ -17,7 +16,7 @@ public:
   DestinationParserNode();
 
 private:
-  int dest_id_  = -1;
+  int dest_id_ = -1;
   void detection_callback(const std_msgs::msg::Int32::ConstSharedPtr & msg);
 
   bool start_receiving_ = false;

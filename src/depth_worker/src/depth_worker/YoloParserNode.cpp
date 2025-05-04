@@ -54,43 +54,43 @@ YoloParserNode::detection_callback(
   detection_array_msg.header = msg->header;
 
   for (const auto & detection : msg->detections) {
-    if (detection.class_id == object_to_detect_id_){
+    if (detection.class_id == object_to_detect_id_) {
       RCLCPP_INFO(get_logger(), "Detection: %s", detection.class_name.c_str());
-    
-      if (object_id_ == -1){
+
+      if (object_id_ == -1) {
         object_id_ = std::stoi(detection.id);
       }
-      if (std::stoi(detection.id)!= object_id_ && same_object_){
+      if (std::stoi(detection.id) != object_id_ && same_object_) {
         continue;
       }
-  
-    vision_msgs::msg::Detection2D detection_msg;
-    detection_msg.header = msg->header;
 
-    detection_msg.bbox.center.position.x = detection.bbox.center.position.x;
-    detection_msg.bbox.center.position.y = detection.bbox.center.position.y;
-    detection_msg.bbox.size_x = detection.bbox.size.x;
-    detection_msg.bbox.size_y = detection.bbox.size.y;
+      vision_msgs::msg::Detection2D detection_msg;
+      detection_msg.header = msg->header;
 
-    vision_msgs::msg::ObjectHypothesisWithPose obj_msg;
-    obj_msg.hypothesis.class_id = detection.class_name;
-    obj_msg.hypothesis.score = detection.score;
+      detection_msg.bbox.center.position.x = detection.bbox.center.position.x;
+      detection_msg.bbox.center.position.y = detection.bbox.center.position.y;
+      detection_msg.bbox.size_x = detection.bbox.size.x;
+      detection_msg.bbox.size_y = detection.bbox.size.y;
 
-    detection_msg.results.push_back(obj_msg);
-    detection_array_msg.detections.push_back(detection_msg);
-    something_detected = true;
-    same_object_ = true;
+      vision_msgs::msg::ObjectHypothesisWithPose obj_msg;
+      obj_msg.hypothesis.class_id = detection.class_name;
+      obj_msg.hypothesis.score = detection.score;
+
+      detection_msg.results.push_back(obj_msg);
+      detection_array_msg.detections.push_back(detection_msg);
+      something_detected = true;
+      same_object_ = true;
+    }
+
+
   }
-  
-
-}
-  if(something_detected){
+  if(something_detected) {
     detection_pub_->publish(detection_array_msg);
-  }else{
+  } else {
     same_object_ = false;
     object_id_ = -1;
   }
-    
+
 }
 
 }  // namespace camera

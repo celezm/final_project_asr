@@ -32,7 +32,7 @@ public:
   YoloParserNode();
 
 private:
-  int object_id_  = -1;
+  int object_id_ = -1;
   bool same_object_ = false;
   int object_to_detect_id_ = 0;
   void detection_callback(const yolo_msgs::msg::DetectionArray::ConstSharedPtr & msg);

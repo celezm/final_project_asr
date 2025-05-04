@@ -1,23 +1,57 @@
 from launch import LaunchDescription
-from launch_ros.actions import Node
 from launch.actions import DeclareLaunchArgument
 from launch.substitutions import LaunchConfiguration
+from launch_ros.actions import Node
+
 
 def generate_launch_description():
     return LaunchDescription([
 
         # Declare launch arguments
-        DeclareLaunchArgument('video_port', default_value='2', description='Video port of the camera'),
-        DeclareLaunchArgument('fps', default_value='60', description='Frames per second'),
-        DeclareLaunchArgument('image_width', default_value='1280', description='Image width'),
-        DeclareLaunchArgument('image_height', default_value='480', description='Image height'),
-        DeclareLaunchArgument('vis_raw_cam_img', default_value='false', description='Visualize raw image of camera'),
-        DeclareLaunchArgument('vis_rect_img_overlay', default_value='false', description='Visualize overlay of rectified image'),
-        DeclareLaunchArgument('publish_raw_images', default_value='false', description='Publish raw images'),
-        DeclareLaunchArgument('publish_rectified_images', default_value='true', description='Publish rect images'),
-        DeclareLaunchArgument('left_camera_info_url', default_value='package://elp_stereo_camera/cam_params/1280_480/left_camera.yaml', description='Left camera info URL'),
-        DeclareLaunchArgument('right_camera_info_url', default_value='package://elp_stereo_camera/cam_params/1280_480/right_camera.yaml', description='Right camera info URL'),
-        DeclareLaunchArgument('minimize_motion_blur', default_value='true', description='Trick to minimize motion blur for rolling shutter cameras'),
+        DeclareLaunchArgument(
+            'video_port',
+            default_value='2',
+            description='Video port of the camera'),
+        DeclareLaunchArgument(
+            'fps',
+            default_value='60',
+            description='Frames per second'),
+        DeclareLaunchArgument(
+            'image_width',
+            default_value='1280',
+            description='Image width'),
+        DeclareLaunchArgument(
+            'image_height',
+            default_value='480',
+            description='Image height'),
+        DeclareLaunchArgument(
+            'vis_raw_cam_img',
+            default_value='false',
+            description='Visualize raw image of camera'),
+        DeclareLaunchArgument(
+            'vis_rect_img_overlay',
+            default_value='false',
+            description='Visualize overlay of rectified image'),
+        DeclareLaunchArgument(
+            'publish_raw_images',
+            default_value='false',
+            description='Publish raw images'),
+        DeclareLaunchArgument(
+            'publish_rectified_images',
+            default_value='true',
+            description='Publish rect images'),
+        DeclareLaunchArgument(
+            'left_camera_info_url',
+            default_value='package://elp_stereo_camera/cam_params/1280_480/left_camera.yaml',
+            description='Left camera info URL'),
+        DeclareLaunchArgument(
+            'right_camera_info_url',
+            default_value='package://elp_stereo_camera/cam_params/1280_480/right_camera.yaml',
+            description='Right camera info URL'),
+        DeclareLaunchArgument(
+            'minimize_motion_blur',
+            default_value='true',
+            description='Trick to minimize motion blur for rolling shutter cameras'),
 
 
         # Stereo camera node
@@ -52,12 +86,21 @@ def generate_launch_description():
             name='tf',
         ),
 
-        # Static transform for camera_link (world-oriented) to camera_optical_link
+        # Static transform for camera_link (world-oriented) to
+        # camera_optical_link
         Node(
             package='tf2_ros',
             executable='static_transform_publisher',
             name='camera_link_to_camera_optical_link',
-            arguments=['0', '0', '0', '-1.5707963267948966', '0', '-1.5707963267948966', 'camera_link', 'camera_optical_link']
+            arguments=[
+                '0',
+                '0',
+                '0',
+                '-1.5707963267948966',
+                '0',
+                '-1.5707963267948966',
+                'camera_link',
+                'camera_optical_link']
         ),
 
         # Static transform for camera_optical_link to left_camera
@@ -65,14 +108,17 @@ def generate_launch_description():
             package='tf2_ros',
             executable='static_transform_publisher',
             name='camera_optical_link_to_left_camera',
-            arguments=['0', '0', '0', '0', '0', '0', 'camera_optical_link', 'left_camera']
+            arguments=['0', '0', '0', '0', '0', '0',
+                       'camera_optical_link', 'left_camera']
         ),
 
-        # Static transform for camera_optical_link to right_camera (baseline of 60mm)
+        # Static transform for camera_optical_link to right_camera (baseline of
+        # 60mm)
         Node(
             package='tf2_ros',
             executable='static_transform_publisher',
             name='camera_optical_link_to_right_camera',
-            arguments=['0.06', '0', '0', '0', '0', '0', 'camera_optical_link', 'right_camera']
+            arguments=['0.06', '0', '0', '0', '0', '0',
+                       'camera_optical_link', 'right_camera']
         )
     ])

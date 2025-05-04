@@ -27,9 +27,7 @@ int main(int argc, char * argv[])
   factory.registerNodeType<pfinal_pc::WaitForRobotNode>("WaitForRobotNode");
 
 
-
   factory.registerFromPlugin(loader.getOSName("pfinal_pc"));
-
 
 
   std::string pkgpath = ament_index_cpp::get_package_share_directory("pfinal_pc");
@@ -50,16 +48,16 @@ int main(int argc, char * argv[])
     BT::NodeStatus status = tree.rootNode()->executeTick();
 
     if (status == BT::NodeStatus::SUCCESS) {
-        RCLCPP_INFO(node->get_logger(), "El árbol terminó con éxito.");
+      RCLCPP_INFO(node->get_logger(), "El árbol terminó con éxito.");
     } else if (status == BT::NodeStatus::FAILURE) {
-        RCLCPP_ERROR(node->get_logger(), "El árbol falló.");
+      RCLCPP_ERROR(node->get_logger(), "El árbol falló.");
     } else if (status == BT::NodeStatus::RUNNING) {
-        RCLCPP_INFO(node->get_logger(), "El árbol está ejecutándose.");
+      RCLCPP_INFO(node->get_logger(), "El árbol está ejecutándose.");
     }
 
     rclcpp::spin_some(node);
     rate.sleep();
-}
+  }
 
   rclcpp::shutdown();
   return 0;

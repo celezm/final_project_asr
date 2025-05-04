@@ -127,7 +127,7 @@ def generate_launch_description():
             description="Whether to use high-resolution segmentation masks if available in the model, enhancing mask quality for segmentation",
         )
 
-        input_image_topic = LaunchConfiguration("input_image_topic")
+        LaunchConfiguration("input_image_topic")
         input_image_topic_cmd = DeclareLaunchArgument(
             "input_image_topic",
             default_value="/rgbd_camera/image",
@@ -138,26 +138,33 @@ def generate_launch_description():
         image_reliability_cmd = DeclareLaunchArgument(
             "image_reliability",
             default_value="1",
-            choices=["0", "1", "2"],
+            choices=[
+                "0",
+                "1",
+                "2"],
             description="Specific reliability QoS of the input image topic (0=system default, 1=Reliable, 2=Best Effort)",
         )
 
-        input_depth_topic = LaunchConfiguration("input_depth_topic")
+        LaunchConfiguration("input_depth_topic")
         input_depth_topic_cmd = DeclareLaunchArgument(
             "input_depth_topic",
             default_value="/rgbd_camera/depth_image",
             description="Name of the input depth topic",
         )
 
-        depth_image_reliability = LaunchConfiguration("depth_image_reliability")
+        depth_image_reliability = LaunchConfiguration(
+            "depth_image_reliability")
         depth_image_reliability_cmd = DeclareLaunchArgument(
             "depth_image_reliability",
             default_value="1",
-            choices=["0", "1", "2"],
+            choices=[
+                "0",
+                "1",
+                "2"],
             description="Specific reliability QoS of the input depth image topic (0=system default, 1=Reliable, 2=Best Effort)",
         )
 
-        input_depth_info_topic = LaunchConfiguration("input_depth_info_topic")
+        LaunchConfiguration("input_depth_info_topic")
         input_depth_info_topic_cmd = DeclareLaunchArgument(
             "input_depth_info_topic",
             default_value="/rgbd_camera/camera_info",
@@ -168,7 +175,10 @@ def generate_launch_description():
         depth_info_reliability_cmd = DeclareLaunchArgument(
             "depth_info_reliability",
             default_value="1",
-            choices=["0", "1", "2"],
+            choices=[
+                "0",
+                "1",
+                "2"],
             description="Specific reliability QoS of the input depth info topic (0=system default, 1=Reliable, 2=Best Effort)",
         )
 
@@ -179,14 +189,16 @@ def generate_launch_description():
             description="Target frame to transform the 3D boxes",
         )
 
-        depth_image_units_divisor = LaunchConfiguration("depth_image_units_divisor")
+        depth_image_units_divisor = LaunchConfiguration(
+            "depth_image_units_divisor")
         depth_image_units_divisor_cmd = DeclareLaunchArgument(
             "depth_image_units_divisor",
             default_value="1000",
             description="Divisor used to convert the raw depth image values into metres",
         )
 
-        maximum_detection_threshold = LaunchConfiguration("maximum_detection_threshold")
+        maximum_detection_threshold = LaunchConfiguration(
+            "maximum_detection_threshold")
         maximum_detection_threshold_cmd = DeclareLaunchArgument(
             "maximum_detection_threshold",
             default_value="0.3",
@@ -245,8 +257,7 @@ def generate_launch_description():
             remappings=[
                 ("image_raw", "/rgbd_camera/image")
             ],
-            )
-
+        )
 
         tracking_node_cmd = Node(
             package="yolo_ros",
@@ -275,9 +286,10 @@ def generate_launch_description():
             remappings=[
                 ("depth_image", "/rgbd_camera/depth_image"),
                 ("depth_info", "/rgbd_camera/camera_info"),
-                ("detections", detect_3d_detections_topic)  # No cambiar, depende del código
+                # No cambiar, depende del código
+                ("detections", detect_3d_detections_topic)
             ],
-            
+
 
             condition=IfCondition(PythonExpression([str(use_3d)])),
         )
@@ -290,7 +302,8 @@ def generate_launch_description():
             parameters=[{"image_reliability": image_reliability}],
             remappings=[
                 ("image_raw", "/rgbd_camera/image"),
-                ("detections", debug_detections_topic)  # Depende de si se usa tracking o no
+                # Depende de si se usa tracking o no
+                ("detections", debug_detections_topic)
             ],
 
             condition=IfCondition(PythonExpression([use_debug])),
@@ -330,13 +343,15 @@ def generate_launch_description():
 
     use_tracking = LaunchConfiguration("use_tracking")
     use_tracking_cmd = DeclareLaunchArgument(
-        "use_tracking", default_value="True", description="Whether to activate tracking"
-    )
+        "use_tracking",
+        default_value="True",
+        description="Whether to activate tracking")
 
     use_3d = LaunchConfiguration("use_3d")
     use_3d_cmd = DeclareLaunchArgument(
-        "use_3d", default_value="True", description="Whether to activate 3D detections"
-    )
+        "use_3d",
+        default_value="True",
+        description="Whether to activate 3D detections")
 
     return LaunchDescription(
         [

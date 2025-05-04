@@ -25,13 +25,13 @@ def generate_launch_description():
     param_file = os.path.join(pkg_dir, 'config', 'params.yaml')
 
     yolo_cmd = Node(package='depth_worker',
-                        executable='yolo_detection',
-                        output='screen',
-                        parameters=[param_file],
-                        remappings=[
-                          ('input_detection', '/yolo/detections'),
-                          ('output_detection_2d', '/detections_2d')
-                        ])
+                    executable='yolo_detection',
+                    output='screen',
+                    parameters=[param_file],
+                    remappings=[
+                            ('input_detection', '/yolo/detections'),
+                        ('output_detection_2d', '/detections_2d')
+                    ])
 
     ld = LaunchDescription()
     ld.add_action(yolo_cmd)
