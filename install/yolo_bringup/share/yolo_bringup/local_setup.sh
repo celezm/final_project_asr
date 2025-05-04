@@ -1,1 +1,0 @@
-/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_bringup/ament_cmake_environment_hooks/local_setup.sh

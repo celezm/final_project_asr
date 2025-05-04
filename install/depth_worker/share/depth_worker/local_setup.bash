@@ -1,1 +1,0 @@
-/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/depth_worker/ament_cmake_environment_hooks/local_setup.bash

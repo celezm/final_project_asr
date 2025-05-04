@@ -1,1 +1,0 @@
-/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_generator_c/yolo_msgs/msg/detail/key_point3_d_array__type_support.h

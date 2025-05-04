@@ -1,1 +1,0 @@
-/home/manza/Desktop/arquitectura/final/final_project_arquitectura/src/elp_stereo_camera/launch/stereo_camera_launch.py

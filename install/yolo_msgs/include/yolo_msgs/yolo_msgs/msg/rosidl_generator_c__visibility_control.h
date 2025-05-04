@@ -1,1 +1,0 @@
-/home/manza/Desktop/arquitectura/final/final_project_arquitectura/build/yolo_msgs/rosidl_generator_c/yolo_msgs/msg/rosidl_generator_c__visibility_control.h
