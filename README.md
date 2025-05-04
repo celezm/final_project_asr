@@ -3,4 +3,4 @@ prueba
 
 ## CI/CD Status
 
-![Build](https://github.com/amanza17/final_project_arquitectura/src)
+![CI](https://github.com/amanza17/final_project_arquitectura/actions/workflows/ci.yml/badge.svg)
