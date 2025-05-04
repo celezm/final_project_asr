@@ -1,4 +1,4 @@
-name: jazzy-ci
+name: jazzy-build
 
 on:
   push:
