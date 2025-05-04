@@ -5,10 +5,12 @@ on:
     branches: [ main ]
   pull_request:
     branches: [ main ]
+  schedule:
+    - cron: '0 0 * * 6'  # Runs every Saturday at midnight
 
 jobs:
   build:
-    runs-on: ubuntu-24.04  # NO hay ubuntu-24.04 en GitHub Actions todavía
+    runs-on: ubuntu-24.04  # GitHub Actions does not support 24.04 yet
 
     steps:
       - name: Checkout code
@@ -19,22 +21,20 @@ jobs:
         with:
           required-ros-distributions: jazzy
 
-  - name: Install dependencies
-    run: |
-      sudo apt-get update
-      sudo apt-get install --no-install-recommends -y \
-        libopencv-dev \
-        libpcl-dev \
-        python3-colcon-common-extensions \
-        ros-jazzy-behaviortree-cpp \
-        ros-jazzy-nav2-bringup \
-        ros-jazzy-pcl-conversions \
-        ros-jazzy-sensor-msgs \
-        ros-jazzy-camera-info-manager  # <--- aquí es correcto
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install --no-install-recommends -y \
+            libopencv-dev \
+            libpcl-dev \
+            python3-colcon-common-extensions \
+            ros-jazzy-behaviortree-cpp \
+            ros-jazzy-nav2-bringup \
+            ros-jazzy-pcl-conversions \
+            ros-jazzy-sensor-msgs \
+            ros-jazzy-camera-info-manager
 
-
-
-      - name: Build with colcon
+      - name: Build workspace
         run: |
           source /opt/ros/jazzy/setup.bash
           colcon build --event-handlers console_cohesion+
