@@ -1,0 +1,12 @@
+# Objetivo de la acción: Avanzar una distancia o girar un ángulo
+
+# Entrada (objetivo)
+int8 objetivo  # Sitio al que ir
+
+---
+# Resultado (Finalización del movimiento)
+float64 tiempo            # Tiempo en segundos que tomó la acción
+
+---
+# Feedback (Cuanto queda)
+float64 progreso          # Tiempo que lleva
