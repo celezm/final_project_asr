@@ -24,8 +24,6 @@ Built on **ROS 2 Jazzy**, this system allows a robot to detect a nearby person, 
 
 ---
 
-## Instalation and setup
-
 ## 📦 Installation
 
 Tested on **Ubuntu 24.04** and **ROS 2 Jazzy**.
@@ -88,3 +86,9 @@ navigation/
 ```
 
 ## Group Members
+
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
