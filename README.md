@@ -44,6 +44,24 @@ bt_nodes/
 
 navigation/
   └── nav_goal_node              # Sends goals to Nav2 based on user input
+
+├── bt
+│   └── pc.xml
+├── LICENSE
+├── README.md
+├── src
+│   ├── depth_worker
+│   ├── elp_stereo_camera
+│   ├── kobuki
+│   ├── navigation
+│   ├── nav_pruebas
+│   ├── pfinal_pc
+│   ├── ThirdParty
+│   └── yolov8_ros
+└── yolov8m.pt
+
+
+
 ```
 
 ## Group Members
