@@ -2,7 +2,7 @@
 
 ![Build](https://github.com/amanza17/final_project_arquitectura/actions/workflows/ci.yml/badge.svg?branch=main)
 ![Tests](https://github.com/amanza17/final_project_arquitectura/actions/workflows/test.yml/badge.svg?branch=main)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](https://opensource.org/licenses/MIT)
 ![Ubuntu 24.04](https://img.shields.io/badge/OS-Ubuntu%2024.04-orange)
 ![ROS 2 Jazzy](https://img.shields.io/badge/ROS%202-Jazzy-blue)
 
