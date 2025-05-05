@@ -16,17 +16,16 @@
 
 #include "rclcpp/rclcpp.hpp"
 
-namespace pfinal_pc
-{
+namespace pfinal_pc {
 
-class CheckPerson : public BT::ConditionNode
+class CheckPerson: public BT::ConditionNode
 {
 
 public:
   CheckPerson(
     const std::string & xml_tag_name,
     const BT::NodeConfiguration & conf);
-
+  
   // void halt() {}
   BT::NodeStatus tick();
 

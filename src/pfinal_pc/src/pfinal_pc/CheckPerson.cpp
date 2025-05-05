@@ -32,7 +32,7 @@ CheckPerson::CheckPerson(
 : BT::ConditionNode(xml_tag_name, conf)
 {
   conf.blackboard->get("node", node_);
-
+  
   detection_sub_ = node_->create_subscription<vision_msgs::msg::Detection3DArray>(
     "/detections_3d", 10, std::bind(&CheckPerson::detection_callback, this, _1));
 
@@ -71,7 +71,7 @@ CheckPerson::tick()
           } else {
             detected_before_ = true;
           }
-        }
+        } 
       }
     }
   }

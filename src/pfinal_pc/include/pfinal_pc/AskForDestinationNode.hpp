@@ -15,20 +15,19 @@
 #include "message_filters/sync_policies/approximate_time.h"
 
 #include "rclcpp/rclcpp.hpp"
-#include "std_msgs/msg/int32.hpp"
+#include "std_msgs/msg/int32.hpp" 
 
 
-namespace pfinal_pc
-{
+namespace pfinal_pc {
 
-class AskForDestinationNode : public BT::SyncActionNode
+class AskForDestinationNode: public BT::SyncActionNode
 {
 
 public:
   AskForDestinationNode(
     const std::string & xml_tag_name,
     const BT::NodeConfiguration & conf);
-
+  
   // void halt() {}
   BT::NodeStatus tick();
 
@@ -40,7 +39,7 @@ public:
 private:
   rclcpp::Node::SharedPtr node_;
 
-  rclcpp::Publisher<std_msgs::msg::Int32>::SharedPtr publisher_;
+  rclcpp::Publisher<std_msgs::msg::Int32>::SharedPtr publisher_; 
 
 
 };
