@@ -1,3 +1,5 @@
+// Copyright 2025 Adrián Manzanares, Claudia Élez, Nerea Chamorro, Carlos García
+// Licensed under the MIT License
 // Copyright 2024 Intelligent Robotics Lab
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -38,13 +40,13 @@ int main(int argc, char ** argv)
   }*/
 
   auto node = std::make_shared<server::ActionClient>();
-  //auto goal = server::ActionClient::muevete::Goal();
+  // auto goal = server::ActionClient::muevete::Goal();
   node->wait_and_send_goal();
 
   // Asignar el objetivo recibido
-  //goal.objetivo = static_cast<int8_t>(objetivo);
+  // goal.objetivo = static_cast<int8_t>(objetivo);
 
-  //node->send_request(goal);
+  // node->send_request(goal);
 
   rclcpp::Rate rate(10);
   while (rclcpp::ok() && !node->is_action_finished()) {

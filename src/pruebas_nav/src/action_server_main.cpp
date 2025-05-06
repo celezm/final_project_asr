@@ -1,3 +1,5 @@
+// Copyright 2025 Adrián Manzanares, Claudia Élez, Nerea Chamorro, Carlos García
+// Licensed under the MIT License
 // Copyright 2024 Intelligent Robotics Lab
 //
 // Licensed under the Apache License, Version 2.0 (the "License");

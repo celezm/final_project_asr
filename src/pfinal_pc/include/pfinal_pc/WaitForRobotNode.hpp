@@ -15,19 +15,20 @@
 #include "message_filters/sync_policies/approximate_time.h"
 
 #include "rclcpp/rclcpp.hpp"
-#include "std_msgs/msg/int32.hpp" 
+#include "std_msgs/msg/int32.hpp"
 
 
-namespace pfinal_pc {
+namespace pfinal_pc
+{
 
-class WaitForRobotNode: public BT::ConditionNode
+class WaitForRobotNode : public BT::ConditionNode
 {
 
 public:
   WaitForRobotNode(
     const std::string & xml_tag_name,
     const BT::NodeConfiguration & conf);
-  
+
   // void halt() {}
   BT::NodeStatus tick();
 
@@ -35,6 +36,7 @@ public:
   {
     return BT::PortsList({});
   }
+
 private:
   rclcpp::Node::SharedPtr node_;
   bool robot_arrived_ = false;

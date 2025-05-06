@@ -4,7 +4,7 @@
   <version>0.0.0</version>
   <description>Pruebas de navegación con mapa</description>
   <maintainer email="c.garciaes.2023@alumnos.urjc.es">Carlos García</maintainer>
-  <license>Apache License, Version 2.0</license>
+  <license>MIT Licnse</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 

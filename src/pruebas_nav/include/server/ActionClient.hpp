@@ -1,3 +1,5 @@
+// Copyright 2025 Adrián Manzanares, Claudia Élez, Nerea Chamorro, Carlos García
+// Licensed under the MIT License
 // Copyright 2024 Intelligent Robotics Lab
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,13 +14,16 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#ifndef SERVER__ACTION_CLIENT_HPP
-#define SERVER__ACTION_CLIENT_HPP
+#ifndef SERVER__ACTIONCLIENT_HPP_
+#define SERVER__ACTIONCLIENT_HPP_
 
-#include "interfaces_final/action/muevete.hpp"
+#include <memory>  // C++ standard header
+
 #include "rclcpp/rclcpp.hpp"
 #include "rclcpp_action/rclcpp_action.hpp"
 #include "std_msgs/msg/int32.hpp"
+
+#include "interfaces_final/action/muevete.hpp"
 
 
 namespace server
@@ -60,4 +65,4 @@ private:
 
 }  // namespace server
 
-#endif  // SERVER__ACTION_CLIENT_HPP
+#endif  // SERVER__ACTIONCLIENT_HPP_
