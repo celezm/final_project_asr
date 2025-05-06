@@ -54,7 +54,7 @@ AskForDestinationNode::tick()
   int choice;
   std::cin >> choice;
 
-  if (choice < 0 || choice > destinations.size()) {
+  if (choice < 0 || choice >= destinations.size()) {
       std::cout << "Destino inválido.\n";
       return BT::NodeStatus::FAILURE;
   }

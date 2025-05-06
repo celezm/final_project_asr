@@ -41,7 +41,7 @@ private:
   bool is_active_ = false;
   rclcpp::Subscription<std_msgs::msg::Int32>::SharedPtr arrival_sub_;
   rclcpp::Subscription<std_msgs::msg::Int32>::SharedPtr exit_sub_;
-
+  bool once_ = false;
 
   void arrival_callback(const std_msgs::msg::Int32::SharedPtr msg);
   void exit_callback(const std_msgs::msg::Int32::SharedPtr msg);

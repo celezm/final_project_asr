@@ -46,12 +46,18 @@ void
 WaitForRobotNode::arrival_callback(const std_msgs::msg::Int32::SharedPtr msg)
 {
   if (msg->data == 0 ) {
-    robot_arrived_ = true;
-    std::cout << "El robot ha llegado al destino.\n";
+    std::cout << "El robot ha llegado.\n";
+
+    if (once_){
     arrival_sub_.reset();
     exit_sub_ = node_->create_subscription<std_msgs::msg::Int32>(
       "/exit", 10, std::bind(&WaitForRobotNode::exit_callback, this, _1));
-  } 
+      once_ = false;
+      robot_arrived_ = true;
+      return;
+    }
+    once_ = true;
+}
 }
 
 void
