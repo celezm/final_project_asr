@@ -6,6 +6,7 @@
 #include "geometry_msgs/msg/twist.hpp"
 #include "rclcpp_action/rclcpp_action.hpp"
 #include "interfaces_final/action/muevete.hpp"
+#include "std_msgs/msg/int32.hpp"
 
 namespace server
 {
@@ -20,7 +21,7 @@ namespace server
 
   private:
     enum class State { DeCamino, Esperando, DeVuelta };
-
+    bool returning_ = false;
     rclcpp_action::GoalResponse handle_goal(
       const rclcpp_action::GoalUUID & uuid,
       std::shared_ptr<const muevete::Goal> goal);
@@ -37,6 +38,9 @@ namespace server
 
     rclcpp::Publisher<geometry_msgs::msg::PoseStamped>::SharedPtr pub_goal_pose_;
     rclcpp::Subscription<geometry_msgs::msg::Twist>::SharedPtr cmd_vel_sub_;
+
+    rclcpp::Publisher<std_msgs::msg::Int32>::SharedPtr exit_pub_;
+    rclcpp::Publisher<std_msgs::msg::Int32>::SharedPtr arrival_pub_;
 
     rclcpp_action::Server<muevete>::SharedPtr navigate_action_server_;
     std::shared_ptr<rclcpp_action::ServerGoalHandle<muevete>> goal_handle_;

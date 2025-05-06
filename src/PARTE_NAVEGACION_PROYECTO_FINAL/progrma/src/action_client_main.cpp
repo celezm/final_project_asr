@@ -23,7 +23,7 @@ int main(int argc, char ** argv)
 {
   rclcpp::init(argc, argv);
 
-  if (argc < 2) {
+  /*if (argc < 2) {
     std::cerr << "Se tiene que pasar al menos un número (del 1 al 5) como parámetro" << std::endl;
     rclcpp::shutdown();
     return 1;
@@ -35,15 +35,16 @@ int main(int argc, char ** argv)
     std::cerr << "El número debe estar entre 1 y 5." << std::endl;
     rclcpp::shutdown();
     return 1;
-  }
+  }*/
 
   auto node = std::make_shared<server::ActionClient>();
-  auto goal = server::ActionClient::muevete::Goal();
+  //auto goal = server::ActionClient::muevete::Goal();
+  node->wait_and_send_goal();
 
   // Asignar el objetivo recibido
-  goal.objetivo = static_cast<int8_t>(objetivo);
+  //goal.objetivo = static_cast<int8_t>(objetivo);
 
-  node->send_request(goal);
+  //node->send_request(goal);
 
   rclcpp::Rate rate(10);
   while (rclcpp::ok() && !node->is_action_finished()) {

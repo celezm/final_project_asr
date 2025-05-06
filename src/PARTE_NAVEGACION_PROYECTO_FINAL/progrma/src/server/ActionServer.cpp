@@ -15,6 +15,10 @@ namespace server
 
     cmd_vel_sub_ = create_subscription<geometry_msgs::msg::Twist>(
       "/cmd_vel_nav", 10, std::bind(&ActionServer::cmd_vel_callback, this, std::placeholders::_1));
+
+    exit_pub_ = create_publisher<std_msgs::msg::Int32>("/exit", 10);
+    arrival_pub_ = create_publisher<std_msgs::msg::Int32>("/arrival", 10);
+      
   }
 
   void ActionServer::start_server()
@@ -65,6 +69,10 @@ namespace server
     original_pose_ = get_target_pose(0);
     target_pose_ = get_target_pose(current_goal_.objetivo);
     pub_goal_pose_->publish(target_pose_);
+
+    std_msgs::msg::Int32 exit_msg;
+    exit_msg.data = 0;
+    exit_pub_->publish(exit_msg);
 
     start_time_ = now();
     timer_ = create_wall_timer(1s, std::bind(&ActionServer::execute, this));
@@ -198,6 +206,7 @@ namespace server
         pose.pose.position.x = 0.0;
         pose.pose.position.y = 0.0;
         pose.pose.position.z = 0.0;
+        returning_ = true;
         break;
     }
 
@@ -228,6 +237,11 @@ namespace server
 
       // Cambiar al estado 'Esperando' si el robot está inactivo
       state_ = State::Esperando;
+      std_msgs::msg::Int32 arrival_msg;
+      arrival_msg.data = 0;
+      arrival_pub_->publish(arrival_msg);
+      returning_ = false;
+
       wait_start_time_ = now();
 
       inactivity_timer_->cancel();

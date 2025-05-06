@@ -28,6 +28,33 @@ ActionClient::ActionClient()
 {
   action_client_ = rclcpp_action::create_client<server::ActionClient::muevete>(
     this, "muevete");
+
+  destination_sub_ = this->create_subscription<std_msgs::msg::Int32>(
+    "/real_destination", 10,
+    std::bind(&ActionClient::destination_callback, this, _1));
+}
+
+void ActionClient::destination_callback(const std_msgs::msg::Int32::SharedPtr msg)
+{
+  RCLCPP_INFO(this->get_logger(), "Destino recibido: %d", msg->data);
+  destination_ = msg->data;
+  destination_received_ = true;
+}
+
+void ActionClient::wait_and_send_goal()
+{
+  rclcpp::Rate rate(10);
+
+  while (rclcpp::ok() && !destination_received_) {
+    RCLCPP_INFO(this->get_logger(), "Esperando destino en /real_destination...");
+    rclcpp::spin_some(this->get_node_base_interface());
+    rate.sleep();
+  }
+
+  muevete::Goal goal;
+  goal.objetivo = destination_;
+
+  send_request(goal);
 }
 
 void
