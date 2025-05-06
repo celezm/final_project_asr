@@ -71,8 +71,8 @@ navigation/
 ├── LICENSE
 ├── README.md
 ├── src
-│   ├── depth_worker
-│   ├── elp_stereo_camera
+│   ├── depth_worker         
+│   ├── elp_stereo_camera 
 │   ├── kobuki
 │   ├── navigation
 │   ├── nav_pruebas
@@ -87,6 +87,12 @@ navigation/
 
 ## Group Members
 
+- Adrián Manzanares Romera: [Amanza17](https://github.com/amanza17)
+- Carlos García Escolano: [CarlosDrag0n](https://github.com/CarlosDrag0n)
+- Nerea Chamorro Sierra: [nereacsierra](https://github.com/nereacsierra)
+- Claudia Élez Mencía: [celezm](https://github.com/celezm)
+
+## Multimedia
 
 ## 📄 License
 
