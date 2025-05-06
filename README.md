@@ -7,7 +7,8 @@
 ![ROS 2 Jazzy](https://img.shields.io/badge/ROS%202-Jazzy-blue)
 
 
-Final project for the 'Arquitectura Software para Robots' subject (2024–2025).  
+Final project for the 'Arquitectura Software para Robots' subject (2024–2025). 
+
 Built on **ROS 2 Jazzy**, this system allows a robot to detect a nearby person, initiate a dialogue, and autonomously guide them to the position where their chosen degree is taught using navigation and behavior trees.
 
 ---
@@ -24,7 +25,7 @@ Built on **ROS 2 Jazzy**, this system allows a robot to detect a nearby person, 
 
 ---
 
-## 📦 Installation
+## 📦 How to install our proyect
 
 Tested on **Ubuntu 24.04** and **ROS 2 Jazzy**.
 
@@ -44,8 +45,9 @@ colcon build --symlink-install
 source install/setup.bash
 ```
 
+---
 
-## 📁 Node Structure
+## 📁 Project Structure
 
 ```plaintext
 elp_stereo_camera/
@@ -81,20 +83,26 @@ navigation/
 │   └── yolov8_ros
 └── yolov8m.pt
 
-
-
 ```
 
-## Group Members
+---
+
+## 👥 Group Members
 
 - Adrián Manzanares Romera: [Amanza17](https://github.com/amanza17)
 - Carlos García Escolano: [CarlosDrag0n](https://github.com/CarlosDrag0n)
 - Nerea Chamorro Sierra: [nereacsierra](https://github.com/nereacsierra)
 - Claudia Élez Mencía: [celezm](https://github.com/celezm)
 
-## Multimedia
+---
+
+## 🎦 Multimedia
+
+---
 
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
+
+---
 
