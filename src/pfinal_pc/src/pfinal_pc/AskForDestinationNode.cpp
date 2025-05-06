@@ -31,7 +31,7 @@ AskForDestinationNode::AskForDestinationNode(
   const BT::NodeConfiguration & conf)
 : BT::SyncActionNode(xml_tag_name, conf)
 {
-  conf.blackboard->get("node", node_);
+  conf.blackboard->get("basic_node", node_);
 
   publisher_ = node_->create_publisher<std_msgs::msg::Int32>("destination_topic", 10);
 
@@ -43,7 +43,7 @@ AskForDestinationNode::tick()
 
   // Los 10 destinos posibles
   std::vector<std::string> destinations = {
-    "Teleco", "Aero", "Robótica", "Biomed", "Datos", "Arqui", "Paisajismo"};
+    "Telecomunicaciones", "Aeroespaciales", "Robótica", "Biomedicina", "Datos", "Arquitectura", "Paisajismo"};
 
   // Preguntar al usuario por un destino
   std::cout << "Por favor, elige un destino (1-7):\n";
@@ -54,7 +54,7 @@ AskForDestinationNode::tick()
   int choice;
   std::cin >> choice;
 
-  if (choice < 0 || choice >= destinations.size()) {
+  if (choice < 0 || choice > destinations.size()) {
     std::cout << "Destino inválido.\n";
     return BT::NodeStatus::FAILURE;
   }
@@ -77,7 +77,8 @@ AskForDestinationNode::tick()
   }
 
 
-  std::cout << "Has elegido: " << destinations[choice] << " (índice: " << choice << ")\n";
+  std::cout << "Has elegido: " << destinations[choice-1] << " (índice: " << choice << ")\n";
+  setOutput("destination_name", destinations[choice-1]);
 
   return BT::NodeStatus::SUCCESS;
 }

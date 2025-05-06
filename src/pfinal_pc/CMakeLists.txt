@@ -15,12 +15,15 @@ find_package(message_filters REQUIRED)
 find_package(pcl_conversions REQUIRED)
 find_package(PCL REQUIRED COMPONENTS common io)
 find_package(behaviortree_cpp_v3 REQUIRED)
+find_package(hri_bt_nodes REQUIRED)
+
 
 # Incluir directorios necesarios
 include_directories(
   include
   ${PCL_INCLUDE_DIRS}
   include/pfinal_pc
+  ../hri/include
 )
 
 # Crear la librería compartida del proyecto
@@ -31,6 +34,7 @@ add_library(${PROJECT_NAME} SHARED
 
 )
 
+
 # Vincular las dependencias necesarias para la librería
 ament_target_dependencies(${PROJECT_NAME}
   rclcpp
@@ -39,6 +43,7 @@ ament_target_dependencies(${PROJECT_NAME}
   message_filters
   pcl_conversions
   behaviortree_cpp_v3
+  hri_bt_nodes
 )
 
 # Vincular las librerías de PCL necesarias

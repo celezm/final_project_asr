@@ -34,8 +34,9 @@ public:
 
   static BT::PortsList providedPorts()
   {
-    return BT::PortsList({});
+    return { BT::OutputPort<std::string>("destination_name") };
   }
+  
 
 private:
   rclcpp::Node::SharedPtr node_;

@@ -31,7 +31,7 @@ WaitForRobotNode::WaitForRobotNode(
   const BT::NodeConfiguration & conf)
 : BT::ConditionNode(xml_tag_name, conf)
 {
-  conf.blackboard->get("node", node_);
+  conf.blackboard->get("basic_node", node_);
 
   arrival_sub_ = node_->create_subscription<std_msgs::msg::Int32>(
     "/arrival", 10, std::bind(&WaitForRobotNode::arrival_callback, this, _1));
