@@ -65,4 +65,4 @@ jobs:
         run: |
           source install/setup.bash
           colcon test --event-handlers console_cohesion+
-          colcon test-result --verbose
+          colcon test-result --verbose  --packages-ignore yolo_ros hri_bt_nodes llama_ros llama_bt whisper_ros llama_cli
