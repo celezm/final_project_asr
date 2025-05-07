@@ -1,33 +1,19 @@
-// Copyright 2025 Adrián Manzanares, Claudia Élez, Nerea Chamorro, Carlos García
-// Licensed under the MIT License
-// Copyright 2024 Intelligent Robotics Lab
-//
-// Licensed under the Apache License, Version 2.0 (the "License");
-// you may not use this file except in compliance with the License.
-// You may obtain a copy of the License at
-//
-//     http://www.apache.org/licenses/LICENSE-2.0
-//
-// Unless required by applicable law or agreed to in writing, software
-// distributed under the License is distributed on an "AS IS" BASIS,
-// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-// See the License for the specific language governing permissions and
-// limitations under the License.
-
-#include "server/ActionServer.hpp"                // 1. Cabecera correspondiente
-#include <cmath>                                  // 2. C++ system header
-#include "rclcpp/rclcpp.hpp"                      // 3. ROS2 / terceros
-#include "geometry_msgs/msg/pose_stamped.hpp"     // 3. ROS2 / terceros
-#include "geometry_msgs/msg/twist.hpp"            // 3. ROS2 / terceros
-
+#include "server/ActionServer.hpp"
+#include <cmath>
+#include "rclcpp/rclcpp.hpp"
+#include "geometry_msgs/msg/pose_stamped.hpp"
+#include "geometry_msgs/msg/twist.hpp"
 
 using namespace std::chrono_literals;
 
 namespace server
 {
 ActionServer::ActionServer()
-: Node("nav2_action_server"), state_(State::DeCamino), current_times_(0), is_robot_inactive_(false)
+: Node("nav2_action_server", rclcpp::NodeOptions().clock_type(RCL_SYSTEM_TIME)),
+  state_(State::DeCamino), current_times_(0), is_robot_inactive_(false)
 {
+  clock_ = std::make_shared<rclcpp::Clock>(RCL_SYSTEM_TIME);
+
   pub_goal_pose_ = create_publisher<geometry_msgs::msg::PoseStamped>("/goal_pose", 10);
 
   cmd_vel_sub_ = create_subscription<geometry_msgs::msg::Twist>(
@@ -58,7 +44,6 @@ rclcpp_action::GoalResponse ActionServer::handle_goal(
 
   RCLCPP_INFO(this->get_logger(), "Nuevo objetivo recibido: %d", current_goal_.objetivo);
 
-    // Reiniciar el temporizador de inactividad
   if (inactivity_timer_) {
     inactivity_timer_->cancel();
     inactivity_timer_ = nullptr;
@@ -91,10 +76,9 @@ void ActionServer::handle_accepted(
   exit_msg.data = 0;
   exit_pub_->publish(exit_msg);
 
-  start_time_ = now();
+  start_time_ = clock_->now();
   timer_ = create_wall_timer(1s, std::bind(&ActionServer::execute, this));
 
-    // Reiniciar el temporizador de inactividad
   if (!inactivity_timer_) {
     inactivity_timer_ = create_wall_timer(1s,
         std::bind(&ActionServer::check_robot_inactivity, this));
@@ -103,19 +87,11 @@ void ActionServer::handle_accepted(
 
 void ActionServer::execute()
 {
-    // Crear un feedback para enviar
   auto feedback = std::make_shared<muevete::Feedback>();
-
-    // Calcular el tiempo transcurrido en segundos
-  double elapsed_time = (this->now() - start_time_).seconds();
-
-    // Actualizar el feedback con el tiempo transcurrido
+  double elapsed_time = (clock_->now() - start_time_).seconds();
   feedback->progreso = elapsed_time;
-
-    // Publicar el feedback con el tiempo
   goal_handle_->publish_feedback(feedback);
 
-    // Si el goal está siendo cancelado, finalizar el proceso
   if (goal_handle_->is_canceling()) {
     auto result = std::make_shared<muevete::Result>();
     goal_handle_->canceled(result);
@@ -128,12 +104,12 @@ void ActionServer::execute()
       if (is_robot_inactive_) {
         RCLCPP_INFO(get_logger(), "Cambio a estado 'Esperando' por inactividad.");
         state_ = State::Esperando;
-        wait_start_time_ = now();
+        wait_start_time_ = clock_->now();
       }
       break;
 
     case State::Esperando:
-      if ((this->now() - wait_start_time_).seconds() >= 5.0) {
+      if ((clock_->now() - wait_start_time_).seconds() >= 5.0) {
         RCLCPP_INFO(get_logger(), "Que tenga un buen dia.");
         pub_goal_pose_->publish(original_pose_);
         state_ = State::DeVuelta;
@@ -161,61 +137,51 @@ geometry_msgs::msg::PoseStamped ActionServer::get_target_pose(int8_t objetivo)
 
   switch (objetivo) {
     case 1:
-      // entre las mesas de enfrente, mirando al inicio
       pose.pose.position.x = 2.8022539698638402;
       pose.pose.position.y = -0.03692829086813365;
       pose.pose.position.z = 0.0;
-
-      pose.pose.orientation.x = 0.0;
-      pose.pose.orientation.y = 0.0;
       pose.pose.orientation.z = 0.9979735770390689;
       pose.pose.orientation.w = 0.06362970636303165;
       break;
     case 2:
       pose.pose.position.x = 6.06500137752852;
       pose.pose.position.y = -5.931359334378828;
-      pose.pose.position.z = 0.0;
-
-        // Definir la orientación (este es un ejemplo, puedes calcularlo para tu puerta)
-      pose.pose.orientation.x = 0.0;
-      pose.pose.orientation.y = 0.0;
       pose.pose.orientation.z = 0.9985772772407213;
       pose.pose.orientation.w = 0.05332374122759517;
       break;
     case 3:
       pose.pose.position.x = 8.20947551727295;
       pose.pose.position.y = -13.45923137664795;
-      pose.pose.position.z = -0.005340576171875;
-
-      pose.pose.orientation.x = 0.0;
-      pose.pose.orientation.y = 0.0;
       pose.pose.orientation.z = -0.08283026926814523;
       pose.pose.orientation.w = 0.9965636690613232;
       break;
     case 4:
       pose.pose.position.x = 20.560640335083008;
       pose.pose.position.y = -24.40395164489746;
-      pose.pose.position.z = -0.001434326171875;
-
-      pose.pose.orientation.x = 0.0;
-      pose.pose.orientation.y = 0.0;
       pose.pose.orientation.z = -0.752787314110982;
       pose.pose.orientation.w = 0.6582638222730866;
       break;
     case 5:
       pose.pose.position.x = 26.64468002319336;
       pose.pose.position.y = -17.468358993530273;
-      pose.pose.position.z = -0.005340576171875;
-
-      pose.pose.orientation.x = 0.0;
-      pose.pose.orientation.y = 0.0;
+      pose.pose.orientation.z = -0.5311433974866508;
+      pose.pose.orientation.w = -0.5311433974866508;
+      break;
+    case 6:
+      pose.pose.position.x = 1.9225342273712158;
+      pose.pose.position.y = 2.2082509994506836;
+      pose.pose.orientation.z = -0.5311433974866508;
+      pose.pose.orientation.w = -0.5311433974866508;
+      break;
+    case 7:
+      pose.pose.position.x = 4.554557800292969;
+      pose.pose.position.y = 1.2099065780639648;
       pose.pose.orientation.z = -0.5311433974866508;
       pose.pose.orientation.w = -0.5311433974866508;
       break;
     default:
       pose.pose.position.x = 0.0;
       pose.pose.position.y = 0.0;
-      pose.pose.position.z = 0.0;
       returning_ = true;
       break;
   }
@@ -226,10 +192,9 @@ geometry_msgs::msg::PoseStamped ActionServer::get_target_pose(int8_t objetivo)
 void ActionServer::cmd_vel_callback(const geometry_msgs::msg::Twist::SharedPtr msg)
 {
   if (std::abs(msg->linear.x) > 0.01 || std::abs(msg->angular.z) > 0.01) {
-    last_cmd_vel_time_ = this->now();
+    last_cmd_vel_time_ = clock_->now();
     is_robot_inactive_ = false;
 
-      // Reiniciar el temporizador de inactividad si el robot se mueve
     if (!inactivity_timer_) {
       inactivity_timer_ = create_wall_timer(1s,
           std::bind(&ActionServer::check_robot_inactivity, this));
@@ -241,19 +206,17 @@ void ActionServer::cmd_vel_callback(const geometry_msgs::msg::Twist::SharedPtr m
 
 void ActionServer::check_robot_inactivity()
 {
-  if ((this->now() - last_cmd_vel_time_).seconds() > 5.0) {
+  if ((clock_->now() - last_cmd_vel_time_).seconds() > 5.0) {
     RCLCPP_INFO(get_logger(), "Ha llegado a su destino.");
     is_robot_inactive_ = true;
-
-      // Cambiar al estado 'Esperando' si el robot está inactivo
     state_ = State::Esperando;
+
     std_msgs::msg::Int32 arrival_msg;
     arrival_msg.data = 0;
     arrival_pub_->publish(arrival_msg);
     returning_ = false;
 
-    wait_start_time_ = now();
-
+    wait_start_time_ = clock_->now();
     inactivity_timer_->cancel();
   }
 }
