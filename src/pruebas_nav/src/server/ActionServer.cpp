@@ -133,9 +133,7 @@ void ActionServer::execute()
       break;
 
     case State::Esperando:
-        // RCLCPP_INFO(get_logger(), "Que tenga un buen dia.");
       if ((this->now() - wait_start_time_).seconds() >= 5.0) {
-          // En vez de mostrar mensaje de inactividad, mostramos el de destino alcanzado
         RCLCPP_INFO(get_logger(), "Que tenga un buen dia.");
         pub_goal_pose_->publish(original_pose_);
         state_ = State::DeVuelta;
@@ -163,10 +161,7 @@ geometry_msgs::msg::PoseStamped ActionServer::get_target_pose(int8_t objetivo)
 
   switch (objetivo) {
     case 1:
-        // pose.pose.position.x = 5.13930082321167;
-        // pose.pose.position.y = -4.029267311096191;
-        // pose.pose.position.z = -0.001434326171875;
-
+      // entre las mesas de enfrente, mirando al inicio
       pose.pose.position.x = 2.8022539698638402;
       pose.pose.position.y = -0.03692829086813365;
       pose.pose.position.z = 0.0;
@@ -177,9 +172,6 @@ geometry_msgs::msg::PoseStamped ActionServer::get_target_pose(int8_t objetivo)
       pose.pose.orientation.w = 0.06362970636303165;
       break;
     case 2:
-        // pose.pose.position.x = 1.545987844467163;
-        // pose.pose.position.y = -0.009981523267924786;
-        // pose.pose.position.z = -0.001434326171875;
       pose.pose.position.x = 6.06500137752852;
       pose.pose.position.y = -5.931359334378828;
       pose.pose.position.z = 0.0;
@@ -249,7 +241,6 @@ void ActionServer::cmd_vel_callback(const geometry_msgs::msg::Twist::SharedPtr m
 
 void ActionServer::check_robot_inactivity()
 {
-    // RCLCPP_INFO(get_logger(), "Ha llegado a su destino.");
   if ((this->now() - last_cmd_vel_time_).seconds() > 5.0) {
     RCLCPP_INFO(get_logger(), "Ha llegado a su destino.");
     is_robot_inactive_ = true;

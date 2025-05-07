@@ -24,42 +24,8 @@
 int main(int argc, char ** argv)
 {
   rclcpp::init(argc, argv);
-
-  /*if (argc < 2) {
-    std::cerr << "Se tiene que pasar al menos un número (del 1 al 5) como parámetro" << std::endl;
-    rclcpp::shutdown();
-    return 1;
-  }
-
-  // Convertir el argumento a int8
-  int objetivo = std::atoi(argv[1]);
-  if (objetivo < 1 || objetivo > 5) {
-    std::cerr << "El número debe estar entre 1 y 5." << std::endl;
-    rclcpp::shutdown();
-    return 1;
-  }*/
-
   auto node = std::make_shared<server::ActionClient>();
-  // auto goal = server::ActionClient::muevete::Goal();
-  node->wait_and_send_goal();
-
-  // Asignar el objetivo recibido
-  // goal.objetivo = static_cast<int8_t>(objetivo);
-
-  // node->send_request(goal);
-
-  rclcpp::Rate rate(10);
-  while (rclcpp::ok() && !node->is_action_finished()) {
-    rclcpp::spin_some(node);
-    rate.sleep();
-  }
-
-  if (node->is_result_success()) {
-    std::cout << "Result: Success" << std::endl;
-  } else {
-    std::cerr << "Result: Error" << std::endl;
-  }
-
+  rclcpp::spin(node);
   rclcpp::shutdown();
   return 0;
 }

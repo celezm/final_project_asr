@@ -38,7 +38,6 @@ public:
   ActionClient();
 
   void send_request(muevete::Goal goal);
-  void wait_and_send_goal();
 
   bool is_action_finished() {return finished_;}
   bool is_result_success() {return success_;}
@@ -55,9 +54,6 @@ private:
   rclcpp::Subscription<std_msgs::msg::Int32>::SharedPtr destination_sub_;
 
   rclcpp_action::Client<muevete>::SharedPtr action_client_;
-
-  int8_t destination_;
-  bool destination_received_ = false;
 
   bool finished_ {false};
   bool success_ {false};

@@ -39,23 +39,9 @@ ActionClient::ActionClient()
 void ActionClient::destination_callback(const std_msgs::msg::Int32::SharedPtr msg)
 {
   RCLCPP_INFO(this->get_logger(), "Destino recibido: %d", msg->data);
-  destination_ = msg->data;
-  destination_received_ = true;
-}
-
-void ActionClient::wait_and_send_goal()
-{
-  rclcpp::Rate rate(10);
-
-  while (rclcpp::ok() && !destination_received_) {
-    RCLCPP_INFO(this->get_logger(), "Esperando destino en /real_destination...");
-    rclcpp::spin_some(this->get_node_base_interface());
-    rate.sleep();
-  }
 
   muevete::Goal goal;
-  goal.objetivo = destination_;
-
+  goal.objetivo = msg->data;
   send_request(goal);
 }
 
