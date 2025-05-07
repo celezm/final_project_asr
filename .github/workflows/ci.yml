@@ -59,12 +59,8 @@ jobs:
           source /opt/ros/jazzy/setup.bash
           rosdep install --from-paths src --ignore-src -r -y
 
-      - name: Build hri_bt_nodes
+      - name: Build all
         run: |
           source /opt/ros/jazzy/setup.bash
-          colcon build --event-handlers console_cohesion+ --packages-select hri_bt_nodes
+          colcon build --event-handlers console_cohesion+ 
 
-      - name: Build remaining workspace
-        run: |
-          source /opt/ros/jazzy/setup.bash
-          colcon build --event-handlers console_cohesion+ --packages-ignore hri_bt_nodes
