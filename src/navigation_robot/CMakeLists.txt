@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(pruebas_nav)
+project(navigation_robot)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
@@ -14,6 +14,10 @@ find_package(tf2_geometry_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(interfaces_final REQUIRED)
+find_package(sensor_msgs REQUIRED)
+find_package(message_filters REQUIRED)
+find_package(pcl_conversions REQUIRED)
+find_package(pcl_ros REQUIRED)
 
 set(dependencies
   rclcpp
@@ -23,13 +27,18 @@ set(dependencies
   std_msgs
   geometry_msgs
   interfaces_final
+  sensor_msgs
+  message_filters
+  pcl_conversions
+  pcl_ros
 )
 
 include_directories(include)
 
 add_library(${PROJECT_NAME} SHARED
-  src/server/ActionClient.cpp
-  src/server/ActionServer.cpp
+  src/navigation_robot/ActionClient.cpp
+  src/navigation_robot/ActionServer.cpp
+  src/navigation_robot/DestinationParserNode.cpp
 )
 ament_target_dependencies(${PROJECT_NAME} ${dependencies})
 
@@ -41,10 +50,16 @@ add_executable(server src/action_server_main.cpp)
 ament_target_dependencies(server ${dependencies})
 target_link_libraries(server ${PROJECT_NAME})
 
+add_executable(destination_parser src/destination_parser.cpp)
+ament_target_dependencies(destination_parser ${dependencies})
+target_link_libraries(destination_parser ${PROJECT_NAME})
+
+
 install(TARGETS
   ${PROJECT_NAME}
   client
   server
+  destination_parser
   ARCHIVE DESTINATION lib
   LIBRARY DESTINATION lib
   RUNTIME DESTINATION lib/${PROJECT_NAME}

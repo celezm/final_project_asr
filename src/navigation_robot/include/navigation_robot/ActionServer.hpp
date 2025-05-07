@@ -1,5 +1,21 @@
-#ifndef SERVER__ACTIONSERVER_HPP_
-#define SERVER__ACTIONSERVER_HPP_
+// Copyright 2025 Adrián Manzanares, Claudia Élez, Nerea Chamorro, Carlos García
+// Licensed under the MIT License
+// Copyright 2024 Intelligent Robotics Lab
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+#ifndef NAVIGATION_ROBOT__ACTIONSERVER_HPP_
+#define NAVIGATION_ROBOT__ACTIONSERVER_HPP_
 
 #include <memory>
 
@@ -11,7 +27,7 @@
 
 #include "interfaces_final/action/muevete.hpp"
 
-namespace server
+namespace navigation_robot
 {
 class ActionServer : public rclcpp::Node
 {
@@ -63,9 +79,9 @@ private:
   muevete::Goal current_goal_;
   bool is_robot_inactive_;
 
-  // ⏰ Reloj explícito del sistema
+  // Reloj explícito del sistema
   rclcpp::Clock::SharedPtr clock_;
 };
-}  // namespace server
+}  // namespace navigation_robot
 
-#endif  // SERVER__ACTIONSERVER_HPP_
+#endif  // NAVIGATION_ROBOT__ACTIONSERVER_HPP_

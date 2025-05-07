@@ -14,8 +14,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#ifndef SERVER__ACTIONCLIENT_HPP_
-#define SERVER__ACTIONCLIENT_HPP_
+#ifndef NAVIGATION_ROBOT__ACTIONCLIENT_HPP_
+#define NAVIGATION_ROBOT__ACTIONCLIENT_HPP_
 
 #include <memory>  // C++ standard header
 
@@ -26,7 +26,7 @@
 #include "interfaces_final/action/muevete.hpp"
 
 
-namespace server
+namespace navigation_robot
 {
 
 class ActionClient : public rclcpp::Node
@@ -59,6 +59,6 @@ private:
   bool success_ {false};
 };
 
-}  // namespace server
+}  // namespace navigation_robot
 
-#endif  // SERVER__ACTIONCLIENT_HPP_
+#endif  // NAVIGATION_ROBOT__ACTIONCLIENT_HPP_

@@ -1,4 +1,20 @@
-#include "server/ActionServer.hpp"
+// Copyright 2025 Adrián Manzanares, Claudia Élez, Nerea Chamorro, Carlos García
+// Licensed under the MIT License
+// Copyright 2024 Intelligent Robotics Lab
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+#include "navigation_robot/ActionServer.hpp"
 #include <cmath>
 #include "rclcpp/rclcpp.hpp"
 #include "geometry_msgs/msg/pose_stamped.hpp"
@@ -6,7 +22,7 @@
 
 using namespace std::chrono_literals;
 
-namespace server
+namespace navigation_robot
 {
 ActionServer::ActionServer()
 : Node("nav2_action_server", rclcpp::NodeOptions().clock_type(RCL_SYSTEM_TIME)),
@@ -220,4 +236,4 @@ void ActionServer::check_robot_inactivity()
     inactivity_timer_->cancel();
   }
 }
-}  // namespace server
+}  // namespace navigation_robot

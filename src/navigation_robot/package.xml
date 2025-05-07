@@ -1,22 +1,24 @@
 <?xml version="1.0"?>
-<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>nav_pruebas</name>
+  <name>navigation_robot</name>
   <version>0.0.0</version>
-  <description>Example for perception</description>
-  <maintainer email="fmrico@gmail.com">fmrico</maintainer>
-  <license>Apache License, Version 2.0</license>
+  <description>Parte de navegacion</description>
+  <maintainer email="c.garciaes.2023@alumnos.urjc.es">Carlos García</maintainer>
+  <license>MIT Licnse</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
   <depend>rclcpp</depend>
+  <depend>rclcpp_action</depend>
+  <depend>nav2_msgs</depend>
+  <depend>tf2_geometry_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
   <depend>sensor_msgs</depend>
   <depend>message_filters</depend>
   <depend>pcl_conversions</depend>
   <depend>pcl_ros</depend>
-  <depend>geometry_msgs</depend>
-
-
+  <depend>interfaces_final</depend>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
@@ -25,3 +27,4 @@
     <build_type>ament_cmake</build_type>
   </export>
 </package>
+

@@ -1,3 +1,5 @@
+// Copyright 2025 Adrián Manzanares, Claudia Élez, Nerea Chamorro, Carlos García
+// Licensed under the MIT License
 // Copyright 2024 Intelligent Robotics Lab
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,40 +16,17 @@
 
 #include <memory>
 
-#include "navigation/ActionClient.hpp"
+#include "navigation_robot/ActionServer.hpp"
 #include "rclcpp/rclcpp.hpp"
 
 int main(int argc, char ** argv)
 {
   rclcpp::init(argc, argv);
+  auto node = std::make_shared<navigation_robot::ActionServer>();
 
-  if (argc < 3) {
-    std::cerr << "Usa: ros2 run navigation action_client_main x y" << std::endl;
-    rclcpp::shutdown();
-    return 1;
-  }
+  node->start_server();
 
-  auto node = std::make_shared<navigation::ActionClient>();
-  auto goal = navigation::ActionClient::NavigateToPose::Goal();
-
-  goal.pose.header.frame_id = "map";
-  goal.pose.pose.position.x = atof(argv[1]);
-  goal.pose.pose.position.y = atof(argv[2]);
-
-  node->send_request(goal);
-
-  rclcpp::Rate rate(10);
-  while (rclcpp::ok() && !node->is_action_finished()) {
-    rclcpp::spin_some(node);
-    rate.sleep();
-  }
-
-  if (node->is_result_success()) {
-    std::cout << "Result: Success" << std::endl;
-  } else {
-    std::cerr << "Result: error" << std::endl;
-  }
-
+  rclcpp::spin(node);
   rclcpp::shutdown();
 
   return 0;

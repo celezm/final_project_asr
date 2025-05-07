@@ -1,3 +1,5 @@
+// Copyright 2025 Adrián Manzanares, Claudia Élez, Nerea Chamorro, Carlos García
+// Licensed under the MIT License
 // Copyright 2024 Intelligent Robotics Lab
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,19 +15,17 @@
 // limitations under the License.
 
 #include <memory>
+#include <iostream>
+#include <cstdlib>  // Para std::atoi
 
-#include "navigation/ActionServer.hpp"
+#include "navigation_robot/ActionClient.hpp"
 #include "rclcpp/rclcpp.hpp"
 
 int main(int argc, char ** argv)
 {
   rclcpp::init(argc, argv);
-  auto node = std::make_shared<navigation::ActionServer>();
-
-  node->start_server();
-
+  auto node = std::make_shared<navigation_robot::ActionClient>();
   rclcpp::spin(node);
   rclcpp::shutdown();
-
   return 0;
 }

@@ -1,3 +1,5 @@
+// Copyright 2025 Adrián Manzanares, Claudia Élez, Nerea Chamorro, Carlos García
+// Licensed under the MIT License
 // Copyright 2024 Intelligent Robotics Lab
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,15 +14,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-
-#include "nav2_msgs/action/navigate_to_pose.hpp"
-
-#include "navigation/ActionClient.hpp"
+#include "navigation_robot/ActionClient.hpp"
 
 #include "rclcpp/rclcpp.hpp"
 #include "rclcpp_action/rclcpp_action.hpp"
 
-namespace navigation
+namespace navigation_robot
 {
 
 using std::placeholders::_1;
@@ -29,12 +28,25 @@ using std::placeholders::_2;
 ActionClient::ActionClient()
 : Node("nav2_action_client")
 {
-  action_client_ = rclcpp_action::create_client<navigation::ActionClient::NavigateToPose>(
-    this, "navigate_to_pose");
+  action_client_ = rclcpp_action::create_client<navigation_robot::ActionClient::muevete>(
+    this, "muevete");
+
+  destination_sub_ = this->create_subscription<std_msgs::msg::Int32>(
+    "/real_destination", 10,
+    std::bind(&ActionClient::destination_callback, this, _1));
+}
+
+void ActionClient::destination_callback(const std_msgs::msg::Int32::SharedPtr msg)
+{
+  RCLCPP_INFO(this->get_logger(), "Destino recibido: %d", msg->data);
+
+  muevete::Goal goal;
+  goal.objetivo = msg->data;
+  send_request(goal);
 }
 
 void
-ActionClient::send_request(NavigateToPose::Goal goal)
+ActionClient::send_request(muevete::Goal goal)
 {
   finished_ = false;
   success_ = false;
@@ -45,7 +57,7 @@ ActionClient::send_request(NavigateToPose::Goal goal)
   }
 
   auto send_goal_options =
-    rclcpp_action::Client<ActionClient::NavigateToPose>::SendGoalOptions();
+    rclcpp_action::Client<ActionClient::muevete>::SendGoalOptions();
 
   send_goal_options.goal_response_callback =
     std::bind(&ActionClient::goal_response_callback, this, _1);
@@ -58,7 +70,7 @@ ActionClient::send_request(NavigateToPose::Goal goal)
 }
 
 void
-ActionClient::goal_response_callback(const GoalHandleNavigateToPose::SharedPtr & goal_handle)
+ActionClient::goal_response_callback(const goal::SharedPtr & goal_handle)
 {
   if (!goal_handle) {
     RCLCPP_ERROR(get_logger(), "Goal was rejected by server");
@@ -69,15 +81,15 @@ ActionClient::goal_response_callback(const GoalHandleNavigateToPose::SharedPtr &
 
 void
 ActionClient::feedback_callback(
-  GoalHandleNavigateToPose::SharedPtr,
-  std::shared_ptr<const NavigateToPose::Feedback> feedback)
+  goal::SharedPtr,
+  std::shared_ptr<const muevete::Feedback> feedback)
 {
   RCLCPP_INFO(
-    get_logger(), "Feedback received: distance to goal = %f", feedback->distance_remaining);
+    get_logger(), "Feedback recibido: tiempo tardado = %f", feedback->progreso);
 }
 
 void
-ActionClient::result_callback(const GoalHandleNavigateToPose::WrappedResult & result)
+ActionClient::result_callback(const goal::WrappedResult & result)
 {
   switch (result.code) {
     case rclcpp_action::ResultCode::SUCCEEDED:
@@ -99,4 +111,4 @@ ActionClient::result_callback(const GoalHandleNavigateToPose::WrappedResult & re
 }
 
 
-}  // namespace navigation
+}  // namespace navigation_robot

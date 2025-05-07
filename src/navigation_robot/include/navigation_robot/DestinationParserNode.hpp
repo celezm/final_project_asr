@@ -14,18 +14,34 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include <memory>
-#include <iostream>
-#include <cstdlib>  // Para std::atoi
+#ifndef NAVIGATION_ROBOT__DESTINATIONPARSERNODE_HPP_
+#define NAVIGATION_ROBOT__DESTINATIONPARSERNODE_HPP_
 
-#include "server/ActionClient.hpp"
+#include <memory>
+
+#include "std_msgs/msg/int32.hpp"
+
 #include "rclcpp/rclcpp.hpp"
 
-int main(int argc, char ** argv)
+namespace navigation_robot
 {
-  rclcpp::init(argc, argv);
-  auto node = std::make_shared<server::ActionClient>();
-  rclcpp::spin(node);
-  rclcpp::shutdown();
-  return 0;
-}
+
+class DestinationParserNode : public rclcpp::Node
+{
+public:
+  DestinationParserNode();
+
+private:
+  int dest_id_ = -1;
+  void detection_callback(const std_msgs::msg::Int32::ConstSharedPtr & msg);
+
+  bool start_receiving_ = false;
+  bool end_receiving_ = false;
+
+  rclcpp::Subscription<std_msgs::msg::Int32>::SharedPtr destination_sub_;
+  rclcpp::Publisher<std_msgs::msg::Int32>::SharedPtr destination_pub_;
+};
+
+}  // namespace navigation_robot
+
+#endif  // NAVIGATION_ROBOT__DESTINATIONPARSERNODE_HPP_

@@ -16,18 +16,17 @@
 
 #include <memory>
 
-#include "server/ActionServer.hpp"
+#include "navigation_robot/DestinationParserNode.hpp"
 #include "rclcpp/rclcpp.hpp"
 
-int main(int argc, char ** argv)
+int main(int argc, char * argv[])
 {
   rclcpp::init(argc, argv);
-  auto node = std::make_shared<server::ActionServer>();
 
-  node->start_server();
+  auto node_detector = std::make_shared<navigation_robot::DestinationParserNode>();
 
-  rclcpp::spin(node);
+  rclcpp::spin(node_detector);
+
   rclcpp::shutdown();
-
   return 0;
 }
