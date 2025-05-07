@@ -54,6 +54,8 @@ jobs:
 
       - name: Install ROS package dependencies
         run: |
+          sudo rosdep init || true 
+          rosdep update
           source /opt/ros/jazzy/setup.bash
           rosdep install --from-paths src --ignore-src -r -y
 
