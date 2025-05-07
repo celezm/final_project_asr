@@ -10,7 +10,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-24.04  # Jazzy solo funciona si setup-ros lo instala explícitamente
+    runs-on: ubuntu-24.04
 
     steps:
       - name: Checkout code
@@ -27,6 +27,7 @@ jobs:
           sudo apt-get install --no-install-recommends -y \
             libopencv-dev \
             libpcl-dev \
+            python3-vcstool \
             python3-colcon-common-extensions \
             ros-jazzy-rclcpp \
             ros-jazzy-sensor-msgs \
@@ -48,10 +49,20 @@ jobs:
             ros-jazzy-ament-index-cpp \
             ros-jazzy-nav2-bringup
 
-      - name: Build workspace
+      - name: Import third-party dependencies
+        run: vcs import src < hri_bt_nodes/third_party/thirdparties.repo
+
+      - name: Install ROS package dependencies
+        run: |
+          source /opt/ros/jazzy/setup.bash
+          rosdep install --from-paths src --ignore-src -r -y
+
+      - name: Build hri_bt_nodes
         run: |
           source /opt/ros/jazzy/setup.bash
           colcon build --event-handlers console_cohesion+ --packages-select hri_bt_nodes
 
+      - name: Build remaining workspace
+        run: |
+          source /opt/ros/jazzy/setup.bash
           colcon build --event-handlers console_cohesion+ --packages-ignore hri_bt_nodes
-
