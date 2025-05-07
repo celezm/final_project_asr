@@ -144,40 +144,40 @@ geometry_msgs::msg::PoseStamped ActionServer::get_target_pose(int8_t objetivo)
       pose.pose.orientation.w = 0.06362970636303165;
       break;
     case 2:
-      pose.pose.position.x = 6.06500137752852;
-      pose.pose.position.y = -5.931359334378828;
-      pose.pose.orientation.z = 0.9985772772407213;
-      pose.pose.orientation.w = 0.05332374122759517;
+      pose.pose.position.x = 2.5262413231511873;
+      pose.pose.position.y = -5.557544388255546;
+      pose.pose.orientation.z = 0.9986985533156493;
+      pose.pose.orientation.w = 0.05100195687646843;
       break;
     case 3:
-      pose.pose.position.x = 8.20947551727295;
-      pose.pose.position.y = -13.45923137664795;
-      pose.pose.orientation.z = -0.08283026926814523;
-      pose.pose.orientation.w = 0.9965636690613232;
+      pose.pose.position.x = 6.354001422511894;
+      pose.pose.position.y = -9.260028428042023;
+      pose.pose.orientation.z = 0.9990618969271992;
+      pose.pose.orientation.w = 0.043305035598953046;
       break;
     case 4:
-      pose.pose.position.x = 20.560640335083008;
-      pose.pose.position.y = -24.40395164489746;
-      pose.pose.orientation.z = -0.752787314110982;
-      pose.pose.orientation.w = 0.6582638222730866;
+      pose.pose.position.x = 4.342757226077335;
+      pose.pose.position.y = -20.285307541090052;
+      pose.pose.orientation.z = -0.7546133274416966;
+      pose.pose.orientation.w = 0.6561697387470491;
       break;
     case 5:
-      pose.pose.position.x = 26.64468002319336;
-      pose.pose.position.y = -17.468358993530273;
-      pose.pose.orientation.z = -0.5311433974866508;
-      pose.pose.orientation.w = -0.5311433974866508;
+      pose.pose.position.x = 8.37267236893634;
+      pose.pose.position.y = -15.7874257693295;
+      pose.pose.orientation.z = -0.7578510367606909;
+      pose.pose.orientation.w = 0.6524276251667659;
       break;
     case 6:
-      pose.pose.position.x = 1.9225342273712158;
-      pose.pose.position.y = 2.2082509994506836;
-      pose.pose.orientation.z = -0.5311433974866508;
-      pose.pose.orientation.w = -0.5311433974866508;
+      pose.pose.position.x = 8.483269894276182;
+      pose.pose.position.y = -14.063548141799897;
+      pose.pose.orientation.z = 0.6245611873656338;
+      pose.pose.orientation.w = 0.7809758787801513;
       break;
     case 7:
-      pose.pose.position.x = 4.554557800292969;
-      pose.pose.position.y = 1.2099065780639648;
-      pose.pose.orientation.z = -0.5311433974866508;
-      pose.pose.orientation.w = -0.5311433974866508;
+      pose.pose.position.x = 20.857502775276778;
+      pose.pose.position.y = -24.41759317978372;
+      pose.pose.orientation.z = 0.9992327365563989;
+      pose.pose.orientation.w = 0.039165523027406855;
       break;
     default:
       pose.pose.position.x = 0.0;

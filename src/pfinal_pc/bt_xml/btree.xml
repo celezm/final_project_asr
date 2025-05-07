@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<root main_tree_to_execute="MainTree">
+    <!-- ////////// -->
+    <BehaviorTree ID="MainTree">
+        <SequenceStar>
+            <Condition ID="WaitForRobotNode"/>
+            <Sequence name="root_sequence">
+                <Condition ID="check_person"/>
+                <Action ID="AskForDestinationNode"/>
+            </Sequence>
+        </SequenceStar>
+    </BehaviorTree>
+    <!-- ////////// -->
+    <TreeNodesModel>
+        <Action ID="AskForDestinationNode"/>
+        <Condition ID="WaitForRobotNode"/>
+        <Condition ID="check_person"/>
+    </TreeNodesModel>
+    <!-- ////////// -->
+</root>
