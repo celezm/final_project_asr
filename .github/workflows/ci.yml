@@ -50,7 +50,7 @@ jobs:
             ros-jazzy-nav2-bringup
 
       - name: Import third-party dependencies
-        run: vcs import src < hri_bt_nodes/third_party/thirdparty.repos
+        run: vcs import src < hri/thirdparty.repos
 
       - name: Install ROS package dependencies
         run: |
