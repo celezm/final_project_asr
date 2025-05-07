@@ -48,7 +48,15 @@ jobs:
             ros-jazzy-ament-index-cpp \
             ros-jazzy-nav2-bringup
 
-      - name: Build workspace
+      - name: Import third-party dependencies
+        run: vcs import src < src/hri/thirdparty.repos
+
+      - name: Install ROS package dependencies
+        run: |
+          source /opt/ros/jazzy/setup.bash
+          rosdep install --from-paths src --ignore-src -r -y
+
+      - name: Build entire workspace
         run: |
           source /opt/ros/jazzy/setup.bash
           colcon build --event-handlers console_cohesion+
@@ -56,5 +64,5 @@ jobs:
       - name: Run tests
         run: |
           source install/setup.bash
-          colcon test --event-handlers console_cohesion+ --packages-ignore yolo_ros hri_bt_nodes
+          colcon test --event-handlers console_cohesion+
           colcon test-result --verbose
