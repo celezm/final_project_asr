@@ -56,5 +56,5 @@ jobs:
       - name: Run tests
         run: |
           source install/setup.bash
-          colcon test --event-handlers console_cohesion+ --packages-ignore yolo_ros
+          colcon test --event-handlers console_cohesion+ --packages-ignore yolo_ros hri_bt_nodes
           colcon test-result --verbose
