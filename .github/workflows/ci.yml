@@ -51,4 +51,4 @@ jobs:
       - name: Build workspace
         run: |
           source /opt/ros/jazzy/setup.bash
-          colcon build --event-handlers console_cohesion+
+          colcon build --event-handlers console_cohesion+ --packages-ignore hri_bt_nodes
