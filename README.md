@@ -31,12 +31,12 @@ Tested on **Ubuntu 24.04** and **ROS 2 Jazzy**.
 
 ```bash
 # Clone the repo inside your ROS 2 workspace
-cd ~/ros2_ws/src
 git clone https://github.com/Amanza17/final_project_arquitectura.git
 
 # Install dependencies
-cd ~/ros2_ws
+cd ~/final_project_arquitectura
 rosdep install --from-paths src --ignore-src -r -y
+cs import src < src/hri/thirdparty.repos
 
 # Build
 colcon build --symlink-install
