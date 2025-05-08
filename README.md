@@ -81,7 +81,8 @@ source install/setup.bash
 
 ## 🎦 Multimedia
 
-Behaviour of the main pc: [Click here](https://youtu.be/WHoLtzbrBdE)
+Behaviour of the main pc: [Click here!](https://youtu.be/WHoLtzbrBdE)
+Video trying both parts: [Click here!](https://youtu.be/DCAXKv_venw)
 
 ---
 
