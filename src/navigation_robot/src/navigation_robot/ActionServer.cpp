@@ -232,6 +232,8 @@ void ActionServer::check_robot_inactivity()
     arrival_pub_->publish(arrival_msg);
     returning_ = false;
 
+    system("aplay /home/carlos/Desktop/2024_2025/SEGUNDO_CUATRI/ARQUI/ARQUITECTURA/asr_ws/src/final_project_arquitectura/src/navigation_robot/src/navigation_robot/p_45036753_703.wav");
+
     wait_start_time_ = clock_->now();
     inactivity_timer_->cancel();
   }
