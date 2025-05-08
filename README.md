@@ -50,37 +50,20 @@ source install/setup.bash
 ## 📁 Project Structure
 
 ```plaintext
-elp_stereo_camera/
-  └── stereo_camera_node         # Captures images and generates point cloud
-
-yolo_detector/
-  └── yolo_node                  # Detects people and publishes 2D coordinates
-
-projection_node/
-  └── detection_2d_to_3d         # Converts 2D detections into 3D coordinates
-
-dialog_node/
-  └── ask_destination_node       # Starts dialogue with the user
-
-bt_nodes/
-  └── main_tree                  # Main Behavior Tree
-
-navigation/
-  └── nav_goal_node              # Sends goals to Nav2 based on user input
-
 ├── bt
 │   └── pc.xml
 ├── LICENSE
 ├── README.md
 ├── src
-│   ├── depth_worker         
-│   ├── elp_stereo_camera 
-│   ├── kobuki
-│   ├── navigation
-│   ├── nav_pruebas
-│   ├── pfinal_pc
-│   ├── ThirdParty
-│   └── yolov8_ros
+│   ├── ThirdParty              # Dependencies for Kobuki
+│   ├── depth_worker            # Transforms detections 2D to 3D
+│   ├── elp_stereo_camera       # Drivers for 3D camera
+│   ├── hri                     # Voice
+│   ├── kobuki                  # Drivers for Kobuki
+│   ├── navigation_robot        # Client and server for the navigation
+│   ├── pfinal_pc               # Code for de main computer
+│   ├── thirdparty              # Other dependencies
+│   └── yolov8_ros              # Object detection
 └── yolov8m.pt
 
 ```
@@ -99,6 +82,7 @@ navigation/
 ## 🎦 Multimedia
 
 Behaviour of the main pc: [Click here](https://youtu.be/WHoLtzbrBdE)
+
 ---
 
 ## 📄 License
