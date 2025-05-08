@@ -1,22 +1,28 @@
 <?xml version="1.0"?>
-<root main_tree_to_execute="BehaviorTree">
+<root main_tree_to_execute="MainTree">
     <!-- ////////// -->
-    <BehaviorTree ID="BehaviorTree">
-        <Sequence>
-            <Condition ID="RobotNearBase"/>
-            <Condition ID="CheckPerson"/>
-            <Sequence name="Where2go">
-                <Action ID="AskPlace"/>
-                <Action ID="CommunicatePlace"/>
+    <BehaviorTree ID="MainTree">
+        <SequenceStar>
+            <Condition ID="WaitForRobotNode"/>
+            <Sequence name="root_sequence">
+                <Condition ID="check_person"/>
+                <Action ID="Speak" params="" speech_text="Por favor, marque en el teclado el lugar al que desea ir."/>
+                <Action ID="AskForDestinationNode" destination_name="{dest}"/>
+                <Action ID="Speak" params="{dest}" speech_text="¡Allá vamos! Sigue al robot, te acompañará hasta la clase de []."/>
             </Sequence>
-        </Sequence>
+        </SequenceStar>
     </BehaviorTree>
     <!-- ////////// -->
     <TreeNodesModel>
-        <Action ID="AskPlace"/>
-        <Condition ID="CheckPerson"/>
-        <Action ID="CommunicatePlace"/>
-        <Condition ID="RobotNearBase"/>
+        <Action ID="AskForDestinationNode">
+            <output_port name="destination_name"/>
+        </Action>
+        <Action ID="Speak">
+            <input_port name="params"/>
+            <input_port name="speech_text"/>
+        </Action>
+        <Condition ID="WaitForRobotNode"/>
+        <Condition ID="check_person"/>
     </TreeNodesModel>
     <!-- ////////// -->
 </root>
