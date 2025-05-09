@@ -72,12 +72,11 @@ source install/setup.bash
 
 ## How to execute
 
+### Parte PC:
 ```bash
 // Parte PC:
 ros2 launch pfinal_pc final.launch.py
 ros2 run pfinal_pc bt_runner
-// Parte Kobuki:
-...
 ```
 
 ---
