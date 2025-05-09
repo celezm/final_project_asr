@@ -70,6 +70,18 @@ source install/setup.bash
 
 ---
 
+## How to execute
+
+```bash
+// Parte PC:
+ros2 launch pfinal_pc final.launch.py
+ros2 run pfinal_pc bt_runner
+// Parte Kobuki:
+...
+```
+
+---
+
 ## 👥 Group Members
 
 - Adrián Manzanares Romera: [Amanza17](https://github.com/amanza17)
