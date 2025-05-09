@@ -80,6 +80,11 @@ ros2 run pfinal_pc bt_runner
 
 ### Kobuki:
 ```bash
+ros2 launch kobuki kobuki.launch.py lidar_XX:=true  #change flag depending on lidar model
+ros2 launch kobuki navigation.launch.py
+ros2 run navigation_robot destination_parser
+ros2 run navigation_robot server
+ros2 run navigation_robot client
 ```
 
 ---
